@@ -16,7 +16,7 @@ I don't go by G, surprisingly.
 I'm Lucas, a designer and technologist from Baltimore.
 
 <aside>This is what my face looks like. The goofy look is because I was having a hard time pushing the shutter button on my camera with a paintbrush handle. My wife told me it's endearing.</aside>
-<img alt="Lucas' Face" src="/content/images/2015/12/lroe-2015-3-large.png" style="max-width:500px;">
+<img alt="Lucas' Face" src="/images/posts/imported/2015/12/lroe-2015-3-large.png" style="max-width:500px;">
 
 ## <a name="professionally"></a>Professionally:
 I try to be as broad as possible. I went to school for Design while working as a Front End Developer, and jumped right into UX directly after graduating.

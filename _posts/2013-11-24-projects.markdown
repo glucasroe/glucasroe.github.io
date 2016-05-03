@@ -9,7 +9,7 @@ I have other projects that I've worked on that I can't show here because of the 
 ##Case Studies:
 <div class="tile-wrapper">
     <div class="tile">
-         <img class="" src="/content/images/2014/11/Screen-Shot-2014-11-03-at-24-36-19-.png" />
+         <img class="" src="/images/posts/imported/2014/11/Screen-Shot-2014-11-03-at-24-36-19-.png" />
          <div class="title">
              <a href="http://glucasroe.com/vertafore/">
                  <h3>Vertafore</h3>
@@ -18,7 +18,7 @@ I have other projects that I've worked on that I can't show here because of the 
          </div>
      </div>
      <div class="tile">
-         <img class="" src="/content/images/2015/12/bunn.jpg" />
+         <img class="" src="/images/posts/imported/2015/12/bunn.jpg" />
          <div class="title">
              <a href="http://glucasroe.com/bunn/">
                  <h3>BUNN</h3>
@@ -27,7 +27,7 @@ I have other projects that I've worked on that I can't show here because of the 
          </div>
     </div>
     <div class="tile">
-        <img class="" src="/content/images/2015/06/Screen-Shot-2015-06-16-at-1-18-29-PM.png">
+        <img class="" src="/images/posts/imported/2015/06/Screen-Shot-2015-06-16-at-1-18-29-PM.png">
         <div class="title">
             <a href="http://glucasroe.com/100-days-of-good-ux-a-recap/" target="_blank">
                 <h3>100 Days of Good UX</h3>

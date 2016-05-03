@@ -21,11 +21,11 @@ Here&rsquo;s some tips on using it for IA.
 ## Entering Data in XMind:
 As I noted above, XMind allows you to copy and paste structures from Excel. Indicate children by indenting a level. Here&rsquo;s a little explainer gif:
 
-![XMind Data charting](/content/images/2015/11/xmind-charting.gif)
+![XMind Data charting](/images/posts/imported/2015/11/xmind-charting.gif)
 
 You will want to keep this limited to around **500 items at a time**. Every time you move things around in the tree, it redraws the entire structure which can make for some brutal lag. Get around this by pasting in a few hundred, collapsing the new tree, and then pasting in more.
 
-![Collapsing elements](/content/images/2015/11/collapse-in-xmind-optim.gif)
+![Collapsing elements](/images/posts/imported/2015/11/collapse-in-xmind-optim.gif)
 
 I&rsquo;ve taken to just entering things directly in XMind because it cuts a step out of the process. Here are the shortcuts you will want to know:
 
@@ -58,7 +58,7 @@ Here are the steps:
 4. Jump to beginning of the line (**Command + Left Arrow**) and enter in asterisks.
 5. Save as an MD file.
 
-![Converting Xmind to bullet points](/content/images/2015/11/xmind-markdown-optim.gif)
+![Converting Xmind to bullet points](/images/posts/imported/2015/11/xmind-markdown-optim.gif)
 
 ## XMind 7 New Features:
 XMind 7 added some really interesting new features! Unfortunately, they are on the paid tier, so I haven&rsquo;t tried any of them out yet. I certainly will in the future, and may update this as my experiences with it change.

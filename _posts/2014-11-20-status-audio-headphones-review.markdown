@@ -6,7 +6,7 @@ date: '2014-11-20 04:02:45'
 
 Being a musician, I tend to have pretty high requirements for my headphones. I had been looking for a pair of circumaural headphones because I found myself getting sensitive to earbuds after having them in during extended work periods. After some searching, I stumbled upon Status Audio's website while they were in the preorder phase.
 
-![Status Audio Website](/content/images/2014/Sep/Screen-Shot-2014-09-07-at-18-48-37-.png)
+![Status Audio Website](/images/posts/imported/2014/Sep/Screen-Shot-2014-09-07-at-18-48-37-.png)
 ####[Status Audio Website](http://thestatusaudio.com/)
 
 
@@ -17,28 +17,28 @@ The process was not the smoothest (I bitched about it a bit on [Twitter](https:/
 ## Physical Design
 The first view of the packaging was underwhelming, but I had to remind myself, budget brand! The headphones and their components were all wrapped in plastic baggies inside of the box. With the sleeve and other packing efforts, I was surprised to see the components tossed in with so little care. It was a mildly sour end to the unpacking.
 
-![Packaging opened up](/content/images/2014/11/status-audio-1.jpg)
-![The things inside](/content/images/2014/11/status-audio-2.jpg)
+![Packaging opened up](/images/posts/imported/2014/11/status-audio-1.jpg)
+![The things inside](/images/posts/imported/2014/11/status-audio-2.jpg)
 
 The build quality isn't fantastic. The matte finish is very nice, but it ends up highlighting when the seams don't come together well. You can also see in the photo below a small semicircular mark on the outside of the headset. This is from the cup of the one ear pressing on it, and leaving... well, leaving ear oils on the matte finish. It doesn't come off easily, or at all as far as I can tell.
 
-![Seams around the edges of the ear cups](/content/images/2014/11/status-audio-4.jpg)
+![Seams around the edges of the ear cups](/images/posts/imported/2014/11/status-audio-4.jpg)
 
 The extension mechanism that makes them fit on my gargantuan head is by far the cheapest feeling part of the headset, it's brittle and looks as if it came from a 3D printer. The ear cups feel very nice which was surprising to me, I'm very glad that Status paid attention to this part in particular, since it's what you're on contact with.
 
-![This section feels the cheapest, almost like its 3D printed](/content/images/2014/11/status-audio-3.jpg)
-![The Headphones opened up](/content/images/2014/11/status-audio-6.jpg)
+![This section feels the cheapest, almost like its 3D printed](/images/posts/imported/2014/11/status-audio-3.jpg)
+![The Headphones opened up](/images/posts/imported/2014/11/status-audio-6.jpg)
 
 One of the big things that Status used as their initial selling point was their "best cable in the game." The cable isn't bad, but saying it's a grand improvement over anything else is a huge stretch. It's a reasonable length, but not particularly long. The controls on it are nice, but they aren't anything outside of the ordinary 3 buttons you would expect to see on headphones with a volume control and a mic.
 
-![Cable control is a bit underwhelming](/content/images/2014/11/status-audio-8.jpg)
+![Cable control is a bit underwhelming](/images/posts/imported/2014/11/status-audio-8.jpg)
 
 That being said, I do use them for phone calls on a pretty regular basis, and they do a great job at picking up my voice and helping me isolate the sound from my callers. At the very least, it's a nice headset.
 
 Here's some photos of the headphones on my head. I don't have the ability to take myself seriously when taking selfies, so forgive the dumb faces. Note, I have a large head.
 
-![Front view + Dumb face](/content/images/2014/11/frontview.jpeg)
-![Side View + Dumb Face](/content/images/2014/11/sideview.jpeg)
+![Front view + Dumb face](/images/posts/imported/2014/11/frontview.jpeg)
+![Side View + Dumb Face](/images/posts/imported/2014/11/sideview.jpeg)
 
 It's worth noting that the cups don't entirely cover my ears, so I can't wear the headphones for much long than maybe 2 hours because it makes the cartilege tender.
 
@@ -55,7 +55,7 @@ A few new details that are relevant since I published this back in November
 
 ## Boom.
 I opened my desk drawer in December to find that the cable had somehow exploded apart without provocation.
-![Kaboom](/content/images/2015/01/cable_essplode.jpg)
+![Kaboom](/images/posts/imported/2015/01/cable_essplode.jpg)
 
 Nice. The two halves are held together with plastic pins, and apparently the cable had been rolled under something by my opening the desk drawer, causing the pins to pull apart or snap. It still holds together and works, but I now have to smoosh it back together every few days as it starts to come apart. Not the greatest build quality.
 

@@ -22,7 +22,7 @@ By down I mean that it refused all external connections, even from the CloudatCo
 
 In those 6 days, I submitted a ticket. The ticket initially would be responded to in about 5 hours with some promise of the panel being up the next day or that evening.
 
-![A conversation with a tech](/content/images/2015/02/Screen-Shot-2015-02-01-at-13-15-57-.png)
+![A conversation with a tech](/images/posts/imported/2015/02/Screen-Shot-2015-02-01-at-13-15-57-.png)
 
 I don't mean this to beat up on their techs, my conversations with them have always been cordial, but bluntly they have a nonexistance SLA. This sort of failed promise has happened every time I've had an issue.
 

@@ -13,7 +13,7 @@ It's useful to know when a task is finished, especially when you want it to trig
 
 We have a table of options that our user can delete things from. Instead of confirming each delete, we want them to be able to undo for a few seconds. ([Why?](http://alistapart.com/article/neveruseawarning)) For my amusement, [let's pretend that the data is the characters from Chrono Trigger](http://wires.glucasroe.com/8AGK1S/#p=callbacks).
 
-![Deleted!](/content/images/2015/03/baweeted.jpg)
+![Deleted!](/images/posts/imported/2015/03/baweeted.jpg)
 
 If we were to pseudocode out our current interaction, we would probably say something like:
 
@@ -40,7 +40,7 @@ What we need is to be able to do is **trigger a second conditional statement**. 
         wait 3 seconds
         move panel by 0,0
 
-![Interaction Example](/content/images/2015/03/Screen-Shot-2015-03-05-at-13-46-59-.png)
+![Interaction Example](/images/posts/imported/2015/03/Screen-Shot-2015-03-05-at-13-46-59-.png)
 
 Then, we set up an `OnMove` statement that tests if the panel is in the deleted state after the delay. Screencast!
 
@@ -52,4 +52,4 @@ There is one case that this ends up breaking a little bit, and that's **clock re
 
 In this particular circumstance, you can solve this by **disabling the delete button** on click and reenabling it onMove.
 
-![Example of a clock restart edge case](/content/images/2015/03/chronopanel.jpg)
+![Example of a clock restart edge case](/images/posts/imported/2015/03/chronopanel.jpg)

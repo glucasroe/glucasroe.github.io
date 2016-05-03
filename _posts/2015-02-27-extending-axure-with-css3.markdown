@@ -6,13 +6,13 @@ date: '2015-02-27 22:26:13'
 
 I don't know a gentle way to say this, so I'll be blunt. Axure leaves a lot to be desired in animation and interaction design. A few other designers and myself were discussing prototyping interactions and animations on [The User Experience Design Slack](http://www.designerhangout.co/), where I described Axure's animation options as "YAY IT FADED" and "YAY IT ZOOMED AWAY"
 
-![Riveting Conversation I'm Sure](/content/images/2015/02/Screen-Shot-2015-02-25-at-10-15-33-AM.png)
+![Riveting Conversation I'm Sure](/images/posts/imported/2015/02/Screen-Shot-2015-02-25-at-10-15-33-AM.png)
 
 (Shoutout to [Tom Kerwin](https://twitter.com/uxdesigntom) and [Rob Whiting](https://twitter.com/whitingx))
 
 [Here's an example of something I built with this technique](http://wires.glucasroe.com/AHZF7O/#p=notes&c=1), looking for a way to visually filter notes that I had been taking about a UX project:
 
-![Fading Notes](/content/images/2015/02/notestemplateexample.gif)
+![Fading Notes](/images/posts/imported/2015/02/notestemplateexample.gif)
 
 # Extending Axure with CSS:
 First of all, yes this is a hack, yes it is silly, and yes, you probably just want to be doing things with HTML. Let's start with a few givens:
@@ -24,13 +24,13 @@ First of all, yes this is a hack, yes it is silly, and yes, you probably just wa
 ## The Basics:
 First, we need an ability to target the elements we would like to do something with. We accomplish this with the **Widget Style Editor**.
 
-![Axure's Widget Style Editor](/content/images/2015/02/Screen-Shot-2015-02-27-at-3-20-09-PM.png)
+![Axure's Widget Style Editor](/images/posts/imported/2015/02/Screen-Shot-2015-02-27-at-3-20-09-PM.png)
 
 When you apply a custom style to an element, it does so using a CSS class with the name of the style. In this case, my css classes would be "features", "users", "requirements", and "notes".
 
 Second, you need a way to push your CSS (and in my case, Javascript) into the prototype. This is easily accomplished with **Axure Share Plugins**.
 
-![Axure Share Plugins interface](/content/images/2015/02/Screen-Shot-2015-02-27-at-4-10-41-PM.png)
+![Axure Share Plugins interface](/images/posts/imported/2015/02/Screen-Shot-2015-02-27-at-4-10-41-PM.png)
 
 When you insert your plugin, you'll have a version of jQuery that's loaded by Axure which as of this post, is 1.7.1. You'll see in the code below that I target interface pieces with jQuery by using the `data-label` selector, which is applied by **Naming** the element in Axure in your **Widget Interactions and Notes**.
 

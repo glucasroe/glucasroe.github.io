@@ -30,7 +30,7 @@ BUNN came to r2i looking for help in combining their two sites. While they had p
 ### Commercial Users
 We spent a lot of time adjusting the categories and reflowing the content under the commercial users section. While we had initially built a traditional sitemap, we found the megamenu approach easier to show the way that the content would be laid out and organized on the final site.
 
-<img class="contain" src="/content/images/2014/11/Screen-Shot-2014-11-04-at-23-23-35-.png" alt="BUNN Megamenu" />
+<img class="contain" src="/images/posts/imported/2014/11/Screen-Shot-2014-11-04-at-23-23-35-.png" alt="BUNN Megamenu" />
 
 We also carefully defined the way that a user would flow through the store, based on how they got to it. We compared content types and repeatedly came to BUNN with suggestions and questions on how to simplify and streamline the process for their users.
 
@@ -42,7 +42,7 @@ Home users have less to be concerned with because their product line is drastica
 ### Questionnaire
 One element that was extremely important to BUNN was the inclusion of a product finder. Their commercial catalog is large, and they were looking for a way to quickly show a user a set of items that was uniquely relevant to them. Enter the Questionnaire.
 
-<img class="contain" src="/content/images/2014/11/Screen-Shot-2014-11-05-at-24-06-58-.png" alt="BUNN Questionnaire"/>
+<img class="contain" src="/images/posts/imported/2014/11/Screen-Shot-2014-11-05-at-24-06-58-.png" alt="BUNN Questionnaire"/>
 
 BUNN Proposed a questionnaire to be included on all of the commercial interior pages as a quick jump for the user to find relevant products. A few rounds of revisions on the questions refined the purpose of this feature, making sure it was useful and matching the user's expectations to their results.
 
