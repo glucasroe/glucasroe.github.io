@@ -1,27 +1,43 @@
+//Type
+$serif:'Merriweather',  'Palatino', 'Palatino Linotype', Georgia, serif;
+$light: 'Merriweather Light', 'Merriweather', 'Palatino', 'Palatino Linotype', Georgia, serif;
 
-//
-// VARIABLES
-//
 
-// Colors
-$blue: #4183C4;
-
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
+//Colors
+$red: #cc6947; //rgba(204, 105, 71, 1);
+$cool-grey:#7A7F99;
 $white: #fff;
 
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$grey-10: lighten($cool-grey,50%); //white
+$grey-9: lighten($cool-grey,40%); //#edeef2
+$grey-8: lighten($cool-grey,30%); //#d1d2db
+$grey-7: lighten($cool-grey,20%); //#b4b7c5
+$grey-6: lighten($cool-grey,10%); //#979baf
+$grey-5: $cool-grey;
+$grey-4: darken($cool-grey,10%); //#61667f
+$grey-3: darken($cool-grey,20%); //#4b4f62
+$grey-2: darken($cool-grey,30%); //#353845
+$grey-1: darken($cool-grey,40%); //#1f2028
+$grey-0: darken($cool-grey,50%); //#09090b
 
-// Mobile breakpoints
-@mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
-  }
-}
+$red-10: lighten($red,50%);
+$red-9: lighten($red,40%);
+$red-8: lighten($red,30%);
+$red-7: lighten($red,20%);
+$red-6: lighten($red,10%);
+$red-5: $red;
+$red-4: darken($red,10%);
+$red-3: darken($red,20%);
+$red-2: darken($red,30%);
+$red-1: darken($red,40%);
+$red-0: darken($red,50%);
+
+$transparent-red-1: fade-out($red, 0.2);
+$transparent-red-2: fade-out($red, 0.4);
+$transparent-red-3: fade-out($red, 0.6);
+$transparent-red-4: fade-out($red, 0.8);
+$transparent-red-5: fade-out($red, 1);
+
+//Media Queries
+$tablet: "screen and (min-width:40em)";
+$desktop: "screen and (min-width:80em)";

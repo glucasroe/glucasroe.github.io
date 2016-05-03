@@ -1,0 +1,43 @@
+footer{
+	background-color: $red;
+	color:#fff;
+	margin-top: 4rem;
+	text-align: center;
+	padding:2rem 1rem;
+	@extend %clearfix;
+	a{
+		padding:10px;
+		margin: 0 2px;
+		height:1.2rem;
+		width:1.2rem; 
+		border-radius: 5px;
+		float:left;
+		border: 1px solid $red;
+
+		img{
+			width:1.2rem;
+		}
+		&:hover{
+			border: 1px solid $white;
+		}
+	}
+	p{
+		color:#fff;
+		margin: 0 0 0 1rem;
+		font-size: 1rem;
+		padding:0;
+		max-width: 60rem;
+	}
+	@media #{$desktop}{
+		.copyright{
+			width:70%;
+			text-align: left;
+			float:left;
+		}
+		.social{
+			text-align: right;
+			float:right;
+			width: 20%;
+		}
+	}
+}

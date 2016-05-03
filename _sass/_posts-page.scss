@@ -1,0 +1,82 @@
+article.post-preview{
+	font-size:3rem;
+	position: relative;
+
+}
+.post-excerpt{
+	font-size: 1rem;
+}
+
+.post-separator{
+	margin-top:2.5rem;
+	&:before{
+		content: "\00a7";
+		position: relative;
+		display:block;
+		width: 1rem;
+		color: $red;
+		text-shadow: $white 0px 1px 0px,
+					$white 0px -1px 0px,
+					$white 0px 2px 0px,
+					$white 0px -2px 0px;
+		font-size: 1rem;
+		top: -0.5rem;
+		margin: 0 auto 0;
+		text-align: center;
+		@include transform(rotate(-90deg));
+		@include transition(text-shadow 0.25s);
+	}
+}
+
+nav.pagination{
+	text-align: left;
+	margin-top:4rem;
+	margin-bottom: -4rem;
+	background-color: $grey-2;
+	color: $white;
+	padding: 0;
+	position:relative;
+	.pagination-links{
+		@extend %site-width;
+		@extend %clearfix;
+	}
+	a{
+		text-transform: uppercase;
+		&:hover{
+			background-color:$grey-9;
+		}
+	}
+	.paginator, .page-number{
+		box-sizing: border-box;
+		margin: 0;
+		text-align: center;
+		width: 100%;
+		padding: 2rem;
+		display: block;
+		float:left;
+	}
+
+	.page-number{
+		border-bottom: 1px solid $grey-4;
+		border-top: 1px solid $grey-4;
+	}
+
+	@media #{$tablet}{
+		.paginator, .page-number{
+			width: 33%;
+		}
+
+		.page-number{
+			border-bottom: 0;
+			border-top: 0;
+		}
+
+		.page-number,.newer-posts{
+			border-left: 1px solid $grey-4;
+		}
+
+		.page-number,.older-posts{
+			border-right: 1px solid $grey-4;
+		}
+	}
+}

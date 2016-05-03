@@ -1,0 +1,90 @@
+.view-toggle{
+  position:absolute;
+  display:none;
+  right:1em;
+  top:1em;
+  cursor:pointer;
+  background-image: url('/assets/img/sprite.svg');
+  background-repeat: no-repeat;
+  //background-position: -25px 0;
+  opacity: 0.4;
+  width: 25px;
+  height: 25px;
+  margin-top:0;
+  @include transition(opacity 0.25s, background-position 0.25s cubic-bezier(.91,0,.07,.97));
+  &:hover{
+    opacity: 1;
+  }
+  &.visible{
+    display:block;
+  }
+}
+
+body,h1,h2,h3,h4,h5,h6,p,li,q,aside,code{
+  @include transition(background-color 0.25s, color 0.25s);
+}
+
+.dark-mode{
+  background-color: $grey-1;
+  color: $grey-9;
+  .view-toggle{
+    //background-position:-25px 0;
+  }
+  .site-header>a{
+    opacity: 0.4;
+    &:hover{
+      opacity:1;
+    }
+  }
+  h1{
+    color: $grey-8;
+  }
+  p,li{
+    font-family: $light;
+    color: $grey-9;
+    letter-spacing: 0.155px;
+  }
+  q{
+    color: $red-4;
+    &:before,&:after{
+      color: $grey-4;
+    }
+  }
+  aside{
+    color: $red-6;
+  }
+  code{
+    background-color: $grey-2;
+    color: $white;
+  }
+  a{
+  	color:$red;
+  	text-decoration:none;
+  	@include transition(color,.5s);
+  	&:hover{
+  		color: $white;
+  		text-shadow: 1px 1px 0px $grey-2,2px 2px 0px $transparent-red-4;
+  	}
+  }
+  .anchor-links a:hover{
+    background-color: $grey-4;
+  }
+  //Home Page
+  .site-intro .button{
+    opacity: 0.7;
+    &:hover{
+      opacity: 1;
+      box-shadow: 0px 4px 15px $grey-1;
+    }
+  }
+
+  //Posts page
+  .post-separator{
+  	&:before{
+  		text-shadow: $grey-1 0px 1px 0px,
+  					$grey-1 0px -1px 0px,
+  					$grey-1 0px 2px 0px,
+  					$grey-1 0px -2px 0px;
+  	}
+  }
+}
