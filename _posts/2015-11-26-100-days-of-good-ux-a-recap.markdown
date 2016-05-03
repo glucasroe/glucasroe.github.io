@@ -8,14 +8,14 @@ As soon as I wrote the last word for my [100 days blog](http://100daysofgoodux.t
 
 <img class='gfyitem' data-id='AcclaimedSparklingAmberpenshell' />
 
-##Why?
-I did this project for 2 reasons really. First, I was in a creative funk, and wanted something to try and get me out of it. 
+## Why?
+I did this project for 2 reasons really. First, I was in a creative funk, and wanted something to try and get me out of it.
 
 Second, I feel like it&rsquo;s too easy to bitch about bad design. Bad design is easy to notice: it pisses you off, messes up your day, and gets in your way. Good design is harder, more subtle. Unless it&rsquo;s flashy, it usually isn&rsquo;t written about. I wanted to write about UX in a way that was harder, deeper, and more considerate of those subtle, important decisions.
 
 I also had no idea what I was getting into, so, y&rsquo;know, hubris.
 
-##Friendly Advice
+## Friendly Advice
 If I could give anyone advice on a 100days project (considering I [failed mine a quarter way through it](http://glucasroe.com/failing-projects-and-the-friendly-tyranny-of-the-internet/)) it would be the following:
 
 * **Pick something short**: There were some days that editing gifs and writing took almost 2 hours. If doing a project like this, pick something that can be done in less than half an hour, as it's more about the process than the product.

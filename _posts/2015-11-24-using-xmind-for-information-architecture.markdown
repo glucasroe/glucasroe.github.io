@@ -18,7 +18,7 @@ The day that I found [XMind](https://www.xmind.net/), I lost my mind a little bi
 
 Here&rsquo;s some tips on using it for IA.
 
-##Entering Data in XMind:
+## Entering Data in XMind:
 As I noted above, XMind allows you to copy and paste structures from Excel. Indicate children by indenting a level. Here&rsquo;s a little explainer gif:
 
 ![XMind Data charting](/content/images/2015/11/xmind-charting.gif)
@@ -39,13 +39,13 @@ I&rsquo;ve taken to just entering things directly in XMind because it cuts a ste
 * `*`: **Expand** all of the elements under the selected node.
 * `Command/Control + L`: **Create relationship**, or an arbitrary line between 2 nodes.
 
-##Organizing Elements:
+## Organizing Elements:
 You can reorganize elements in XMind by dragging and dropping them. Here&rsquo;s a few considerations though.
 
 * <del>**Arrange your floating topics far away from each other**: Topics like to be children of other topics, so when you drag a node out of a tree, it&rsquo;s going to try and attach itself to the nearest floating topic. This behavior is pretty aggressive, so it&rsquo;s best to give yourself a lot of wiggle room.</del> **UPDATE**: It turns out you can turn off this aggressive snapping behavior by holding shift! [XMind help article about this](https://xmind.desk.com/customer/en/portal/articles/673090-how-to-move-topics-freely-).
 * **Use Summaries and Boundaries**: Summaries and Boundaries are meta sections that you can attach to multiple nodes to comment on them as a group. A summary uses a large bracket, while a boundary surrounds the content with a shape.
 
-##Exporting Data from XMind:
+## Exporting Data from XMind:
 XMind allows only a few types of exports on their free version, text and HTML. The html version uses html headers to define the indenting, so it works for a visual display, but not much else.
 
 I&rsquo;ve been using Sublime Text as a way to get a more flexible output (especially as nested bullets) by saving it as a markdown file. This doesn&rsquo;t capture your notes or relationships (the link lines) - but it is still useful for a general structure.
@@ -60,5 +60,5 @@ Here are the steps:
 
 ![Converting Xmind to bullet points](/content/images/2015/11/xmind-markdown-optim.gif)
 
-##XMind 7 New Features:
+## XMind 7 New Features:
 XMind 7 added some really interesting new features! Unfortunately, they are on the paid tier, so I haven&rsquo;t tried any of them out yet. I certainly will in the future, and may update this as my experiences with it change.

@@ -12,10 +12,10 @@ Being a musician, I tend to have pretty high requirements for my headphones. I h
 
 There wasn't a lot of information about the headphones except for a few [glorified](http://the-gadgeteer.com/2014/01/31/champagne-headphones-on-a-beer-budget/) [press](http://www.thesoundsensei.com/2014/02/03/anti-branding-headphones-status-audio/) [releases](http://www.prweb.com/releases/2014/01/prweb11536298.htm). Having backed a few Kickstarters, I was game to take a chance on preordering when it opened back in May.
 
-The process was not the smoothest (I bitched about it a bit on [Twitter](https://twitter.com/GLucasRoe/status/474987701570396160)), but I got my headphones by mid June. 
+The process was not the smoothest (I bitched about it a bit on [Twitter](https://twitter.com/GLucasRoe/status/474987701570396160)), but I got my headphones by mid June.
 
-##Physical Design
-The first view of the packaging was underwhelming, but I had to remind myself, budget brand! The headphones and their components were all wrapped in plastic baggies inside of the box. With the sleeve and other packing efforts, I was surprised to see the components tossed in with so little care. It was a mildly sour end to the unpacking. 
+## Physical Design
+The first view of the packaging was underwhelming, but I had to remind myself, budget brand! The headphones and their components were all wrapped in plastic baggies inside of the box. With the sleeve and other packing efforts, I was surprised to see the components tossed in with so little care. It was a mildly sour end to the unpacking.
 
 ![Packaging opened up](/content/images/2014/11/status-audio-1.jpg)
 ![The things inside](/content/images/2014/11/status-audio-2.jpg)
@@ -24,7 +24,7 @@ The build quality isn't fantastic. The matte finish is very nice, but it ends up
 
 ![Seams around the edges of the ear cups](/content/images/2014/11/status-audio-4.jpg)
 
-The extension mechanism that makes them fit on my gargantuan head is by far the cheapest feeling part of the headset, it's brittle and looks as if it came from a 3D printer. The ear cups feel very nice which was surprising to me, I'm very glad that Status paid attention to this part in particular, since it's what you're on contact with. 
+The extension mechanism that makes them fit on my gargantuan head is by far the cheapest feeling part of the headset, it's brittle and looks as if it came from a 3D printer. The ear cups feel very nice which was surprising to me, I'm very glad that Status paid attention to this part in particular, since it's what you're on contact with.
 
 ![This section feels the cheapest, almost like its 3D printed](/content/images/2014/11/status-audio-3.jpg)
 ![The Headphones opened up](/content/images/2014/11/status-audio-6.jpg)
@@ -42,18 +42,18 @@ Here's some photos of the headphones on my head. I don't have the ability to tak
 
 It's worth noting that the cups don't entirely cover my ears, so I can't wear the headphones for much long than maybe 2 hours because it makes the cartilege tender.
 
-##Sound Quality
+## Sound Quality
 I don't have any complaints about the sound quality. My coworker has a pair of lovely Sennheiser Momentum, and I would regard the sound from these as only a step or two below that. Basses are rich but not overpowering. There seems to be a lot of clarity in highs and mids without being too shrill. It can struggle with highly textured pieces, if there's a ton going on it loses articulation. Considering the price point I would rate it extremely highly.
 
 They have no active noice cancelling, but they do a reasonably good job at passive cancellation. They don't completely cover my ears though, so I have the impression that some sound still leaks through. If you're looking to be completely isolated, these probably aren't for you.
 
-#Overall:
+# Overall:
 Personally, I wouldn't buy these again. They certainly have nice sound quality, but the discomfort and some of the cheap construction makes me feel like they won't stick around for more than maybe a year. They're great for starter headphones, (Which is what I was looking for) and to balance some audiophilic tendencies with a budget. The details of the design and execution end up revealing  cheapness, and it doesn't end up gelling as a longetive or sustainable product.
 
-#Update: January 8, 2015
+# Update: January 8, 2015
 A few new details that are relevant since I published this back in November
 
-##Boom.
+## Boom.
 I opened my desk drawer in December to find that the cable had somehow exploded apart without provocation.
 ![Kaboom](/content/images/2015/01/cable_essplode.jpg)
 
@@ -61,6 +61,5 @@ Nice. The two halves are held together with plastic pins, and apparently the cab
 
 Apparently they don't ship with this cable anymore as [MrXiro pointed out in the comments](http://glucasroe.com/status-audio-headphones-review/#comment-1775155349). It looks better built and hopefully is a little longer too.
 
-##Comfort
+## Comfort
 I've become more acclimated to wearing the headphones for long periods and they don't hurt my poor tender ears as much. This is partially because I've been doing a lot more one earing (One cup on left ear, one cup behind my right ear.)
-

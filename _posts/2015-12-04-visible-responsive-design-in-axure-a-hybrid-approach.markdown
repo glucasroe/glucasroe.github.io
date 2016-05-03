@@ -8,13 +8,13 @@ In version 7, Axure released a tremendously powerful responsive design workflow.
 
 Instead, what I&rsquo;m addressing here is a glaring problem I&rsquo;ve seen when I&rsquo;ve shown these responsive wireframes to clients:
 
-##Clients don&rsquo;t know how to find the mobile wires.
+## Clients don&rsquo;t know how to find the mobile wires.
 
 Having to tell the client &ldquo;Oh, you need to resize your browser window to see the other versions&rdquo; isn&rsquo;t intuitive to them. Since clients usually aren&rsquo;t web designers, they rarely resize their browser windows just to see how things work in different sizes. From a logical standpoint, the low fi nature of your typical Axure prototype doesn&rsquo;t indicate to a client that they can have a responsive capabilities.
 
 Usually, designers show how the design morphs by copying and pasting the elements to different pages (i.e. *home_mobile* and *home_desktop*.) The challenge with this is it breaks the responsive workflow, and now if you have to make edits at one breakpoint, you have to make sure to edit that in every other responsive view. Not fun.
 
-##A Solution to the unfindable mobile wires:
+## A Solution to the unfindable mobile wires:
 
 So instead of copying and pasting, we still need a way to break out the mobile wires onto their own pages, but preferably while maintaining the lovely responsive workflow. We can do this with a rarely used Axure feature, the **Inline Frame**.
 
@@ -32,6 +32,6 @@ Here's an explainer gif showing the process I described above:
 <img class="gfyitem" data-id="EdibleFlakyBaldeagle" />
 
 
-##Drawbacks:
+## Drawbacks:
 
 The main drawback of this approach is that *inline frames in Axure require you to set a height*. Unfortunately, this means that you either have to set the iFrames to be arbitrarily tall, or you have to go back and check the pages upon adjusting the prototype. Not too painful.

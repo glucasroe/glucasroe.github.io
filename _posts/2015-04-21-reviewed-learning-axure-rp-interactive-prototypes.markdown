@@ -8,17 +8,17 @@ date: '2015-04-21 20:50:45'
 
 ***Disclaimer:** This book was sent to me by its publisher, Packt.*
 
-##Who this book is for: 
+## Who this book is for:
 An intermediate or expert Axure user who's looking to improve their knowledge of repeaters and variables.
 
-##Pros:
+## Pros:
 
 * Highly detailed and step by step process gives you a thorough breakdown of the author's method of building these prototypes
 * John utilizes almost every type of widget in the creation of this prototype, showing the way in which they can be used and highlighting their proper use cases
 * The book focuses heavily on the use of repeaters and variables, it is by far the best demonstration I've seen of the power and flexibility of repeaters.
 * John's designs skirt many of Axure's eccentricities, and show ways to create prototypes that don't fall into these traps.
 
-##Cons:
+## Cons:
 
 * There is an incredible amount of time spent detailing instructions for building this specific prototype. Instead of focusing on broader lessons and use cases, the majority of the instructions are about dimensions and placements of widgets. It makes it difficult for me as a reader to glean actual techniques because of the amount of text I have to sift through.
 * Axure can be a weird program, and there are many eccentricities that need to be designed around. John walks us through how to work around these issues, but without explaining what the issues are and what problems we're trying to prevent.

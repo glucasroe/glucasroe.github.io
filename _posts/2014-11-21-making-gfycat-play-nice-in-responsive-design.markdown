@@ -12,7 +12,7 @@ To save on bandwidth and give the user more control, I opted to go with [Gfycat]
 
 **Side note**: For recording gifs I have 2 recommendations for Mac Users: [GifGrabber](http://www.gifgrabber.com/) for fast, simple, and short and then I use Quicktime Screen recordings for longer things.
 
-##Gfycat Don't Play Nice.
+## Gfycat Don't Play Nice.
 When they're standalone, the gfycat pieces seem to work just fine. As soon as I put them in my template however, the display went haywire and it broke my mobile site. Here are the things that I did to make it work, written in SCSS
 ```language-scss
 div.gfyitem {
@@ -31,7 +31,7 @@ div.gfyitem {
         }
     }
     .gfyCtrlBox{
-        margin-bottom:10px !important; 
+        margin-bottom:10px !important;
         .gfyCtrlPause, .gfyCtrlReverse, .gfyCtrlSlower, .gfyCtrlFaster{
         width:15px;
         height:15px;
@@ -52,7 +52,7 @@ div.gfyitem {
 * `.gfyCtrlBox .gfyCtrlPause,...{width:15px; height:15px; margin-top:0;` These tiny controls don't seem to have their width and height set correctly, so my `img{width:100%;}` site rule was causing them to break and look horrible. This fixed it!
 * `.gfyGif{position:relative !important;}` When it detects a mobile browser, gfycat will drop in a absolutely positioned gif instead of a video, depending on what the browser supports. Many thanks to The Curb for pointing this out in the comments.
 
-Enjoy your responsive gfys 
+Enjoy your responsive gfys
 
 <img class="gfyitem" data-id="BrokenCalculatingBluefintuna" />
 *This one isn't mine, I just thought it was pretty.*
