@@ -1,31 +1,33 @@
 ---
 layout: default
 ---
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post post-preview">
-      {% if post.image %}
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          <img class="post-featured-image post-image-header animated" src="{{ site.baseurl }}/images/{{ post.image }}" />
-        </a>
-      {% endif %}
-
-      <header class="post-header">
-        <h2 class="post-title">
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </h2>
-      </header>
-
-      <section class="post-excerpt">
-        {{ post.excerpt }}
-      </section>
-
-      <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
-
-      {% if forloop.last != true %}
-        <hr class="post-separator" />
-      {% endif %}
-    </article>
-  {% endfor %}
+<div class="site-intro">
+  <h1>UX Designer. All Purpose Nerd. Thing Explainer.</h1>
+  <a class="button" href="{{ site.baseurl }}/about">More about Lucas</a>
 </div>
+<h1>Blog Posts:</h1>
+{% for post in site.posts %}
+  <article class="post post-preview">
+    {% if post.image %}
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <img class="post-featured-image post-image-header animated" src="{{ site.baseurl }}/images/{{ post.image }}" />
+      </a>
+    {% endif %}
+
+    <header class="post-header">
+      <h2 class="post-title">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </h2>
+    </header>
+
+    <section class="post-excerpt">
+      {{ post.excerpt }}
+    </section>
+
+    <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
+
+    {% if forloop.last != true %}
+      <hr class="post-separator" />
+    {% endif %}
+  </article>
+{% endfor %}
