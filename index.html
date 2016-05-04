@@ -4,15 +4,28 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
+    <article class="post post-preview">
+      {% if post.image %}
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <img class="post-featured-image post-image-header animated" src="{{ site.baseurl }}/images/{{ post.image }}" />
+        </a>
+      {% endif %}
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <header class="post-header">
+        <h2 class="post-title">
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </h2>
+      </header>
 
-      <div class="entry">
+      <section class="post-excerpt">
         {{ post.excerpt }}
-      </div>
+      </section>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
+
+      {% if forloop.last != true %}
+        <hr class="post-separator" />
+      {% endif %}
     </article>
   {% endfor %}
 </div>
