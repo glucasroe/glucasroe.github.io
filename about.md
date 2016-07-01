@@ -1,15 +1,38 @@
 ---
 layout: page
 title: About
-permalink: /about/
+date: '2013-11-23 17:00:00'
 ---
 
-Some information about you!
+<div class="anchor-links">
+<a href="#professionally">Professionally</a>
+<a href="#personally">Personally</a>
+<a href="#contact">Contact</a>
+<a href="#aboutthissite">About This Site</a>
+</div>
 
-### More Information
+I don't go by G, surprisingly. 
 
-A place to include any other types of information that you'd like to include about yourself.
+I'm Lucas, a designer and technologist from Baltimore.
 
-### Contact me
+<aside>This is what my face looks like. The goofy look is because I was having a hard time pushing the shutter button on my camera with a paintbrush handle. My wife told me it's endearing.</aside>
+<img alt="Lucas' Face" src="/images/posts/imported/2015/12/lroe-2015-3-large.png" style="max-width:500px;">
 
-[email@domain.com](mailto:email@domain.com)
+## <a name="professionally"></a>Professionally:
+I try to be as broad as possible. I went to school for Design while working as a Front End Developer, and jumped right into UX directly after graduating.
+
+I currently work at ACGI Software in Columbia as their UX Team of One. We make association management software. I work at a standing desk by typing on a mechanical keyboard, and you probably don't want to ask me about it.
+
+## <a name="personally"></a>Personally:
+The nerd life chose me. I'm a polymath in training, so I spend a lot of time cooking, pianoing, practicing calligraphy, reading the whole internet, gaming, and forming strong opinions. I'm married to a wonderful OT named Katie, and a pet rat named Ellie *(Yes, a rat. She's wonderful. Yes, her tail is gross. No, I don't want to touch a city rat.)*
+
+I'm have a penchant for raw materials, especially wood and leather. Vacations are typically to the mountains or the ocean or a place with rollercoasters. I dance enthusiastically but with questionable ability. I'm really trying to be a morning person.
+
+Also, if you want an earful, ask me at any time what game I'm playing. I'll probably have a spreadsheet to show you. (Right now it's Hearthstone)
+
+## <a name="contact"></a> Contact:
+
+I'm available for freelance requests and general chatting. I'm terrible at Twitter, but you can find me on there [@glucasroe](twitter.com/glucasroe). Emails can be sent to [lucas@glucasroe.com](mailto:lucas@glucasroe.com). Love letters are inadvisable.
+
+## <a name="aboutthissite"></a> About This Site:
+This site is hosted on DigitalOcean using Ghost. Template information can be found at the [Github Repo](https://github.com/glucasroe/narcissist) where I make regular updates and generally dither about. Type is Merriweather and Merriweather Light from Google Fonts.

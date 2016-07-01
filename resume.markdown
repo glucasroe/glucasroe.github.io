@@ -1,23 +1,24 @@
 ---
-layout: post
+layout: page
 title: Resume
 date: '2013-11-23 14:55:00'
 ---
 
 UX Designer and general tech wizzbang with a graphic design and front end development background. Annoyingly focused on user's needs and expectations. Expert in interactive prototyping with Axure. Experienced with HTML and CSS. Intermediate with jQuery. Comfortable in a terminal. Serial experimenter.
 
-###<a href="/files/glr-resume.pdf">Download a PDF of my Resume</a>
+### <a href="/files/glr-resume.pdf">Download a PDF of my Resume</a>
 
-##Education:
-###B.S. Art & Design (Graphic Design Concentration)
+## Education:
+
+### B.S. Art & Design (Graphic Design Concentration)
 <aside><em>5/2013</em></aside>
 Towson University, Towson MD
 
 * Dean's List
 * Finalist in 2 internal design competitions.
 * 0.02 GPA away from getting Latin Honors *(I'm not bitter, I swear)*
-
-###Human Computer Interaction Course
+ 
+### Human Computer Interaction Course
 <aside><em>8/2014</em></aside>
 [Coursera in Collaboration with University of California, San Diego](https://www.coursera.org/course/hciucsd)
 
@@ -25,28 +26,29 @@ Towson University, Towson MD
 * Full app design lifecycle, from user interviews to define needs through usability testing and iteration.
 
 
-##Tech Skills
+## Tech Skills
 
 * **Tools**: Axure, Adobe Suite, SCSS, HAML, git
 * **Methodologies**: Wireframing, prototyping, user-centered design
 * **Misc**: JIRA, Google Analytics, Inspectlet
 
-##Experience:
-###User Experience Designer
+## Experience:
+
+### Lead User Experience Designer
 <aside><em>7/2015&ndash;present</em></aside>
 **[ACGI Software](http://www.acgisoftware.com/) &mdash; Columbia, MD**
 
 * UX Team of One focused on standards, style guide, IA, and education.
 * Taught classes on best practices and UX fundamentals
 
-###User Experience Designer
+### User Experience Designer
 <aside><em>12/2014&ndash;7/2015</em></aside>
 **[no.inc](http://www.noinc.com/) &mdash; Baltimore, MD**
 
 * Product UX Lifecycle: User interviews, Personas, Information Architecture, Wireframes, and User Testing.
 * Front end development on existing products, merging style bases, refreshing styles, and production work for new products.
 
-###Junior UX Designer
+### Junior UX Designer
 <aside><em>7/2013&ndash;11/2014</em></aside>
 **[r2integrated](http://www.r2integrated.com/) &mdash; Baltimore, MD**
 
@@ -54,7 +56,6 @@ Towson University, Towson MD
 * Researched and implemented best practices and user trends.
 * Developed a holistic prototype styleguide and framework in Axure.
 * Developed a data driven IA Sitemapping technique in Axure.
-
 
 ### Web Producer
 <aside><em>1/2012&ndash;7/2013</em></aside>
@@ -88,7 +89,7 @@ Towson University, Towson MD
 * Managed retail environment, customers, merchandise, and presentation.
 
 
-##Other Experience
+## Other Experience
 
 ### Photography Assistant 
 <aside><em>6/2011&ndash;12/2013</em></aside>
@@ -107,23 +108,23 @@ Towson University, Towson MD
 
 *Yes, I spent some time working in food service. Well, a lot of time.*
 
-###Shift Manager 
+### Shift Manager 
 <aside><em>7/2009&ndash;7/2011</em></aside>
 **Caff&egrave; Pronto, Annapolis MD**
 
-###Gossoon (A.K.A. Busboy) 
+### Gossoon (A.K.A. Busboy) 
 <aside><em>8/2008&ndash;1/2009</em></aside>
 **Brian Boru &mdash; Severna Park MD**
 
-###Volunteer Maryland Coordinator 
+### Volunteer Maryland Coordinator 
 <aside><em>9/2007&ndash;8/2008</em></aside>
 **Americorps &mdash; Partners in Care, Pasadena <del>CA</del> MD**
 
-###Barista
+### Barista
 <aside><em>05/2005&ndash;09/2007</em></aside>
 **Severna Perk &mdash; Severna Park MD**
 
-###"Independent Contractor" (Paperboy)
+### "Independent Contractor" (Paperboy)
 <aside><em>07/1999&ndash;06/2005</em></aside>
 **Capital Newspaper &mdash; Annapolis MD**
 

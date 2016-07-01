@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: page
 title: Projects
 date: '2013-11-24 17:00:00'
 ---
 
 I have other projects that I've worked on that I can't show here because of the nature of the final work, please [get in touch](mailto:lucas@glucasroe.com) if you'd like more examples!
 
-##Case Studies:
+## Case Studies:
 <div class="tile-wrapper">
     <div class="tile">
          <img class="" src="/images/posts/imported/2014/11/Screen-Shot-2014-11-03-at-24-36-19-.png" />
@@ -37,7 +37,7 @@ I have other projects that I've worked on that I can't show here because of the 
     </div>
 </div>
 
-##Writing:
+## Writing:
 During my time at r2i, I wrote a few articles mostly about wireframing in Axure.
 
 * [Rotating Image Campaigns are Cheapening Your Website](http://www.r2integrated.com/news/blog/rotating-image-campaigns-are-cheapening-your-website)
