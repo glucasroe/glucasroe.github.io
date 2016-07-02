@@ -3,6 +3,7 @@ layout: post
 title: '100 Days of Good UX: A Recap'
 date: '2015-11-26 19:05:23'
 image: posts/imported/2015/12/100daysofgoodux.gif
+tags: project
 ---
 
 As soon as I wrote the last word for my [100 days blog](http://100daysofgoodux.tumblr.com/), a palpable sense of relief washed over me. I posted the last post, sent the last email, and sat back in my chair in an almost perfect facsimile of this:
@@ -24,7 +25,7 @@ If I could give anyone advice on a 100days project (considering I [failed mine a
 <li> <strong>Find a rhythm</strong>: At about day 50, I found a rhythm for my writing and editing that helped me knock out the work pretty consistently. This is helpful.</li>
 <li> <strong>Find some accountability</strong>: By day 90, I was completely burnt out. I didn't think that what I was writing was worth reading. I felt like I was repeating myself. Even though this stint had run for only 70 days, I was done.
 <p>The only reason that I kept going was because I had my email list running and an editor who was waiting for my daily posts. My consistency went to hell, but I managed to get through it because of the process.</p></li>
-<li> <strong>Keep an inspiration log</strong>: There are days that everything will come flying out on the page and you are thrilled with your productivity. There are also days that you are just wondering why you did this in the first place. 
+<li> <strong>Keep an inspiration log</strong>: There are days that everything will come flying out on the page and you are thrilled with your productivity. There are also days that you are just wondering why you did this in the first place.
 <p>On those off days, it really helps to have a list of ideas that you haven't done anything with yet.</p></li>
 <li> <strong>It won't work all the time</strong>: Even with all of these backchecks, I still had a few days that just didn't work out. It happens.
 
