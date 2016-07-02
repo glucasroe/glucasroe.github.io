@@ -84,21 +84,20 @@ code{
 }
 pre{
 	@extend %clearfix;
-	background-color: #272822; //From the colorizer presets.
+  background-color: $grey-1;
 	border-radius:3px;
 	padding:1em;
+  overflow:auto;
 	code{
 		color: $grey-7;
 		white-space: pre;
 		line-height:1.25;
-		background-color: #272822; //From the colorizer presets.
+    background-color: $grey-1;
 		float:left;
 		overflow: auto;
 		padding:0em;
+    padding-right: 1em;
 	}
-}
-code[class*="language-"], pre[class*="language-"]{
-	padding:0;
 }
 aside{
 	color:$red-3;

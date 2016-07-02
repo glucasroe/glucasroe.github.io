@@ -53,6 +53,9 @@ body,h1,h2,h3,h4,h5,h6,p,li,q,aside,code{
   aside{
     color: $red-6;
   }
+  pre{
+    background-color: $grey-2;
+  }
   code{
     background-color: $grey-2;
     color: $white;
@@ -86,5 +89,9 @@ body,h1,h2,h3,h4,h5,h6,p,li,q,aside,code{
   					$grey-1 0px 2px 0px,
   					$grey-1 0px -2px 0px;
   	}
+  }
+  .comments{
+    background-color: white;
+    border-radius: 3px;
   }
 }
