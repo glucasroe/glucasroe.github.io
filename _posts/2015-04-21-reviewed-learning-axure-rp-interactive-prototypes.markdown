@@ -8,7 +8,7 @@ image: posts/imported/2015/04/learning-axure-interactive-prototype.jpg
 
 [This book](https://www.packtpub.com/web-development/learning-axure-rp-interactive-prototypes) would be most appropriate for an intermediate Axure user who is looking to elevate their Axure skills to an expert level. The book is an extended walkthrough about how to build a specific ecommerce prototype, which can be downloaded as a supplement to the text.
 
-***Disclaimer:** This book was sent to me by its publisher, Packt.*
+* **Disclaimer:** This book was sent to me by its publisher, Packt.*
 
 ## Who this book is for:
 An intermediate or expert Axure user who's looking to improve their knowledge of repeaters and variables.

@@ -9,9 +9,27 @@ I have other projects that I've worked on that I can't show here because of the 
 ## Case Studies:
 <div class="tile-wrapper">
     <div class="tile">
+         <img class="" src="/images/posts/imported/2016/02/digital-portfolio.png" />
+         <div class="title">
+             <a href="/digital-portfolio">
+                 <h3>Digital Portfolio</h3>
+                 <div class="button">OPEN PROJECT</div>
+             </a>
+         </div>
+    </div>
+    <div class="tile">
+         <img class="" src="/images/posts/imported/2016/01/funeral-matters.png" />
+         <div class="title">
+             <a href="/funeral-matters/">
+                 <h3>Funeral Matters</h3>
+                 <div class="button">OPEN PROJECT</div>
+             </a>
+         </div>
+    </div>
+    <div class="tile">
          <img class="" src="/images/posts/imported/2014/11/Screen-Shot-2014-11-03-at-24-36-19-.png" />
          <div class="title">
-             <a href="http://glucasroe.com/vertafore/">
+             <a href="/vertafore/">
                  <h3>Vertafore</h3>
                  <div class="button">OPEN PROJECT</div>
              </a>
@@ -20,7 +38,7 @@ I have other projects that I've worked on that I can't show here because of the 
      <div class="tile">
          <img class="" src="/images/posts/imported/2015/12/bunn.jpg" />
          <div class="title">
-             <a href="http://glucasroe.com/bunn/">
+             <a href="/bunn/">
                  <h3>BUNN</h3>
                  <div class="button">OPEN PROJECT</div>
              </a>

@@ -17,6 +17,7 @@
 
 	img{
 		@include transition(transform 0.5s ease-in-out);
+    object-fit: cover;
 	}
 	.title{
 		position:absolute;
@@ -62,7 +63,7 @@
 		margin-left:0;
 		margin-right:0;
 		&:nth-child(odd){
-			margin-right: 3%; 
+			margin-right: 3%;
 		}
 		.title{
 			height:100%;
