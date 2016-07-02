@@ -18,9 +18,8 @@
 
     <script type="text/javascript">
     //Stops the white flash when dark mode is on
-      if(store.get('dark-mode') === 'true'){
-        store.set('inline-style', 'true');
-        console.log('conditional')
+      if(localStorage.getItem('dark-mode') === 'true'){
+        localStorage.setItem('inline-style', 'true');
         var sheet = (function() {
   	        var style = document.createElement("style");
             style.appendChild(document.createTextNode(""));
@@ -70,7 +69,7 @@
         <a href='https://twitter.com/glucasroe'>
           <img alt='Twitter' src='{{ site.baseurl }}/images/site/twitter.svg'>
         </a>
-        <a href='/rss'>
+        <a href='/feed.xml'>
           <img alt='RSS Feed' src='{{ site.baseurl }}/images/site/rss.svg'>
 
         </a>
@@ -78,42 +77,5 @@
     </footer>
     <div class="view-toggle" id="view-toggle"></div>
     <script type="text/javascript" src="{{ site.baseurl }}/scripts/scripts-min.js"></script>
-    <script type="text/javascript">
-      smoothScroll.init({selector: '[data-scroll]',speed: 500,easing: 'easeInOutQuint',updateURL: true,offset: 16});
-      //Pulled from https://github.com/cferdinandi/smooth-scroll/issues/54 Just in case
-
-      document.addEventListener('DOMContentLoaded', function() {
-        if (window.location.hash ){smoothScroll.animateScroll(  null, window.location.hash  );}
-        if(store.get('dark-mode') == 'true'){
-          document.body.classList.add('dark-mode');
-        }
-      });
-
-      var trigger = document.getElementById('view-toggle');
-
-      trigger.addEventListener('click', function () {
-        //console.log(sheet);
-        if (store.get('dark-mode') === 'true'){
-          document.body.classList.remove('dark-mode');
-          store.set('dark-mode', 'false')
-          if(store.get('inline-style') === 'true'){
-            sheet.deleteRule(0);
-            sheet.deleteRule(1);
-          }
-
-        }else{
-          document.body.classList.add('dark-mode');
-          store.set('dark-mode', 'true');
-        }
-      });
-
-      init();
-      function init() {
-        if (store.enabled) {
-            trigger.classList.add('visible');
-            return;
-          }
-        }
-    </script>
   </body>
 </html>

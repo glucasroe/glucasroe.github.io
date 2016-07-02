@@ -1535,6 +1535,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_sass\/zenburn.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/zenburn.scss",
+		"outputAbbreviatedPath": "\/css\/zenburn.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/about.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -1765,6 +1781,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/posts\/imported\/2014\/Sep\/full-settings.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32532,
+		"inputAbbreviatedPath": "\/images\/posts\/imported\/2014\/Sep\/full-settings.png",
+		"outputAbbreviatedPath": "\/images\/posts\/imported\/2014\/Sep\/full-settings.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/posts\/imported\/2014\/Sep\/Pinthepanel.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1827,17 +1854,6 @@
 		"initialSize": 45588,
 		"inputAbbreviatedPath": "\/images\/posts\/imported\/2014\/Sep\/Screen-Shot-2014-09-10-at-5-09-17-PM.png",
 		"outputAbbreviatedPath": "\/images\/posts\/imported\/2014\/Sep\/Screen-Shot-2014-09-10-at-5-09-17-PM.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/posts\/imported\/2014\/Sep\/Screen-Shot-2014-09-11-at-5-59-29-PM.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 32532,
-		"inputAbbreviatedPath": "\/images\/posts\/imported\/2014\/Sep\/Screen-Shot-2014-09-11-at-5-59-29-PM.png",
-		"outputAbbreviatedPath": "\/images\/posts\/imported\/2014\/Sep\/Screen-Shot-2014-09-11-at-5-59-29-PM.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2216,6 +2232,138 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/posts\/imported\/2016\/01\/flowchart.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71827,
+		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/01\/flowchart.png",
+		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/01\/flowchart.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/imported\/2016\/01\/funeral-matters.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 311746,
+		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/01\/funeral-matters.png",
+		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/01\/funeral-matters.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/imported\/2016\/02\/dashboard.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 431109,
+		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/dashboard.png",
+		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/dashboard.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/imported\/2016\/02\/digital-portfolio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 260952,
+		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/digital-portfolio.png",
+		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/digital-portfolio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/imported\/2016\/02\/feedback-revised.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 171426,
+		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/feedback-revised.png",
+		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/feedback-revised.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/imported\/2016\/02\/feedback.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 146673,
+		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/feedback.png",
+		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/feedback.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/imported\/2016\/02\/granular-assignments.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59884,
+		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/granular-assignments.png",
+		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/granular-assignments.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/imported\/2016\/02\/language-revised.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45129,
+		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/language-revised.png",
+		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/language-revised.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/imported\/2016\/02\/language.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45241,
+		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/language.png",
+		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/language.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/imported\/2016\/02\/path-interface.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137159,
+		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/path-interface.png",
+		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/path-interface.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/imported\/2016\/02\/path-sketch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 354363,
+		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/path-sketch.png",
+		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/path-sketch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/imported\/2016\/02\/workflows.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 494758,
+		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/workflows.png",
+		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/workflows.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/posts\/imported\/2016\/03\/pasted_image_at_2016_03_01_04_53_pm.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2234,6 +2382,28 @@
 		"initialSize": 51870,
 		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/03\/pasted_image_at_2016_03_01_04_54_pm.png",
 		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/03\/pasted_image_at_2016_03_01_04_54_pm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/imported\/2016\/05\/pasted_image_at_2016_03_01_04_53_pm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37932,
+		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/05\/pasted_image_at_2016_03_01_04_53_pm.png",
+		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/05\/pasted_image_at_2016_03_01_04_53_pm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/imported\/2016\/05\/pasted_image_at_2016_03_01_04_54_pm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51870,
+		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/05\/pasted_image_at_2016_03_01_04_54_pm.png",
+		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/05\/pasted_image_at_2016_03_01_04_54_pm.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2296,17 +2466,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scripts\/smooth-scroll.min.js",
 		"outputAbbreviatedPath": "\/scripts\/min\/smooth-scroll.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/scripts\/store.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scripts\/store.min.js",
-		"outputAbbreviatedPath": "\/scripts\/min\/store.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -2506,12 +2665,6 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/scripts\/smooth-scroll.min.js",
 			"position": 0,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/scripts\/store.min.js",
-			"position": 1,
 			"type": 0
 			}
 		]
