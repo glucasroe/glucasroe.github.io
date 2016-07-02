@@ -32,7 +32,7 @@ Add a new case, put in the conditional if `[[windowScroll + 10]] is less than [[
 
 ## 5. Show the header onScrollUp
 Add a new case, put in the conditional if `[[windowScroll - 10]] is greater than [[Window.scrollY]]` and have it `show header slide down`. This is basically the exact opposite of what you did for onScrolldown. Here's what it should look like when you're done
-![Full settings](/images/posts/imported/2014/Sep/Screen-Shot-2014-09-11-at-5-59-29-PM.png")
+![Full settings](/images/posts/imported/2014/Sep/full-settings.png)
 
 # What's happening here?
 The first event sets a value, but only after a brief delay. See what happens on the [example URL](http://wires.glucasroe.com/VSHYD6) if you open the variables panel in the left sidebar and scroll.

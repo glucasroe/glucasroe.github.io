@@ -38,51 +38,52 @@ When you insert your plugin, you'll have a version of jQuery that's loaded by Ax
 
 ## Example Plugin Code:
 Here's the plugin that I used for [my filter example](http://wires.glucasroe.com/AHZF7O/#p=notes&c=1). It is inserted at the end of the body on all the pages, as you can see on the screenshot above. This is recommended because Axure has enough to do in building a page without it having to check your JS first. **Note**: I use Chrome and am not going to prefix for other browsers.
+{% highlight html %}
+<style type="text/css">
+  .ax_flow_shape{transition: all 0.5s;}
+  .fader {opacity: 0.35; transform: scale(0.95,0.95);}
+</style>
+<script type="text/javascript">
+  var allRadio = $("div[data-label='all-btn']");
+  var featuresRadio = $("div[data-label='features-btn']");
+  var usersRadio = $("div[data-label='users-btn']");
+  var requirementsRadio = $("div[data-label='requirements-btn']");
+  var notesRadio = $("div[data-label='notes-btn']");
 
-    <style type="text/css">
-      .ax_flow_shape{transition: all 0.5s;}
-      .fader {opacity: 0.35; transform: scale(0.95,0.95);}
-    </style>
-    <script type="text/javascript">
-      var allRadio = $("div[data-label='all-btn']");
-      var featuresRadio = $("div[data-label='features-btn']");
-      var usersRadio = $("div[data-label='users-btn']");
-      var requirementsRadio = $("div[data-label='requirements-btn']");
-      var notesRadio = $("div[data-label='notes-btn']");
+  var fragments = $('.features,.users,.requirements,.notes');
 
-      var fragments = $('.features,.users,.requirements,.notes');
+  var featuresTile = $('.features');
+  var usersTile = $('.users');
+  var requirementsTile = $('.requirements');
+  var notesTile = $('.notes');
 
-      var featuresTile = $('.features');
-      var usersTile = $('.users');
-      var requirementsTile = $('.requirements');
-      var notesTile = $('.notes');
+  var faded = $('.fader');
 
-      var faded = $('.fader');
+  $(allRadio).click(function(){
+    $('.fader').removeClass('fader');
+  });
 
-      $(allRadio).click(function(){
-        $('.fader').removeClass('fader');
-      });
+  $(featuresRadio).click(function(){
+    $(featuresTile).removeClass('fader');
+    $(fragments).not(featuresTile).addClass('fader');
+  });
 
-      $(featuresRadio).click(function(){
-        $(featuresTile).removeClass('fader');
-        $(fragments).not(featuresTile).addClass('fader');
-      });
+  $(usersRadio).click(function(){
+    $(usersTile).removeClass('fader');
+    $(fragments).not(usersTile).addClass('fader');
+  });
 
-      $(usersRadio).click(function(){
-        $(usersTile).removeClass('fader');
-        $(fragments).not(usersTile).addClass('fader');
-      });
+  $(requirementsRadio).click(function(){
+    $(requirementsTile).removeClass('fader');
+    $(fragments).not(requirementsTile).addClass('fader');
+  });
 
-      $(requirementsRadio).click(function(){
-        $(requirementsTile).removeClass('fader');
-        $(fragments).not(requirementsTile).addClass('fader');
-      });
-
-      $(notesRadio).click(function(){
-        $(notesTile).removeClass('fader');
-        $(fragments).not(notesTile).addClass('fader');
-      });
-    </script>
+  $(notesRadio).click(function(){
+    $(notesTile).removeClass('fader');
+    $(fragments).not(notesTile).addClass('fader');
+  });
+</script>
+{% endhighlight %}
 
 ## Another Example:
 Just to show something else, especially how this can be used in a bigger project, I figured I'd try something that would be a bit more extensible, like a button mouseover class. I'm not as original as some of the amazing people over at the codrops blog, so [let's just fragrantly copy and past the Wayra style from this page onto our button](http://tympanus.net/Development/ButtonStylesInspiration/).

@@ -16,7 +16,7 @@ To save on bandwidth and give the user more control, I opted to go with [Gfycat]
 
 ## Gfycat Don't Play Nice.
 When they're standalone, the gfycat pieces seem to work just fine. As soon as I put them in my template however, the display went haywire and it broke my mobile site. Here are the things that I did to make it work, written in SCSS
-```language-scss
+{% highlight scss %}
 div.gfyitem {
     width:100%;
     div:not(.gfyCtrlBox):not(.gfyCtrlTabPull){
@@ -45,7 +45,7 @@ div.gfyitem {
         position:relative !important;
     }
 }
-```
+{% endhighlight %}
 * `div.gfyitem{width:100%;}` Gfycat starts by throwing in a div with this class.
 * `div:not(.gfyCtrl...){width: 100% !important; max-width:100% !important; height: auto !important;}` Inside of the gfyitem div, it puts a div with no class with a lot of inline styling including absolute values for height and width. This is what was breaking my mobile site. My friend and coworker [Matt Geiger](https://twitter.com/Mgeiger410) suggested using `!important` rules to overwrite the inline styling. It worked beautifully even though it feels gross
 * `div:not(.gfyCt...) .gfyPreLoadCanvas{display: none;}` I'm not thrilled about this, but the preload canvas couldn't be set in size without more javascript and I didn't want to take the risk of conflicts.
