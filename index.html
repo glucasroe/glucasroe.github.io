@@ -18,6 +18,8 @@ layout: default
       <h2 class="post-title">
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </h2>
+      <div class="post-meta">Posted on <time>{{ post.date | date: "%Y %B %e" }}</time>{% if post.tags %}{% for tag in post.tags %}{% if forloop.first == true %} under {% endif %}<a href="{{ site.baseurl }}/{{ tag | slugify }}" class="post-tag">{{ tag | capitalize }}</a>{% if forloop.last != true %}, {% endif %}{% endfor %}{% endif %}
+    </div>
     </header>
 
     <section class="post-excerpt">

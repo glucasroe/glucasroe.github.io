@@ -2,6 +2,8 @@
 layout: post
 title: 'Getcher Big Boy Pants On: Leaving CloudatCost for DigitalOcean'
 date: '2015-02-01 19:12:54'
+tags:  [article, dev]
+image: posts/imported/2015/02/peaceoutyall.jpg
 ---
 
 This past weekend I punched the button and changed hosting providers.

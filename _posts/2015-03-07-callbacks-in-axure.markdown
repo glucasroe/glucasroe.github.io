@@ -2,6 +2,8 @@
 layout: post
 title: Callbacks in Axure
 date: '2015-03-07 15:18:04'
+tags: [axure, tutorial]
+image: posts/imported/2015/01/Axurecallbackillu.jpg
 ---
 
 If you aren't familiar with the idea of a callback, I'll lead off with a definition and then an example.

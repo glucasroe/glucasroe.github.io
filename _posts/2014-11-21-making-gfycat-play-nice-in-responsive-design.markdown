@@ -2,6 +2,8 @@
 layout: post
 title: Making Gfycat Play Nice in Responsive Design
 date: '2014-11-21 04:35:41'
+tags: [dev, tutorial]
+image: posts/imported/2015/12/gfycat-responsive-design.png
 ---
 
 When writing tutorials, mini animations can save a lot of time and overexplanation. In my [first Axure tutorial](http://glucasroe.com/onscrollup-and-onscrolldown-in-axure/), I used some screen recordings to walk through some of the most complex pieces of the process.

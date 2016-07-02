@@ -4,7 +4,7 @@ layout: default
 <main class="content" role="main">
     <article class="post">
       <h1>{{ page.title }}</h1>
-        <div class="post-meta">Posted on <time>{{ page.date | date: "%Y %B %e" }}</time>{% if page.tags %} under {% for tag in page.tags %}<a href="{{ site.baseurl }}/{{ tag | slugify }}" class="post-tag">{{ tag | capitalize }}</a>{% if forloop.last != true %}, {% endif %}{% endfor %}{% endif %}
+        <div class="post-meta">Posted on <time>{{ page.date | date: "%Y %B %e" }}</time>{% if page.tags %}{% for tag in page.tags %}{% if forloop.first == true %} under {% endif %}<a href="{{ site.baseurl }}/{{ tag | slugify }}" class="post-tag">{{ tag | capitalize }}</a>{% if forloop.last != true %}, {% endif %}{% endfor %}{% endif %}
         </div>
 
         {% if page.image %}

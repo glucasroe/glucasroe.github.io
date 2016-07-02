@@ -2,6 +2,8 @@
 layout: post
 title: OnScrollUp and OnScrollDown in Axure
 date: '2014-09-10 21:12:44'
+tags: [axure, tutorial]
+image: posts/imported/2015/12/scrollup-scrolldown-axure-1.png
 ---
 
 Axure 7 added the wonderful and tremendously useful `OnWindowScroll` event to page interactions. Unfortunately, it doesn't include direction like `OnScrollUp` or `OnScrollDown`. An event like this is super useful because you can use it to show a sticky header, like in [this example jquery plugin, headroom.js](http://wicky.nillia.ms/headroom.js/). I'll walk through the steps and then explain the logic. Example link:[ http://wires.glucasroe.com/VSHYD6](http://wires.glucasroe.com/VSHYD6)

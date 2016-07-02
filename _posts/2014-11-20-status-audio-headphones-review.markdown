@@ -2,6 +2,8 @@
 layout: post
 title: Status Audio Headphones Review
 date: '2014-11-20 04:02:45'
+tags: review
+image: posts/imported/2014/11/status-audio-6.jpg
 ---
 
 Being a musician, I tend to have pretty high requirements for my headphones. I had been looking for a pair of circumaural headphones because I found myself getting sensitive to earbuds after having them in during extended work periods. After some searching, I stumbled upon Status Audio's website while they were in the preorder phase.

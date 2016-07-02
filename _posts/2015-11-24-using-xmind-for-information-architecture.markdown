@@ -2,6 +2,8 @@
 layout: post
 title: Using XMind for Information Architecture
 date: '2015-11-24 22:47:42'
+image: posts/imported/2015/11/XMind-for-IA.jpg
+tags: article
 ---
 
 I spent about two years looking for an IA tool that worked for my process and my mental model. It was a pretty short list:

@@ -2,6 +2,8 @@
 layout: post
 title: Learning To be Bored
 date: '2013-12-02 17:00:00'
+tags: article
+image: posts/imported/2013/Dec/learningtobeboredheader.png
 ---
 
 ### Designer Post college doldrums

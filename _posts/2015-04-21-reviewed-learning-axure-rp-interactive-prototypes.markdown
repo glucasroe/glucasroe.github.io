@@ -2,6 +2,8 @@
 layout: post
 title: 'Reviewed: Learning Axure RP Interactive Prototypes'
 date: '2015-04-21 20:50:45'
+tags: [review, axure]
+image: posts/imported/2015/04/learning-axure-interactive-prototype.jpg
 ---
 
 [This book](https://www.packtpub.com/web-development/learning-axure-rp-interactive-prototypes) would be most appropriate for an intermediate Axure user who is looking to elevate their Axure skills to an expert level. The book is an extended walkthrough about how to build a specific ecommerce prototype, which can be downloaded as a supplement to the text.

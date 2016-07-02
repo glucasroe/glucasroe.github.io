@@ -2,6 +2,7 @@
 layout: post
 title: Getting Started with Typography
 date: '2015-12-01 21:55:57'
+image: posts/imported/2015/12/getting-started-with-typography.png
 ---
 
 Today on the [User Experience Design Slack](https://www.designerhangout.co/), someone asked in the `#topic_typography` channel:

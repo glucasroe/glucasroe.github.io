@@ -2,6 +2,8 @@
 layout: post
 title: Abusing Patterns and the Death of the Modal
 date: '2015-03-23 00:19:19'
+tags: article
+image: posts/imported/2015/03/deathofthemodal.jpg
 ---
 
 User expectations are a moving target. We don’t get to develop in a vacuum and whenever we create, we inherit the entire ecosystem of the user. This is a double edged sword. On the one hand we don’t have to start from scratch in building expectations. However, when our fellow designers begin to abuse useful patterns, our users develop bad expectations and worse habits.

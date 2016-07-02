@@ -2,6 +2,8 @@
 layout: post
 title: 'Project: Vertafore'
 date: '2014-11-03 05:34:34'
+tags: project
+image: posts/imported/2014/11/vertafore-banner.png
 ---
 
 Vertafore is a company that provides software to insurance companies, delivering insight, flexibility, and power into the hands of their customers. As they went through the process of redesigning their site, they realized that they had a bigger problem to solve, their brand.

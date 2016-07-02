@@ -2,6 +2,8 @@
 layout: post
 title: 'Project: BUNN'
 date: '2014-11-05 05:07:19'
+tags: project
+image: posts/imported/2014/11/bunn-banner.png
 ---
 
 When I first learned about this project, the image that popped into my head was of the ubiquitous steel coffee machine that pops up at nice places that still comp you coffee, like a hotel or&hellip; well a funeral home.

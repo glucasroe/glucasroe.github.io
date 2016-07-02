@@ -2,6 +2,8 @@
 layout: post
 title: Extending Axure's Interaction Design with CSS3
 date: '2015-02-27 22:26:13'
+tags: [axure, tutorial]
+image: posts/imported/2015/02/axurepluscss3.jpg
 ---
 
 I don't know a gentle way to say this, so I'll be blunt. Axure leaves a lot to be desired in animation and interaction design. A few other designers and myself were discussing prototyping interactions and animations on [The User Experience Design Slack](http://www.designerhangout.co/), where I described Axure's animation options as "YAY IT FADED" and "YAY IT ZOOMED AWAY"

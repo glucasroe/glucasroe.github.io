@@ -2,6 +2,8 @@
 layout: post
 title: Failing Projects and The Friendly Tyranny of The Internet.
 date: '2015-08-21 15:39:14'
+tags: article
+image: posts/imported/2015/08/cloudy.jpg
 ---
 
 As Spring changed into Summer this year, I tried and failed to do a [100 Day Project](http://100daysofgoodux.tumblr.com/). I stopped interacting with people on Twitter. I withdrew from the [UX Design Slack](http://www.designerhangout.co/) I love so dearly. I didn't write anything new or design anything outside of work for 4 months. I was very sad.
