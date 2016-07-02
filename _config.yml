@@ -11,6 +11,9 @@ description: UX Designer. All Purpose Nerd. Thing Explainer.
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/4421341?v=3&s=460
 
+# Site settings
+paginate: 5
+
 #
 # Flags below are optional
 #

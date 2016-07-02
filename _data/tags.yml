@@ -1,0 +1,20 @@
+- slug: tools
+  name: Tools
+
+- slug: axure
+  name: Axure
+
+- slug: project
+  name: Project
+
+- slug: article
+  name: Article
+
+- slug: tutorial
+  name: Tutorial
+
+- slug: review
+  name: Review
+
+- slug: dev
+  name: Development

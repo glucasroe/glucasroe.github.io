@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<main class="content" role="main">
+
+    <h1 class="post-title"><strong>Tag</strong>: {{ page.tag | capitalize}}</h1>
+    <div>
+    {% if site.tags[page.tag] %}
+        {% for post in site.tags[page.tag] %}
+            <article class="post post-preview">
+              {% if post.image %}
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                  <img class="post-featured-image post-image-header animated" src="{{ site.baseurl }}/images/{{ post.image }}" />
+                </a>
+              {% endif %}
+
+              <header class="post-header">
+                <h2 class="post-title">
+                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                </h2>
+                <div class="post-meta">Posted on <time>{{ post.date | date: "%Y %B %e" }}</time>{% if post.tags %}{% for tag in post.tags %}{% if forloop.first == true %} under {% endif %}<a href="{{ site.baseurl }}/{{ tag | slugify }}" class="post-tag">{{ tag | capitalize }}</a>{% if forloop.last != true %}, {% endif %}{% endfor %}{% endif %}
+              </div>
+              </header>
+
+              <section class="post-excerpt">
+                {{ post.excerpt }}
+              </section>
+              {% if forloop.last != true %}
+                <hr class="post-separator" />
+              {% endif %}
+            </article>        
+        {% endfor %}
+    {% else %}
+        <p>There are no posts for this tag.</p>
+    {% endif %}
+    </div>
+</main>
+
+  {% for post in paginator.posts %}
+    
+  {% endfor %}
