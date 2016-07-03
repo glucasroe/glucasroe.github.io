@@ -27,7 +27,7 @@ I have other projects that I've worked on that I can't show here because of the 
          </div>
     </div>
     <div class="tile">
-         <img class="" src="/images/posts/imported/2014/11/Screen-Shot-2014-11-03-at-24-36-19-.png" />
+         <img class="" src="/images/posts/imported/2014/11/vertafore-banner.png" />
          <div class="title">
              <a href="/vertafore/">
                  <h3>Vertafore</h3>
