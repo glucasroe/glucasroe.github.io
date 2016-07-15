@@ -1858,17 +1858,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/posts\/imported\/2015\/01\/1836600_922707731189_2088823735_o.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 197817,
-		"inputAbbreviatedPath": "\/images\/posts\/imported\/2015\/01\/1836600_922707731189_2088823735_o.jpg",
-		"outputAbbreviatedPath": "\/images\/posts\/imported\/2015\/01\/1836600_922707731189_2088823735_o.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/posts\/imported\/2015\/01\/Axurecallbackillu.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2349,6 +2338,17 @@
 		"initialSize": 354363,
 		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/path-sketch.png",
 		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/path-sketch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/imported\/2016\/02\/teacher-persona.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139517,
+		"inputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/teacher-persona.png",
+		"outputAbbreviatedPath": "\/images\/posts\/imported\/2016\/02\/teacher-persona.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
