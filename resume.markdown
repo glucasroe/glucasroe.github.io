@@ -4,7 +4,7 @@ title: Resume
 date: '2013-11-23 14:55:00'
 ---
 
-UX Designer and general tech wizzbang with a graphic design and front end development background. Annoyingly focused on user's needs and expectations. Expert in interactive prototyping with Axure. Experienced with HTML and CSS. Intermediate with jQuery. Comfortable in a terminal. Serial experimenter.
+UX Designer and general tech wizzbang with graphic design and front end development experience. Annoyingly focused on user's needs and expectations. Expert in interactive prototyping with Axure. Experienced with HTML and CSS. Intermediate with jQuery. Comfortable in a terminal. Serial experimenter.
 
 ### <a href="/files/glr-resume.pdf">Download a PDF of my Resume</a>
 
@@ -13,17 +13,10 @@ UX Designer and general tech wizzbang with a graphic design and front end develo
 ### B.S. Art & Design (Graphic Design Concentration)
 <aside><em>5/2013</em></aside>
 Towson University, Towson MD
-
-* Dean's List
-* Finalist in 2 internal design competitions.
-* 0.02 GPA away from getting Latin Honors *(I'm not bitter, I swear)*
  
 ### Human Computer Interaction Course
 <aside><em>8/2014</em></aside>
 [Coursera in Collaboration with University of California, San Diego](https://www.coursera.org/course/hciucsd)
-
-* Certification of Accomplishment *(with distinction!)* for outstanding performance.
-* Full app design lifecycle, from user interviews to define needs through usability testing and iteration.
 
 
 ## Tech Skills
@@ -34,12 +27,17 @@ Towson University, Towson MD
 
 ## Experience:
 
+### User Experience Designer
+<aside><em>8/2016&ndash;present</em></aside>
+**[Fastspot](https://www.fastspot.com/) &mdash; Baltimore, MD**
+
 ### Lead User Experience Designer
-<aside><em>7/2015&ndash;present</em></aside>
+<aside><em>7/2015&ndash;8/2016</em></aside>
 **[ACGI Software](http://www.acgisoftware.com/) &mdash; Columbia, MD**
 
-* UX Team of One focused on standards, style guide, IA, and education.
-* Taught classes on best practices and UX fundamentals
+* Broad, holistic UX practice focused on standards, style guide, IA, and UX education.
+* Structured and ran a user testing program with over 20 users to test a major product redesign.
+* Taught seminars on UX principles for employees and customers.
 
 ### User Experience Designer
 <aside><em>12/2014&ndash;7/2015</em></aside>
