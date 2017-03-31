@@ -363,20 +363,12 @@ main, .site-header, nav.pagination .pagination-links {
   display: inline-block;
   vertical-align: middle;
   width: 100%;
-  max-width: 6rem;
-  -webkit-font-smoothing: antialiased;
-  border: 1px solid #d1d2db;
-  border-radius: 50%;
-  padding: 0.75em; }
+  max-width: 13rem; }
 .site-header h1 {
-  text-align: left;
-  font-family: "Merriweather Light", "Merriweather", "Palatino", "Palatino Linotype", Georgia, serif;
-  margin-left: 0.5rem;
-  margin-top: 0;
-  font-size: 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  color: #b4b7c5; }
+  text-size: 0px;
+  position: relative;
+  margin-left: -10000px;
+  display: none; }
 .site-header nav {
   border: 1px #38decc solid;
   border-radius: 5px;
