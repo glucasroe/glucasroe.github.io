@@ -20,11 +20,11 @@ main{
 }
 
 a{
-	color:$red;
+	color:$brand;
 	text-decoration:none;
 	@include transition(color,.5s);
 	&:hover{
-		color: $red-3;
+		color: $brand-3;
 		text-shadow: 1px 1px 0px #fff,2px 2px 0px $transparent-red-3;
 	}
 	p > &,
@@ -59,7 +59,7 @@ h3{
 h4{
 	font-size: 1.25rem;
 	text-transform:uppercase;
-	color:$red;
+	color:$brand;
 	text-align: left;
 	font-family: $serif;
 }
@@ -100,7 +100,7 @@ pre{
 	}
 }
 aside{
-	color:$red-3;
+	color:$brand-3;
 	font-family: $serif;
 	@media #{$desktop}{
 		float:left;
@@ -146,7 +146,7 @@ blockquote{
 	}
 }
 q{
-	color: $red-2;
+	color: $brand-2;
 	padding: 0.15em 0.3em;
 	font-style: italic;
 	&:before{
@@ -174,7 +174,7 @@ ol{
 			content: counter(count-me) ". ";
     		display: block;
     		position: absolute;
-    		color: $red;
+    		color: $brand;
     		left: 1.5rem;
     		text-align:right;
 		}
@@ -186,7 +186,7 @@ ul{
 	li:before{
 		font-family: sans-serif;
 		content: '•';
-		color: $red;
+		color: $brand;
 		position: absolute;
 		left:2rem;
 	}
@@ -205,7 +205,7 @@ hr{
 	border:none;
 	height:1px;
 	display:block;
-	@include linear-gradient(left, $red, $red-3);
+	@include linear-gradient(left, $brand, $brand-3);
 }
 strong{
 	font-weight: bold;
@@ -235,7 +235,7 @@ figure{
 	}
 }
 ::selection{
-	background-color: $red;
+	background-color: $brand;
 	color:$white;
 }
 

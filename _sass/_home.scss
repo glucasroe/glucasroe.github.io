@@ -12,8 +12,8 @@
 	}
 	.button{
 		background-color: $transparent-red-3;
-		@include background(linear-gradient($red-5,$red-3));
-		border: 1px solid $red-3;
+		@include background(linear-gradient($brand-5,$brand-3));
+		border: 1px solid $brand-3;
 		opacity: 0.5;
 		color: $white;
 		text-align:center;

@@ -30,7 +30,7 @@
 	padding:10px 20px;
 	background-color:$white;
 	border-radius:5px;
-	color: $red;
+	color: $brand;
 }
 
 .rotated{
@@ -57,7 +57,7 @@
 
 .fabulous{
 	-webkit-text-fill-color: transparent;
-		background: -webkit-linear-gradient(100deg, $red, $cool-grey);
+		background: -webkit-linear-gradient(100deg, $brand, $cool-grey);
 		background: -o-linear-gradient(transparent, transparent);
 		-webkit-background-clip: text;
 		/*Lifted directly from this brilliance http://nimbupani.com/using-background-clip-for-text-with-css-fallback.html*/

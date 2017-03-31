@@ -3,7 +3,7 @@
 }
 .tile{
 	border-radius:5px;
-	border: 2px solid $red;
+	border: 2px solid $brand;
 	margin-left:1rem;
 	margin-right:1rem;
 	margin-top: 1em;
@@ -22,7 +22,7 @@
 	.title{
 		position:absolute;
 		width: 100%;
-		background-color:transparentize($red, 0.2);
+		background-color:transparentize($brand, 0.2);
 		bottom:0;
 		left:0;
 		right:0;

@@ -18,7 +18,7 @@
 
 
 	nav{
-		border: 1px $red solid;
+		border: 1px $brand solid;
 		border-radius: 5px;
 		margin-left:1rem;
 		margin-right: 1rem;
@@ -35,10 +35,10 @@
 			background-position: 0 1.7em;
 			background-size:0;
 			&+a{
-				border-left: 1px solid $red-4;
+				border-left: 1px solid $brand-4;
 			}
 			&:hover{
-				background-color: $red;
+				background-color: $brand;
 				color: #fff;
 				text-shadow: none;
 			}
@@ -60,7 +60,7 @@
 					}
 					&:hover{
 						background-color: transparent;
-						color: $red-2;
+						color: $brand-2;
 					}
 				}
 			}
