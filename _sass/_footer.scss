@@ -1,17 +1,19 @@
 footer{
-	background-color: $brand;
-	color:#fff;
+	color:$brand;
 	margin-top: 4rem;
 	text-align: center;
-	padding:2rem 1rem;
+	padding: 1rem;
+	border-top: 1px solid $brand;
+	@extend %site-width;
 	@extend %clearfix;
 	a{
 		padding:10px;
 		margin: 0 2px;
 		height:1.2rem;
-		width:1.2rem; 
+		width:1.2rem;
 		border-radius: 5px;
 		float:left;
+		background-color: $brand;
 		border: 1px solid $brand;
 
 		img{
@@ -22,22 +24,20 @@ footer{
 		}
 	}
 	p{
-		color:#fff;
-		margin: 0 0 0 1rem;
+		color:$brand;
+		margin: 0;
 		font-size: 1rem;
 		padding:0;
 		max-width: 60rem;
 	}
-	@media #{$desktop}{
-		.copyright{
-			width:70%;
+	.copyright{
+			padding-top: 0.25em;
+			width:50%;
 			text-align: left;
 			float:left;
 		}
 		.social{
 			text-align: right;
 			float:right;
-			width: 20%;
 		}
-	}
 }
