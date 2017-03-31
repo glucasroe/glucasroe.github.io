@@ -454,7 +454,7 @@ footer {
     footer a img {
       width: 1.2rem; }
     footer a:hover {
-      border: 1px solid #fff; }
+      background-color: #004f5c; }
   footer p {
     color: #00a7c2;
     margin: 0;
