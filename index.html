@@ -1,52 +1,108 @@
----
-layout: default
----
-<main class="content" role="main">
-  {% if paginator.page == 1 %}
-    <div class="site-intro">
-      <h1>UX Designer. All Purpose Nerd. Thing Explainer.</h1>
-      <a class="button" href="{{ site.baseurl }}/about">More about Lucas</a>
-    </div>
-  {% endif %}
-  <h1>Blog Posts:</h1>
-  {% for post in paginator.posts %}
-    <article class="post post-preview">
-      {% if post.image %}
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          <img class="post-featured-image post-image-header animated" src="{{ site.baseurl }}/images/{{ post.image }}" />
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kaely Linker - Designer</title>
+
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+
+
+    <meta property="og:title" content="Kaely Linker - Designer" />
+    <meta property="twitter:title" content="Kaely Linker - Designer" />
+
+    <link rel="shortcut icon" href="/images/site/favicon.ico">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Gfycat -->
+    <script>(function(d, t){var g = d.createElement(t),s = d.getElementsByTagName(t)[0];g.src = 'http://assets.gfycat.com/js/gfyajax-0.517d.js';s.parentNode.insertBefore(g, s);}(document, 'script'));</script>
+
+    <script type="text/javascript">
+    //Stops the white flash when dark mode is on
+      if(localStorage.getItem('dark-mode') === 'true'){
+        localStorage.setItem('inline-style', 'true');
+        var sheet = (function() {
+  	        var style = document.createElement("style");
+            style.appendChild(document.createTextNode(""));
+            document.head.appendChild(style);
+            return style.sheet;
+        })();
+        sheet.insertRule("body { background-color:#1f2028}", 0);
+        sheet.insertRule(".site-header>a{opacity: 0.4;}",1);
+      }
+    </script>
+  </head>
+
+  <body>
+    <body class='animating-in'>
+    <header class="site-header">
+        <a href='/'>
+          <img alt='Kaely Linker Logo' src='images/site/seal.svg'>
+          <h1>Kaely Linker</h1>
         </a>
-      {% endif %}
+        <nav>
+          <a href="#" <!--class="nav--current"-->About</a>
+          <a href="#" <!--class="nav--current"-->Portfolio</a>
+          <a href="#" <!--class="nav--current"-->Resume</a>
 
-      <header class="post-header">
-        <h2 class="post-title">
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </h2>
-        <div class="post-meta">Posted on <time>{{ post.date | date: "%Y %B %e" }}</time>{% if post.tags %}{% for tag in post.tags %}{% if forloop.first == true %} under {% endif %}<a href="{{ site.baseurl }}/tag/{{ tag | slugify }}" class="post-tag">{{ tag | capitalize }}</a>{% if forloop.last != true %}, {% endif %}{% endfor %}{% endif %}
-      </div>
-      </header>
+        </nav>
+    </header>
+    <div class='animate-in post-body'>
 
-      <section class="post-excerpt">
-        {{ post.excerpt }}
-      </section>
-      {% if forloop.last != true %}
-        <hr class="post-separator" />
-      {% endif %}
-    </article>
-  {% endfor %}
-</main>
+    <main class="content" role="main">
+        <div class="site-intro">
+          <h1>Kaely is v hot and smart and a great designer</h1>
+          <a class="button" href="/about">More about Kaely</a>
+        </div>
+      <h1>Blardly:</h1>
+        <article class="post post-preview">
+            <a href="#">
+              <img class="post-featured-image post-image-header animated" src="{{ site.baseurl }}/images/{{ post.image }}" />
+            </a>
 
-{% if paginator.total_pages > 1 %}
-<nav class="pagination">
-  <div class="pagination-links">
-    {% if paginator.previous_page %}
-      <a class="newer-posts paginator" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer Posts</a>
-    {% else %}
-    {% endif %}
-    <span class="page-number">Page {{paginator.page}} of {{ paginator.total_pages}}</span>
-    {% if paginator.next_page %}
-      <a class="older-posts paginator" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts</a>
-    {% else %}
-    {% endif %}
-  </div>
-</nav>
-{% endif %}
+          <header class="post-header">
+            <h2 class="post-title">
+              <a href="#">Portfolio</a>
+            </h2>
+          </header>
+
+          <section class="post-excerpt">
+          </section>
+            <hr class="post-separator" />
+        </article>
+    </main>
+
+</div>
+<footer>
+  <p class="copyright">Don't jack my shit.</p>
+  <p class="social">
+    <a href='https://www.linkedin.com/in/glucasroe/'>
+      <img alt='LinkedIn' src='images/site/linked-in.svg'>
+    </a>
+    <a href='https://github.com/glucasroe'>
+      <img alt='Github' src='images/site/github.svg'>
+    </a>
+    <a href='https://codepen.io/glucasroe'>
+      <img alt='Codepen' src='images/site/codepen.svg'>
+    </a>
+    <a href='https://twitter.com/glucasroe'>
+      <img alt='Twitter' src='images/site/twitter.svg'>
+    </a>
+    <a href='/feed.xml'>
+      <img alt='RSS Feed' src='images/site/rss.svg'>
+
+    </a>
+  </p>
+</footer>
+<div class="view-toggle" id="view-toggle"></div>
+<script type="text/javascript" src="scripts/scripts-min.js"></script>
+</body>
+</html>

@@ -1,26 +1,24 @@
----
----
 // Externals
-@import "bourbon/bourbon";
+@import "bourbon";
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,900,700italic);
 @import "reset";
 
 //Setup
-@import "variables";
-@import "globals";
-@import "utilities";
+@import "_sass/variables";
+@import "_sass/globals";
+@import "_sass/utilities";
 
 //Sitewide
-@import "header";
-@import "footer";
-@import "vendors";
-@import "zenburn";
+@import "_sass/header";
+@import "_sass/footer";
+@import "_sass/vendors";
+@import "_sass/zenburn";
 
 //Components
-@import "home";
-@import "post";
-@import "posts-page";
-@import "tile";
+@import "_sass/home";
+@import "_sass/post";
+@import "_sass/posts-page";
+@import "_sass/tile";
 
 //Styles
-@import "dark-mode";
+@import "_sass/dark-mode";
