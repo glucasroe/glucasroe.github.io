@@ -32,7 +32,7 @@ Also, if you want an earful, ask me at any time what game I'm playing. I'll prob
 
 ## <a name="contact"></a> Contact:
 
-I'm available for mentorship requests and general chatting. I'm terrible at Twitter, but you can find me on there [@glucasroe](twitter.com/glucasroe). Emails can be sent to `lucas@this domain`. Sorry about the dumb email masking, but the spam is getting nuts. Love letters are inadvisable.
+I'm available for mentorship requests and general chatting. I'm terrible at Twitter, but you can find me on there [@glucasroe](http://twitter.com/glucasroe). Emails can be sent to `lucas@this domain`. Sorry about the dumb email masking, but the spam is getting nuts. Love letters are inadvisable.
 
 ## <a name="aboutthissite"></a> About This Site:
 This site is hosted on Github Pages site using Jekyll. [Here's the repo that generates it](https://github.com/glucasroe/glucasroe.github.io). Type is the lovely Merriweather and Merriweather Light from Ebin Sorkin, served by Google Fonts.
