@@ -269,6 +269,15 @@ figure img {
 @media screen and (min-width: 40em) {
   header h1 {
     font-size: 2rem; } }
+@media screen and (min-width: 40em) {
+  .half-width {
+    width: 47.5%;
+    float: left; }
+    .half-width:nth-child(odd) {
+      margin-left: 5%; } }
+img + img {
+  margin-bottom: 5%; }
+
 .clear {
   clear: both;
   margin: 0; }

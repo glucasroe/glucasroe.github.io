@@ -250,3 +250,19 @@ figure img{
 		font-size: 2rem;
 	}
 }
+
+
+
+/////// KK Customizations
+@media #{$tablet}{
+	.half-width{
+		width:47.5%;
+		float:left;
+		&:nth-child(odd){
+			margin-left: 5%;
+		}
+	}
+}
+img+img{
+	margin-bottom: 5%;
+}
