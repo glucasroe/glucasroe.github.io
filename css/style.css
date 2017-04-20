@@ -273,7 +273,7 @@ figure img {
   .half-width {
     width: 47.5%;
     float: left; }
-    .half-width:nth-child(odd) {
+    .half-width:nth-child(even) {
       margin-left: 5%; } }
 img + img {
   margin-bottom: 5%; }

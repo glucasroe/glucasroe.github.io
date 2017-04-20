@@ -258,7 +258,7 @@ figure img{
 	.half-width{
 		width:47.5%;
 		float:left;
-		&:nth-child(odd){
+		&:nth-child(even){
 			margin-left: 5%;
 		}
 	}
