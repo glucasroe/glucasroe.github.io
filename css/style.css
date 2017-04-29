@@ -278,6 +278,12 @@ figure img {
 img + img {
   margin-bottom: 5%; }
 
+.portrait_image {
+  max-width: 300px; }
+  @media screen and (min-width: 40em) {
+    .portrait_image {
+      float: right; } }
+
 .clear {
   clear: both;
   margin: 0; }

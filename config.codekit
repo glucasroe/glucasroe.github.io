@@ -321,6 +321,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/amcclures\/a_bda_button.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 183002,
+		"inputAbbreviatedPath": "\/images\/amcclures\/a_bda_button.jpg",
+		"outputAbbreviatedPath": "\/images\/amcclures\/a_bda_button.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bevent\/b_eda_1_banner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -409,6 +420,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bevent\/b_eda_button.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76601,
+		"inputAbbreviatedPath": "\/images\/bevent\/b_eda_button.jpg",
+		"outputAbbreviatedPath": "\/images\/bevent\/b_eda_button.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/cpubdesign\/c_pd_1_banner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -449,6 +471,17 @@
 		"initialSize": 126266,
 		"inputAbbreviatedPath": "\/images\/cpubdesign\/c_pd_4_manual.jpg",
 		"outputAbbreviatedPath": "\/images\/cpubdesign\/c_pd_4_manual.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/cpubdesign\/c_pd_button.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 956711,
+		"inputAbbreviatedPath": "\/images\/cpubdesign\/c_pd_button.jpg",
+		"outputAbbreviatedPath": "\/images\/cpubdesign\/c_pd_button.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -530,6 +563,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/dotherdesign\/d_od_button.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112229,
+		"inputAbbreviatedPath": "\/images\/dotherdesign\/d_od_button.jpg",
+		"outputAbbreviatedPath": "\/images\/dotherdesign\/d_od_button.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/site\/heartlogo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -537,6 +581,17 @@
 		"initialSize": 74124,
 		"inputAbbreviatedPath": "\/images\/site\/heartlogo.png",
 		"outputAbbreviatedPath": "\/images\/site\/heartlogo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/site\/index-scene.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 153732,
+		"inputAbbreviatedPath": "\/images\/site\/index-scene.jpg",
+		"outputAbbreviatedPath": "\/images\/site\/index-scene.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -575,6 +630,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/portfolio\/mcclure-branding\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/other-designs\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/other-designs\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/publication-design\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/publication-design\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
