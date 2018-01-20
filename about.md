@@ -21,7 +21,7 @@ I'm Lucas, a UX designer and nerd from Baltimore.
 ## <a name="professionally"></a>Professionally:
 I try to be as broad as possible. I went to school for Design while working as a Front End Developer, and jumped into UX directly after graduating.
 
-I currently work at Fastspot in Hampden, which is literally my favorite company in Baltimore, so I'm pretty happy. (Sorry recruiters, this means I'm not looking for work.)
+I currently work at Fastspot in Hampden, which is literally my favorite company in Baltimore, so I'm pretty happy. (Sorry recruiters, this means I'm not looking for work.) However, I also have a <a href="/resume">resume</a> that you can read if you'd like.
 
 ## <a name="personally"></a>Personally:
 I have a revolving door of obsessions, so I spend a lot of time cooking, playing piano, practicing calligraphy, reading the whole internet, fixing things, building things, woodworking, playing games, and running all over. I live with my wonderful wife Katie, and our daughter Ayla in a log cabin circa the 1800's. Not a joke.
