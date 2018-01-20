@@ -24,7 +24,7 @@ I try to be as broad as possible. I went to school for Design while working as a
 I currently work at Fastspot in Hampden, which is literally my favorite company in Baltimore, so I'm pretty happy. (Sorry recruiters, this means I'm not looking for work.) However, I also have a <a href="/resume">resume</a> that you can read if you'd like.
 
 ## <a name="personally"></a>Personally:
-I have a revolving door of obsessions, so I spend a lot of time cooking, playing piano, practicing calligraphy, reading the whole internet, fixing things, building things, woodworking, playing games, and running all over. I live with my wonderful wife Katie, and our daughter Ayla in a log cabin circa the 1800's. Not a joke.
+I have a revolving door of obsessions, so I spend a lot of time cooking, playing piano, practicing calligraphy, reading the whole internet, fixing things, building things, woodworking, playing games, and running all over. I live with my wonderful wife Katie and our daughter Ayla in a highly renovated and extended upon log cabin from the 1800's. Not a joke.
 
 I have a penchant for raw materials, especially cherry wood and leather. Vacations are typically to the mountains or the ocean or a place with rollercoasters. I dance enthusiastically but with questionable ability. I'm really trying to be a morning person.
 
