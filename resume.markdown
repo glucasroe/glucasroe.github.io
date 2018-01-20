@@ -2,6 +2,7 @@
 layout: page
 title: Resume
 date: '2013-11-23 14:55:00'
+exclude_from_nav: true
 ---
 
 UX Designer and general tech wizzbang with graphic design and front end development experience. Annoyingly focused on user's needs and expectations. Expert in interactive prototyping with Axure. Experienced with HTML and CSS. Intermediate with jQuery. Comfortable in a terminal. Serial experimenter.
@@ -13,7 +14,7 @@ UX Designer and general tech wizzbang with graphic design and front end developm
 ### B.S. Art & Design (Graphic Design Concentration)
 <aside><em>5/2013</em></aside>
 Towson University, Towson MD
- 
+
 ### Human Computer Interaction Course
 <aside><em>8/2014</em></aside>
 [Coursera in Collaboration with University of California, San Diego](https://www.coursera.org/course/hciucsd)
@@ -72,7 +73,7 @@ Towson University, Towson MD
 * Worked inside sub-brands to create collateral materials for four partners.
 * Managed consultants and contractors with tasks and billing.
 
-### Design Intern 
+### Design Intern
 <aside><em>12/2009&ndash;6/2010</em></aside>
 **Sports 55 &mdash; Severna Park, MD**
 
@@ -89,14 +90,14 @@ Towson University, Towson MD
 
 ## Other Experience
 
-### Photography Assistant 
+### Photography Assistant
 <aside><em>6/2011&ndash;12/2013</em></aside>
 **[Jennifer McMenamin Photography](http://jennifermcmenamin.com/) &mdash; Baltimore, MD**
 
 * Second shooting at weddings in the Greater Baltimore Area.
 * Tracks day-of scheduling, clients, and details to ensure smooth events.
 
-### Freelance Designer 
+### Freelance Designer
 <aside><em>1/2010&ndash;present</em></aside>
 **Self Employed &mdash; Wherever My Laptop Is, MD**
 
@@ -106,15 +107,15 @@ Towson University, Towson MD
 
 *Yes, I spent some time working in food service. Well, a lot of time.*
 
-### Shift Manager 
+### Shift Manager
 <aside><em>7/2009&ndash;7/2011</em></aside>
 **Caff&egrave; Pronto, Annapolis MD**
 
-### Gossoon (A.K.A. Busboy) 
+### Gossoon (A.K.A. Busboy)
 <aside><em>8/2008&ndash;1/2009</em></aside>
 **Brian Boru &mdash; Severna Park MD**
 
-### Volunteer Maryland Coordinator 
+### Volunteer Maryland Coordinator
 <aside><em>9/2007&ndash;8/2008</em></aside>
 **Americorps &mdash; Partners in Care, Pasadena <del>CA</del> MD**
 
