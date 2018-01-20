@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Resume
-date: '2013-11-23 14:55:00'
+date: '2018-01-20 14:55:00'
 exclude_from_nav: true
 ---
 
-UX Designer and general tech wizzbang with graphic design and front end development experience. Annoyingly focused on user's needs and expectations. Expert in interactive prototyping with Axure. Experienced with HTML and CSS. Intermediate with jQuery. Comfortable in a terminal. Serial experimenter.
+> UX Designer and general tech wizzbang. Writer, speaker, teacher, and mentor. Focused on product strategy, IA, structure, and performance, and meeting user's needs.
 
 ### <a href="/files/glr-resume.pdf">Download a PDF of my Resume</a>
 
@@ -20,17 +20,20 @@ Towson University, Towson MD
 [Coursera in Collaboration with University of California, San Diego](https://www.coursera.org/course/hciucsd)
 
 
-## Tech Skills
+## Skills
 
 * **Tools**: Axure, Adobe Suite, SCSS, HAML, git
-* **Methodologies**: Wireframing, prototyping, user-centered design
-* **Misc**: JIRA, Google Analytics, Inspectlet
+* **Methodologies**: Wireframing, prototyping, user-centered design, information architecture
 
 ## Experience:
 
 ### User Experience Designer
 <aside><em>8/2016&ndash;present</em></aside>
 **[Fastspot](https://www.fastspot.com/) &mdash; Baltimore, MD**
+
+* Created IA, journey maps, and strategic recommendations for 2 dozen clients.
+* Writing and presenting on UX related topics, including Collaborative IA and Journey Maps.
+* Developing internal processes for functional requirements, IA, and other agency deliverables.
 
 ### Lead User Experience Designer
 <aside><em>7/2015&ndash;8/2016</em></aside>
@@ -44,7 +47,7 @@ Towson University, Towson MD
 <aside><em>12/2014&ndash;7/2015</em></aside>
 **[no.inc](http://www.noinc.com/) &mdash; Baltimore, MD**
 
-* Product UX Lifecycle: User interviews, Personas, Information Architecture, Wireframes, and User Testing.
+* Product UX Lifecycle: User interviews, personas, IA, wireframes, and user testing.
 * Front end development on existing products, merging style bases, refreshing styles, and production work for new products.
 
 ### Junior UX Designer
@@ -54,7 +57,6 @@ Towson University, Towson MD
 * Designed and developed over 20 wireframes and prototypes in Axure.
 * Researched and implemented best practices and user trends.
 * Developed a holistic prototype styleguide and framework in Axure.
-* Developed a data driven IA Sitemapping technique in Axure.
 
 ### Web Producer
 <aside><em>1/2012&ndash;7/2013</em></aside>
@@ -87,6 +89,14 @@ Towson University, Towson MD
 * Prepared screen ready graphics for over 50 customers.
 * Managed retail environment, customers, merchandise, and presentation.
 
+## Volunteering and Leadership
+
+<aside><em></em></aside>
+### Moderator
+**[Designer Hangout](https://www.designerhangout.co/)**
+
+### Organizer/Leadership & Presenter
+**[Baltimore UX Meetup](https://www.meetup.com/Baltimore-UX-Meetup/)**
 
 ## Other Experience
 
@@ -127,4 +137,4 @@ Towson University, Towson MD
 <aside><em>07/1999&ndash;06/2005</em></aside>
 **Capital Newspaper &mdash; Annapolis MD**
 
-* I only put this here because I think it's hilarious that I got my first job as a 10 year old. My neighbors loved me though, I could probably still put some of them as a reference.
+* It's true, I got my first job as a 10 year old. My neighbors loved me though, I could probably still put some of them as a reference.
