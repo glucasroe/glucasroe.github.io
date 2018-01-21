@@ -16,7 +16,7 @@ I don't go by G, surprisingly.
 I'm Lucas, a UX designer and nerd from Baltimore.
 
 <aside>This is what my face looks like, courtesy of <a href="http://www.cast83.com/">Yianni</a>. He takes nice pictures.</aside>
-<img alt="Lucas'  Face" src="/images/pages/lucas-face.jpg" class="about__profile" style="border-radius: 50%;">
+<img alt="Lucas' Face" src="/images/pages/lucas-face.jpg" class="about__profile" style="border-radius: 50%;">
 
 ## <a name="professionally"></a>Professionally:
 I try to be as broad as possible. I went to school for Design while working as a Front End Developer, and jumped into UX directly after graduating.
