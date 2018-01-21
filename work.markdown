@@ -4,7 +4,7 @@ title: Work
 date: '2013-11-24 17:00:00'
 ---
 
-I have other projects that I've worked on that I can't show here because of the nature of the final work, please [get in touch](mailto:lucas@glucasroe.com) if you'd like more examples!
+This isn't a full record of my work&mdash;sometimes I don't have permission to show how the sausage is made in a public setting.
 
 ## Case Studies:
 <div class="tile-wrapper">

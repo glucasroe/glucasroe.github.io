@@ -35,16 +35,16 @@
     <body class='animating-in'>
     <header class="site-header">
         <a href='{{ site.baseurl }}/'>
-          <img alt='G. Lucas Roe' src='{{ site.baseurl }}/images/site/seal.svg'>
-          <h1>G. Lucas Roe</h1>
+          <img class="site-header__logo" alt='G. Lucas Roe' src='{{ site.baseurl }}/images/site/seal.svg'>
+          <h1 class="site-header__title">G. Lucas Roe</h1>
         </a>
-        <nav>
+        <nav class="site-header__nav">
           {% capture location %}{{ page.url | remove:'/' | strip }}{% endcapture %}
           {% for page in site.pages %}
             {% unless page.exclude_from_nav %}
               {% if page.title %}
                 {% assign current = page.title | downcase %}
-                <a href="{{page.url | prepend: site.baseurl }}" {% if location == current %} class="nav--current" {% endif %} >{{ page.title }}</a>
+                <a href="{{page.url | prepend: site.baseurl }}" class="site-header__nav-link {% if location == current %} nav--current {% endif %}" >{{ page.title }}</a>
               {% endif %}
             {% endunless %}
           {% endfor %}
