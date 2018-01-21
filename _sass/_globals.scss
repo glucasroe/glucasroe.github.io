@@ -64,6 +64,10 @@ h4{
 	font-family: $serif;
 }
 
+h1,h2,h3,h4,h5,ul,li,p,img, .tile{
+	max-width: 50rem;
+	text-align: left;
+}
 p,aside,pre code,li{
 	font-size: 1rem;
 	line-height: 1.75;
@@ -73,7 +77,11 @@ p,aside,pre code,li{
 		line-height: 1.85;
 	}
 }
-
+img,video,.gfyvid{
+	display:block;
+	max-width:100%;
+	margin-left:0;
+}
 code{
 	font-family: monaco, monospace;
 	color:$grey-4;
