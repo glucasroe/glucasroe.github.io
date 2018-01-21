@@ -4,7 +4,7 @@ html{
 }
 body{
 	width:100%;
-	font-family:$serif;
+	font-family:$light;
 	color:#333;
 	* + *{
 		margin:1em auto 0;
@@ -43,7 +43,7 @@ h1{
 	font-size: 3rem;
 	color: $grey-2;
 	font-family: $light;
-	line-height:1.1;
+	line-height:1.35;
 }
 
 h2{
@@ -53,7 +53,9 @@ h2{
 
 h3{
 	font-size: 2rem;
+	font-family: $serif;
 	color:$cool-grey;
+	line-height: 1.4;
 }
 
 h4{
@@ -71,9 +73,9 @@ h1,h2,h3,h4,h5,ul,li,p,img, .tile{
 p,aside,pre code,li{
 	font-size: 1rem;
 	line-height: 1.75;
-	color:$grey-3;
+	color:$grey-2;
 	@media #{$desktop}{
-		font-size: 1.35rem;
+		font-size: 1.2rem;
 		line-height: 1.85;
 	}
 }
