@@ -5,7 +5,7 @@ date: '2018-01-20 14:55:00'
 exclude_from_nav: true
 ---
 
-> UX Designer and general tech wizzbang. Writer, speaker, teacher, and mentor. Focused on product strategy, IA, structure, and performance, and meeting user's needs.
+> UX Designer and general tech wizzbang. Writer, speaker, teacher, and mentor. Focused on product strategy, IA, structure, and performance, and meeting user's needs. 
 
 ### <a href="/files/glr-resume.pdf">Download a PDF of my Resume</a>
 
