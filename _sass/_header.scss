@@ -18,14 +18,14 @@
 }
 .site-header__title{
 	text-align: left;
-	font-family: $serif;
-	font-weight: bold;
+	font-family: $light;
 	margin-left: 1rem;
 	margin-top: 0;
 	font-size: 1.5rem;
 	display:inline-block;
 	vertical-align: middle;
-	color: $grey-7;
+	color: $grey-6;
+	letter-spacing: 1.5;
 }
 
 .site-header__nav{
@@ -65,7 +65,7 @@
 		width:auto;
 		float:none;
 		background-size:2px 2px;
-		&+a{
+		&:nth-child(2){
 			border:0;
 			margin-left: 2rem;
 		}

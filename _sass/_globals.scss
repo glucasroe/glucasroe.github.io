@@ -218,6 +218,7 @@ hr{
 	@include linear-gradient(left, $red, $red-3);
 }
 strong{
+	font-family: $serif;
 	font-weight: bold;
 }
 em{
