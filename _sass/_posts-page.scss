@@ -3,24 +3,48 @@ article.post-preview{
 	position: relative;
 
 }
+.post-featured-image{
+	transform: translateY(0.25rem);
+	&:hover{
+		@include filter(grayscale(0%)contrast(1)brightness(1));
+		transform: translateY(0);
+	}
+}
+.listing__title{
+	margin-top:0;
+}
 .post-excerpt{
 	font-size: 1rem;
 }
 
+.post__external{
+	padding-left: 2rem;
+	&:after{
+		content:"";
+		height: 100%;
+		display: block;
+		position: absolute;
+		margin-left: 0;
+		left:0rem;
+		top: 0;
+		width: 0.5rem;
+		background-color: $transparent-red-4;
+	}
+}
+
 .post-separator{
 	margin-top:2.5rem;
+	overflow: visible;
 	&:before{
-		content: "\2219";
+		content: "";
 		position: relative;
 		display:block;
-		width: 1rem;
-		color: $white;
-		text-shadow: $red 0px 1px 0px,
-					$red 0px -1px 0px,
-					$red 0px 2px 0px,
-					$red 0px -2px 0px;
-		font-size: 1rem;
-		top: -0.5rem;
+		width: 6px;
+		height: 6px;
+		background-color: $white;
+		border-radius:50%;
+		border: 1px solid $red;
+		top: -3px;
 		margin: 0 auto 0;
 		text-align: center;
 	}

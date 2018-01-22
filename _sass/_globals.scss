@@ -126,14 +126,14 @@ blockquote{
 	margin: 2rem 0;
 	position:relative;
 	&:before{
-		font-family: $light;
+		/*font-family: $light;
 		content:'\201C';
 		font-style: normal;
 		font-size: 4rem;
 		position: absolute;
 		left:-3rem;
 		margin-left: 0;
-		color: $transparent-red-4;
+		color: $transparent-red-4;*/
 	}
 	&:after{
 		content:"";
@@ -215,7 +215,7 @@ hr{
 	border:none;
 	height:1px;
 	display:block;
-	@include linear-gradient(left, $red, $red-3);
+	@include linear-gradient(left, $red-2, $red, $red-2);
 }
 strong{
 	font-family: $serif;
