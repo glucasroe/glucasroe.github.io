@@ -1,9 +1,8 @@
 ---
 layout: link
-title: Slacking my Way Into Work.
-date: '2017-01-04 21:12:44'
-image: posts/external/slacking.jpg
-exturl: https://www.fastspot.com/publications/slacking-my-way-into-work/
-publication: Fastspot
-publicationsite: https://www.fastspot.com
+title: Rotating Image Campaigns are Cheapening Your Website.
+date: '2014-03-27 21:12:44'
+exturl: https://www.r2integrated.com/r2insights/rotating-image-campaigns-are-cheapening-your-website
+publication: R2integrated
+publicationsite: https://www.r2integrated.com/
 ---

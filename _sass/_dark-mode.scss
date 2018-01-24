@@ -82,16 +82,22 @@ body,h1,h2,h3,h4,h5,h6,p,li,q,aside,code{
   }
 
   //Posts page
-  .post-separator{
-  	&:before{
-  		text-shadow: $grey-1 0px 1px 0px,
-  					$grey-1 0px -1px 0px,
-  					$grey-1 0px 2px 0px,
-  					$grey-1 0px -2px 0px;
-  	}
+  .post-separator:before{
+  		background-color: $grey-1;
   }
   .comments{
     background-color: white;
     border-radius: 3px;
+  }
+  //Actual posts
+  .anchor-links{
+    background-color: $grey-0;
+    a{
+  		color: $red;
+  		&:hover{
+  			background-color:$grey-2;
+        color: $red-7;
+  		}
+    }
   }
 }
