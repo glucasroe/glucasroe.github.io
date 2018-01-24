@@ -38,23 +38,6 @@
     }
 }
 
-.post-featured-image{
-	&:hover{
-		@include filter(grayscale(0%)contrast(1)brightness(1));
-	}
-}
-
-img,video,.gfyvid{
-	display:block;
-	max-width:100%;
-	margin-left:0;
-}
-
-h1,h2,h3,h4,h5,ul,li,p,img, .tile{
-	max-width: 50rem;
-	text-align: left;
-}
-
 .images-fix{
 	margin-left:0;
 	width:100%;
