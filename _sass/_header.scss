@@ -54,8 +54,8 @@
 	text-align: center;
 	background-position: 0 1.7em;
 	background-size:0;
-	&:nth-child(2){
-		border-left: 1px solid $red-4;
+	&:first-child{
+		border-right: 1px solid $red-4;
 	}
 	&:hover{
 		background-color: $red;
@@ -66,9 +66,9 @@
 		width:auto;
 		float:none;
 		background-size:2px 2px;
-		&:nth-child(2){
-			border:0;
-			margin-left: 2rem;
+		&:first-child{
+			border-right:0;
+			margin-right: 2rem;
 		}
 		&:hover{
 			background-color: transparent;
