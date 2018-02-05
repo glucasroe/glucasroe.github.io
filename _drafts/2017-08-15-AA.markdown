@@ -29,6 +29,12 @@ Our task was to launch the 8th iteration of Association anywhere, a complete ove
 
 When I started at ACGI, we had a prototype that had been languishing in the company for a while. The prototype was a navigation overhaul, collecting together a lot of various types of navigation from throughout the system into a single tree structure. It was a huge improvement just through consolidation, because new users now didn't have to memorize which navigational structure came from which place. This had an added benefit of clarifying the hierarchy between the different levels of navigation in the interfaces, more clearly differentiating the switch view (Which moves users between different tables of a record) and actions (Which could apply to the record as a whole, or to the individual page.)
 
+<aside>The rough structure of the navigation before the redesign</aside>
+![Wireframe of the navigational setup before](/images/posts/aa/aa-navigation-before.jpg)
+
+<aside>The basic structure of the redesign</aside>
+![Wireframe of the navigational setup after](/images/posts/aa/aa-navigation-after.jpg)
+
 We began with a thorough heuristic evaluation of the prototype alongside of the broader product, which surfaced a lot of opportunities for small wins and gave us a solid baseline for the goals  we wanted to accomplish over the next few months. Version 8 would also be a major technology change for the software, so we had to walk into it with smart intentions and be prepared to move fast. ACGI is an agile-ish shop, and so we had a clear knowledge of how much work we could accomplish and in what sort of time frame. We had to start ramping up.
 
 ## Structure

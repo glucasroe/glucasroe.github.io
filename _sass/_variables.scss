@@ -18,19 +18,19 @@ $grey-4: darken($cool-grey,10%); //#61667f
 $grey-3: darken($cool-grey,20%); //#4b4f62
 $grey-2: darken($cool-grey,30%); //#353845
 $grey-1: darken($cool-grey,40%); //#1f2028
-$grey-0: darken($cool-grey,50%); //#09090b
+$grey-0: darken($cool-grey,50%); //#09090b 
 
-$red-10: lighten($red,50%);
-$red-9: lighten($red,40%);
-$red-8: lighten($red,30%);
-$red-7: lighten($red,20%);
-$red-6: lighten($red,10%);
-$red-5: $red;
-$red-4: darken($red,10%);
-$red-3: darken($red,20%);
-$red-2: darken($red,30%);
-$red-1: darken($red,40%);
-$red-0: darken($red,50%);
+$red-10: lighten($red,50%);// White
+$red-9: lighten($red,40%); //#f8ebe7
+$red-8: lighten($red,30%); //#edcbbf
+$red-7: lighten($red,20%); //#e2aa97
+$red-6: lighten($red,10%); //#d78a6f
+$red-5: $red;              //#cc6947
+$red-4: darken($red,10%);  //#bb5734
+$red-3: darken($red,20%);  //#9b482b
+$red-2: darken($red,30%);  //#7b3922
+$red-1: darken($red,40%);  //#602c1a
+$red-0: darken($red,50%);  //#381a0f
 
 $transparent-red-1: fade-out($red, 0.2);
 $transparent-red-2: fade-out($red, 0.4);
