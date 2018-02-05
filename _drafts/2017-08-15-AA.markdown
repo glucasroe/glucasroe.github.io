@@ -1,0 +1,47 @@
+---
+layout: post
+title: 'Project: Association Anywhere—Version 8'
+date: '2017-08-15 05:34:34'
+tags: project
+read: 4:43
+---
+
+While I worked at ACGI, whenever I would meet someone and that would ask what I did, I glazed a lot of eyeballs. After running through what it means to be a UX Designer, we would start talking about the work that the company did&mdash;making association management software. Professional associations run pretty similarly to other businesses or organizational bodies, but they typically do so with few resources for all of the myriad functions they need to put on. ACGI created the nerve center for these organizations, a sprawling product called "Association Anywhere" that managed almost every aspect of an associations existance.
+
+Our task was to launch the 8th iteration of Association anywhere, a complete overhaul of the system's user facing navigation. We had from when I was hired in August until the user conference that next Spring.
+
+**Note**: ACGI doesn't release screenshots of their system publically, so you aren't going to see any here.
+
+<div class="anchor-links">
+    <a href="#evaluation">Evaluation</a>
+    <a href="#structure">Structure</a>
+    <a href="#testing-and-refinement">Testing and Refinement</a>
+    <a href="#outcomes">Outcome</a>
+</div>
+
+#### Overview:
+
+* **Company**: <a href="https://www.acgisoftware.com/">ACGI Software</a>
+* **Collaborators**: Greg Reich, Head of Product. Alan Moore, UX Developer. Also, a ton of great developers on the ACGI Team.
+* **Technology**: Oracle Database
+
+## Evaluation
+
+When I started at ACGI, we had a prototype that had been languishing in the company for a while. The prototype was a navigation overhaul, collecting together a lot of various types of navigation from throughout the system into a single tree structure. It was a huge improvement just through consolidation, because new users now didn't have to memorize which navigational structure came from which place. This had an added benefit of clarifying the hierarchy between the different levels of navigation in the interfaces, more clearly differentiating the switch view (Which moves users between different tables of a record) and actions (Which could apply to the record as a whole, or to the individual page.)
+
+We began with a thorough heuristic evaluation of the prototype alongside of the broader product, which surfaced a lot of opportunities for small wins and gave us a solid baseline for the goals  we wanted to accomplish over the next few months. Version 8 would also be a major technology change for the software, so we had to walk into it with smart intentions and be prepared to move fast. ACGI is an agile-ish shop, and so we had a clear knowledge of how much work we could accomplish and in what sort of time frame. We had to start ramping up.
+
+## Structure
+
+Improving the product was our #1 goal, but we also wanted to set up the company to do good work faster and with less effort in the future. That was only going to come about by creating a scaffolding for us all to use, in both concept and technology.
+
+I started with a detailed breakdown of our design system in Confluence, giving detailed guidelines on what elements to use and when, and establishing an overall design system for the company. Because of the technology we were using, this system was largely documentation of the decisions we made instead of being a true, living style guide. However, this opened up communication with our developers and engineers about the interfaces that we used, why and when we would pull in specific components. Much of this was done by collecting together the various ways that we already did the interface design through years of legacy design, documenting the different versions that we saw of different pieces of inteface design and unifying them into a single standard. The product department (Greg and I) also set up trainings with the engineering staff to teach them simple usability heuristics and standards, and to get them moving towards making more consistent, understandable interfaces.
+
+Alan and I also oversaw a complete restructuring of the CSS of the application, which we broke down into a modern SCSS framework. It was so truly lovely to throw out buckets of legacy styling, and instead have a cleanly structured, logically arranged files.
+
+While we were iterating on building out the first iterations of the interface overhaul and technology changes, I created a detailed testing plan that outlined what we would be testing, and how.
+
+## Testing and Refinement
+
+## Outcomes
+

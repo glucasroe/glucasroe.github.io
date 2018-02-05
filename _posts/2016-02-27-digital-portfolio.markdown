@@ -40,15 +40,15 @@ We started the project with a series of phone interviews with parents and educat
 
 After interviewing some of the students, Mr. Lee, and then a few parents, we established our target users and began planning our feature set.
 
-#### Initial Whiteboard sketches for a portfolio dashboard
+<aside>Initial Whiteboard sketches for a portfolio dashboard</aside>
 ![Dashboard whiteboarding](/images/posts/imported/2016/02/dashboard.png)
 
-#### Thinking through a student’s relationship to the curriculum
+<aside>Thinking through a student’s relationship to the curriculum</aside>
 ![Categorization Schema](/images/posts/imported/2016/02/workflows.png)
 
 We made personas meant to encompass our main 3 use cases: student, teacher, and parent. 
 
-#### Example Teacher Persona
+<aside>Example Teacher Persona</aside>
 ![Example persona](/images/posts/imported/2016/02/teacher-persona.png)
 
 After creating an information architecture based off of our initial feature list and personas, we jumped into a detailed wireframing phase. Because of the timelines of scheduling user tests, we had a month and a half of lag time between our initial interviews and our first round of user tests. We decided testing with a more robust prototype would make the best use of this time.
@@ -57,24 +57,24 @@ After creating an information architecture based off of our initial feature list
 
 One of the biggest changes that came out of our user testing was our language. Thankfully, our colleagues at Johns Hopkins agreed to come with us and witness the testing sessions. They were stunned at how literally students interpreted our language.
 
-#### Early version of the language
+<aside>Early version of the language</aside>
 ![Product areas called Roadmap, Library, and Portfolio](/images/posts/imported/2016/02/language.png)
 
 > **Me**: What do you think is in “Roadmap?”
 
 > **Student**: &hellip; I guess your GPS?
 
-#### Revised language
+<aside>Revised language</aside>
 ![Product areas revised to Your Tasks, Your Files, and Your Portfolio](/images/posts/imported/2016/02/language-revised.png)
 
 We needed the ability for the students to send notifications to their teachers without the teachers being overwhelmed. Some teachers or case managers could have as many as 200 students as part of their caseload, so we had a delicate balancing act of allowing simple communication while not causing a flood of messages for teachers. This is what drove the design of our feedback system.
 
 We also found that students were afraid of exploration when following direct instructions. Consequentially, we needed very linear paths for them to follow in the system. We rearranged the feedback  so it was visible alongside the content, making sure that students realized when they were in the right place.
 
-#### The initial feedback system
+<aside>The initial feedback system</aside>
 ![Feedback system with the feedback below the assignment](/images/posts/imported/2016/02/feedback.png)
 
-#### Revised feedback system
+<aside>Revised feedback system</aside>
 ![Revised system with feedback to the right of the assignment](/images/posts/imported/2016/02/feedback-revised.png)
 
 Between rounds of user testing, we tweaked our questions, the interfaces themselves and our language. We even phased out simpler workflows that students understood more quickly.
@@ -85,15 +85,15 @@ Teachers (or as we ended up calling them, case managers) have far too many tools
 
 A perfect example of this mentality was the design of “Paths.” While the teachers need very granular tools to manage their student’s assignments, students generally fall into a couple of archetypes. Our proposed solution was the Path, which gives the teachers a quick way to assign students a set of assignments, while also tagging the student as a member of the Path. This gives the teacher a way to find and understand the general makeup of their classroom quickly, while still allowing them to customize curriculum for individual students.
 
-#### The sketch laying out "tracks" (Which turned into paths)
+<aside>The sketch laying out "tracks" (Which turned into paths)</aside>
 ![Shows ideation of how to set state for multiple assignments at once](/images/posts/imported/2016/02/path-sketch.png)
 
-#### The path interface
+<aside>The path interface</aside>
 ![Final interface for path setting](/images/posts/imported/2016/02/path-interface.png)
 
 As we worked through the teacher tools, this balance of efficiency and specificity was our constant focus.
 
-#### The granularity that balances the templating
+<aside>The granularity that balances the templating</aside>
 ![Showing how students can have individual tasks associated with them](/images/posts/imported/2016/02/granular-assignments.png)
 
 ## What didn’t work:
