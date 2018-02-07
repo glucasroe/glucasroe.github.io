@@ -2,6 +2,7 @@
 layout: post
 title: 'Project: Association Anywhere—Version 8'
 date: '2017-08-15 05:34:34'
+image: '/images/posts/aa/aa-logo.png'
 tags: project
 read: 4:43
 ---

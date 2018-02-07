@@ -19,7 +19,7 @@ Sadly, some of my work I can't show here because of NDAs or general discretion. 
 </div>
 <div class="case-study">
     <a href="/association-anywhere">
-        <img class="case-study__image" src="">
+        <img class="case-study__image" src="/images/posts/aa/aa-logo.png">
     </a>
     <div class="case-study__text">
         <a href="/association-anywhere">
