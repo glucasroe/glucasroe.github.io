@@ -39,7 +39,9 @@ When I started at ACGI, we had a prototype that had been languishing in the comp
     <figcaption>The basic structure of the redesign</figcaption>
 </figure>
 
-We began with a thorough heuristic evaluation of the prototype alongside of the broader product, which surfaced a lot of opportunities for small wins and gave us a solid baseline for the goals  we wanted to accomplish over the next few months. Version 8 would also be a major technology change for the software, so we had to walk into it with smart intentions and be prepared to move fast. ACGI is an agile-ish shop, and so we had a clear knowledge of how much work we could accomplish and in what sort of time frame. We had to start ramping up.
+We began with a thorough heuristic evaluation of the prototype alongside of the broader product, which surfaced a lot of opportunities for small wins and gave us a solid baseline for the goals  we wanted to accomplish over the next few months. Version 8 would also be a major technology change for the software, so we had to walk into it with smart intentions and be prepared to move fast. ACGI is an agile-ish shop, and so we had a clear knowledge of how much work we could accomplish and in what sort of time frame.
+
+The heuristic evaluation gave us a strong ability to prioritize changes, giving us a better baseline product to test against. Many of the changes that came out of the heuristic review were relatively simple, straight-forward solutions. Others were more difficult, but that early process gave us the ability to plan on those changes in the future.
 
 ## Structure
 
@@ -47,9 +49,11 @@ Improving the product was our #1 goal, but we also wanted to set up the company 
 
 I started with a detailed breakdown of our design system in Confluence, giving detailed guidelines on what elements to use and when, and establishing an overall design system for the company. Because of the technology we were using, this system was largely documentation of the decisions we made instead of being a true, living style guide. However, this opened up communication with our developers and engineers about the interfaces that we used, why and when we would pull in specific components. Much of this was done by collecting together the various ways that we already did the interface design through years of legacy design, documenting the different versions that we saw of different pieces of interface design and unifying them into a single standard. The product department (Greg and I) also set up trainings with the engineering staff to teach them simple usability heuristics and standards, and to get them moving towards making more consistent, understandable interfaces.
 
-Alan and I also oversaw a complete restructuring of the CSS of the application, which we broke down into a modern SCSS framework. It was so truly lovely to throw out buckets of legacy styling, and instead have a cleanly structured, logically arranged files. We went with a structure loosely based on `inuit.css`, with an emphasis on self documenting code, good modularity, and a reasonable specificity curve (There were a lot of `!important`s previously).
+Alan and I also oversaw a complete restructuring of the CSS of the application, which we broke down into a modern SCSS framework. It was so truly lovely to throw out buckets of legacy styles, and instead have a cleanly structured, logically arranged files. We went with a structure loosely based on `inuit.css`, with an emphasis on self documenting code, good modularity, and a reasonable specificity curve (There were a lot of `!important`s previously).
 
-While we were iterating on building out the first iterations of the interface overhaul and technology changes, I created a detailed testing plan that outlined what we would be testing, and how.
+While we were iterating on building out the first iterations of the interface overhaul and technology changes, I created a detailed testing plan that outlined what we would be testing, and how. Based off of interviews with various people at ACGI, my product manager's goals for the redesign, and just various bits of information I picked up from working with the product everyday, we outlined about 12 questions that we wanted to be able to definitively answer at the end of the testing process. These were mostly focused on 2 ideas:
+1. Do users understand the new system? If not, can they learn it quickly?
+2. Once they understand the space better, is their overall ability to move through the system improved?
 
 ## Testing and Refinement
 

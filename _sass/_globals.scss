@@ -28,7 +28,8 @@ a{
 		text-shadow: 1px 1px 0px #fff,2px 2px 0px $transparent-red-3;
 	}
 	p > &,
-	nav > &{
+	nav > &,
+	.case-study__title{
 		@include background-image(linear-gradient(top, rgba(0,0,0,0) 50%, $transparent-red-4 50%));
 		background-repeat: repeat-x;
 		background-size:2px 2px;
@@ -70,7 +71,7 @@ h1,h2,h3,h4,h5,ul,li,p,img, .tile{
 	max-width: 50rem;
 	text-align: left;
 }
-p,aside,pre code,li, figcaption{
+p,aside,pre code,li, figcaption,button{
 	font-size: 1rem;
 	line-height: 1.75;
 	color:$grey-2;
@@ -234,6 +235,23 @@ figure{
 	}
 	img{
 		box-shadow: $grey-9 0 2px 2rem;
+	}
+}
+button{
+	padding: .25em 1em;
+	border:0;
+	border-radius: .5em;
+	background-color: $red;
+	color: $white;
+
+	font-family: $serif;
+	background-color: $red;
+	border: 1px solid $red-4;
+	color: $white;
+	@include transition(opacity 0.5s, transform 0.5s,box-shadow 0.5s);
+	&:hover{
+		box-shadow: 0px 4px 15px $grey-8;
+		@include transform(translateY(-2px));
 	}
 }
 ::selection{

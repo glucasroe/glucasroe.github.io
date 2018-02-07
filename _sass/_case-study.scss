@@ -1,0 +1,32 @@
+.case-study{
+    font-size:2em;
+ @media #{$tablet}{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+}
+.case-study > *{
+    @media #{$tablet}{
+        max-width:45%;
+    }
+}
+.case-study__text{
+    @media #{$tablet} {
+        margin-top: 0;
+    }
+}
+.case-study__title{
+    color: $red;
+    display: inline;
+}
+.case-study:after{
+    content: '';
+    @extend %site-width;
+    width: 100%;
+    display: block;
+    height: 1px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color:$grey-8;
+}

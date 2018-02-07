@@ -4,54 +4,63 @@ title: Work
 date: '2013-11-24 17:00:00'
 ---
 
-This isn't a full record of my work&mdash;sometimes I don't have permission to show how the sausage is made in a public setting.
+## Selected Project Case Studies:
 
-## Case Studies:
-<div class="tile-wrapper">
-    <div class="tile">
-         <img class="" src="/images/posts/imported/2016/02/digital-portfolio.png" />
-         <div class="title">
-             <a href="/digital-portfolio">
-                 <h3>Digital Portfolio</h3>
-                 <div class="button">OPEN PROJECT</div>
-             </a>
-         </div>
+Sadly, some of my work I can't show here because of NDAs or general discretion. Here are the things that are in the sweet spot of "able to talk about" and "emblematic of my work".
+<!--<a href="/digital-portfolio">-->
+<div class="case-study">
+    <a href="/digital-portfolio">
+        <img class="case-study__image" src="/images/posts/imported/2016/02/digital-portfolio.png">
+    </a>
+    <div class="case-study__text">
+        <a href="/digital-portfolio">
+            <h3 class="case-study__title">Digital Portfolio</h3>
+            <p class="case-study__description">Helping high-school students with disabilities navigate their transition to college, work, and community living.</p>
+        </a>
     </div>
-    <div class="tile">
-         <img class="" src="/images/posts/imported/2016/01/funeral-matters.png" />
-         <div class="title">
-             <a href="/funeral-matters/">
-                 <h3>Funeral Matters</h3>
-                 <div class="button">OPEN PROJECT</div>
-             </a>
-         </div>
+</div>
+<!--<div class="case-study">
+    <a href="/association-anywhere">
+        <img class="case-study__image" src="">
+    </a>
+    <div class="case-study__text">
+        <a href="/association-anywhere">
+            <h3 class="case-study__title">Association Anywhere: Version 8</h3>
+            <p class="case-study__description">Analyzing, testing, and releasing a massive redesign of the leading association management product.</p>
+        </a>
     </div>
-    <div class="tile">
-         <img class="" src="/images/posts/imported/2014/11/vertafore-banner.png" />
-         <div class="title">
-             <a href="/vertafore/">
-                 <h3>Vertafore</h3>
-                 <div class="button">OPEN PROJECT</div>
-             </a>
-         </div>
-     </div>
-     <div class="tile">
-         <img class="" src="/images/posts/imported/2015/12/bunn.jpg" />
-         <div class="title">
-             <a href="/bunn/">
-                 <h3>BUNN</h3>
-                 <div class="button">OPEN PROJECT</div>
-             </a>
-         </div>
+</div>-->
+<div class="case-study">
+    <a href="/funeral-matters">
+        <img class="case-study__image" src="/images/posts/imported/2016/01/funeral-matters.png">
+    </a>
+    <div class="case-study__text">
+        <a href="/funeral-matters">
+            <h3 class="case-study__title">Funeral Matters</h3>
+            <p class="case-study__description">Helping the bereaved better understand the details of planning a funeral with a simple and kind iPad app.</p>
+        </a>
     </div>
-    <div class="tile">
-        <img class="" src="/images/posts/imported/2015/06/Screen-Shot-2015-06-16-at-1-18-29-PM.png">
-        <div class="title">
-            <a href="http://glucasroe.com/100-days-of-good-ux-a-recap/" target="_blank">
-                <h3>100 Days of Good UX</h3>
-                <div class="button">OPEN PROJECT</div>
-            </a>
-        </div>
+</div>
+<div class="case-study">
+    <a href="/bunn">
+        <img class="case-study__image" src="/images/posts/imported/2015/12/bunn.jpg">
+    </a>
+    <div class="case-study__text">
+        <a href="/bunn">
+            <h3 class="case-study__title">Bunn</h3>
+            <p class="case-study__description">Strategizing and wireframing a site redesign for one of the biggest coffee companies in the world.</p>
+        </a>
+    </div>
+</div>
+<div class="case-study">
+    <a href="http://100daysofgoodux.tumblr.com/">
+        <img class="case-study__image" src="/images/posts/imported/2015/06/Screen-Shot-2015-06-16-at-1-18-29-PM.png">
+    </a>
+    <div class="case-study__text">
+        <a href="http://100daysofgoodux.tumblr.com/">
+            <h3 class="case-study__title">100 Days of Good UX</h3>
+            <p class="case-study__description">A 100 days project and blog, focused on writing about the nice things in design (instead of just harping about the bad).</p>
+        </a>
     </div>
 </div>
 
