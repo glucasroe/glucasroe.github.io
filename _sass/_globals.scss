@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,ul,li,p,img, .tile{
 	max-width: 50rem;
 	text-align: left;
 }
-p,aside,pre code,li{
+p,aside,pre code,li, figcaption{
 	font-size: 1rem;
 	line-height: 1.75;
 	color:$grey-2;
@@ -112,15 +112,9 @@ pre{
 aside{
 	color:$red-3;
 	font-family: $serif;
-	@media #{$desktop}{
-		float:left;
-		position:absolute;
-		width:12rem;
-		padding:0;
-		left:-14rem;
-		margin-left: 2.5%;
-		text-align: right;
-	}
+	@extend %left-margin-hang;
+	padding:0;
+	left:-14rem;
 }
 blockquote{
 	margin: 2rem 0;
@@ -226,23 +220,20 @@ em{
 }
 figure{
 	position:relative;
-	z-index: 1;
 	figcaption{
-		position: absolute;
-		bottom: 0;
-		left: 1.5em;
-		padding:20px 0;
-		z-index:2;
-		width:100%;
-		h2{
-			text-transform: uppercase;
-			font-family: $serif;
-			font-weight: 900;
-			color: #fff;
-			&:after{
-				border-bottom:0;
+		padding: 1rem;
+		background-color:$grey-9;
+		color:$red-3;
+		border-radius: 0.5em;
+			@extend  %left-margin-hang;
+			@media #{$desktop}{
+				left: -15rem;
+				z-index: -1;
+				border-radius: 0.5rem 0 0 0.5rem;
 			}
-		}
+	}
+	img{
+		box-shadow: $grey-9 0 2px 2rem;
 	}
 }
 ::selection{
@@ -251,11 +242,6 @@ figure{
 }
 
 //// LEGACY?
-figure img{
-	margin-left:0;
-	width:100%;
-	max-width:100%;
-}
 @media #{$tablet}{
 	header h1{
 		font-size: 2rem;

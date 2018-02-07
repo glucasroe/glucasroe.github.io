@@ -20,6 +20,16 @@
 		left: 0rem;
 	}
 }
+%left-margin-hang{
+	@media #{$desktop}{
+		position:absolute;
+		top:0;
+		width:12rem;
+		margin-top:0;
+		margin-left: 2.5%;
+		text-align: right;
+	}
+}
 
 .animated{
 	@include transition(all .25s);
