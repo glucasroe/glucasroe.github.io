@@ -51,11 +51,21 @@ I started with a detailed breakdown of our design system in Confluence, giving d
 
 Alan and I also oversaw a complete restructuring of the CSS of the application, which we broke down into a modern SCSS framework. It was so truly lovely to throw out buckets of legacy styles, and instead have a cleanly structured, logically arranged files. We went with a structure loosely based on `inuit.css`, with an emphasis on self documenting code, good modularity, and a reasonable specificity curve (There were a lot of `!important`s previously).
 
-While we were iterating on building out the first iterations of the interface overhaul and technology changes, I created a detailed testing plan that outlined what we would be testing, and how. Based off of interviews with various people at ACGI, my product manager's goals for the redesign, and just various bits of information I picked up from working with the product everyday, we outlined about 12 questions that we wanted to be able to definitively answer at the end of the testing process. These were mostly focused on 2 ideas:
+## Testing and Refinement
+
+While we were iterating on building out the first versions of the interface overhaul and technology changes, I created a detailed testing plan that outlined what we would be testing, and how. Based off of interviews with various people at ACGI, the product department's goals for the redesign, and just various bits of information I picked up from working with the product everyday, we outlined about 12 questions that we wanted to be able to definitively answer at the end of the testing process. These were mostly focused on 2 ideas:
 1. Do users understand the new system? If not, can they learn it quickly?
 2. Once they understand the space better, is their overall ability to move through the system improved?
 
-## Testing and Refinement
+Our testing program was with our current partner organizations, testing the interface on users with various levels of familiarity with the system. Our testing plan paid off in spades because we were able to collaborate with our client contacts to find users who had been working with the product for 5 years,and even someone who had just started the week prior.
+
+In each case, I went to the client site, testing scripts and a camera in tow, and did in person usability tests with each person on our schedule. Overall, we tested with about 25 different people. We instantly learned a few things:
+1. Dear lord, did the navigation improvements make sense to people. They were learning the new method in minutes when it took weeks to grasp previously.
+2. Our language and mental models about the navigation were a huge hinderance to the users understanding what we were talking about.
+
+My favorite example of this came from a fairly simple feature we built in at the outset&mdash;the ability to collapse the menu and to keep it "pinned" open. After futzing with it for a few months, we were well familiar with the functionality of it, and it would make perfect sense to our users... right?
+
+Turns out that it made zero sense to anyone. The menu automatically opened up, so when they saw something that kept the menu open, they just never touched it. We flipped the script&mdash;hey, what if the menu auto closed so that you can use a small screen more easily! Well now the users think that if they click this button it's going to exit them out of their browser entirely. Thankfully, our iterative testing gave us the ability to make changes through the process, finding small refinements and fixes as problems came up. Eventually, we realized that we could call it "Auto Hide" which when paired with a "Hide Menu" button, made it clear what the function was and how it would work.
 
 ## Outcomes
-
+At our user conference in 2016, we presented a detailed overview of the changes that were coming to the AA interface in the coming months. What had just been a prototype previously was now a reality in bound to the clients, and our session served as a quick training method to get them up to speed.

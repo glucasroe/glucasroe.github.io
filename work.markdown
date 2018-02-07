@@ -5,9 +5,7 @@ date: '2013-11-24 17:00:00'
 ---
 
 ## Selected Project Case Studies:
-
 Sadly, some of my work I can't show here because of NDAs or general discretion. Here are the things that are in the sweet spot of "able to talk about" and "emblematic of my work".
-<!--<a href="/digital-portfolio">-->
 <div class="case-study">
     <a href="/digital-portfolio">
         <img class="case-study__image" src="/images/posts/imported/2016/02/digital-portfolio.png">
@@ -19,7 +17,7 @@ Sadly, some of my work I can't show here because of NDAs or general discretion. 
         </a>
     </div>
 </div>
-<!--<div class="case-study">
+<div class="case-study">
     <a href="/association-anywhere">
         <img class="case-study__image" src="">
     </a>
@@ -29,7 +27,7 @@ Sadly, some of my work I can't show here because of NDAs or general discretion. 
             <p class="case-study__description">Analyzing, testing, and releasing a massive redesign of the leading association management product.</p>
         </a>
     </div>
-</div>-->
+</div>
 <div class="case-study">
     <a href="/funeral-matters">
         <img class="case-study__image" src="/images/posts/imported/2016/01/funeral-matters.png">
