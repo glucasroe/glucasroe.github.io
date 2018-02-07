@@ -226,12 +226,13 @@ figure{
 		background-color:$grey-9;
 		color:$red-3;
 		border-radius: 0.5em;
-			@extend  %left-margin-hang;
-			@media #{$desktop}{
-				left: -15rem;
-				z-index: -1;
-				border-radius: 0.5rem 0 0 0.5rem;
-			}
+		@extend  %left-margin-hang;
+		top:0;
+		@media #{$desktop}{
+			left: -15rem;
+			z-index: -1;
+			border-radius: 0.5rem 0 0 0.5rem;
+		}
 	}
 	img{
 		box-shadow: $grey-9 0 2px 2rem;
