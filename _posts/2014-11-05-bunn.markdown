@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Project: BUNN'
+title: 'BUNN'
 date: '2014-11-05 05:07:19'
 tags: project
 image: posts/imported/2014/11/bunn-banner.png
@@ -15,7 +15,7 @@ BUNN came to r2i looking for help in combining their two sites. While they had p
 #### Overview:
 * **Company**: r2i
 * **Project Manager**: Lindsey Byroads
-* **Strategist**: Clair Carton
+* **Strategist**: Claire Carton
 * **Designer**: Dana Wagner
 * **Front End Developer**: John Velasco
 * **Back End Developer**: Patrick Wilson, Chris DeSautles

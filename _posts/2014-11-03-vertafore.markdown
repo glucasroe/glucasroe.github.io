@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Project: Vertafore'
+title: 'Vertafore'
 date: '2014-11-03 05:34:34'
 tags: project
 image: posts/imported/2014/11/vertafore-banner.png
