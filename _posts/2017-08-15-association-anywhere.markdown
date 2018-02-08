@@ -68,9 +68,10 @@ While we were iterating on building out the first versions of the interface over
 
 Our testing program was with our current partner organizations, testing the interface on users with various levels of familiarity with the system. Our testing plan paid off in spades because we were able to collaborate with our client contacts to find users who had been working with the product for 5 years,and even someone who had just started the week prior.
 
-In each case, I went to the client site, testing scripts and a camera in tow, and did in person usability tests with each person on our schedule. Overall, we tested with about 25 different people. We instantly learned a few things:
+<aside>My boss, Greg, was really confused that I loved this part.</aside>In each case, I went to the client site, testing scripts and a camera in tow, and did in-person usability tests with each person on our schedule. Overall, we tested with about 25 different people. We instantly learned a few things:
 1. Dear lord, did the navigation improvements make sense to people. They were learning the new method in minutes when it took weeks to grasp previously.
 2. Our language and mental models about the navigation were a huge hinderance to the users understanding what we were talking about.
+
 
 My favorite example of this came from a fairly simple feature we built in at the outset&mdash;the ability to collapse the menu and to keep it "pinned" open. After futzing with it for a few months, we were well familiar with the functionality of it, and it would make perfect sense to our users... right?
 

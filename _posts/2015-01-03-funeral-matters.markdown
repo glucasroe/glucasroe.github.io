@@ -38,18 +38,20 @@ While NJSFDA was going through the process of developing this product, they also
 
 Consequently, our Axure prototypes had to be some of the highest fidelity prototypes that we’d ever produced. The level of detail included making fully functioning menus, navigation, and even conditional logic in the user flow.
 
-#### A more complex example, showing how the mileage calculation was based off of the number of vehicles that were added in the preceding section.
-
-![Example gif that walks through the selection process for vehicles](/images/posts/imported/2016/01/njsfda-prototype-fidelity.gif)
+<figure>
+    <img alt="Example gif that walks through the selection process for vehicle" src="/images/posts/imported/2016/01/njsfda-prototype-fidelity.gif" />
+    <figcaption>A more complex example, showing how the mileage calculation was based off of the number of vehicles that were added in the preceding section.</figcaption>
+</figure>
 
 ## Diagramming:
 
 Throughout the process, we had numerous rounds of feedback from varying levels of the organization. Initially, the feedback was simple when we had only a few screens of the interface. We quickly found that the conditional logic of the prototype obscured the underlying structure of the system.
 After a few rounds of confusion, I created a detailed and annotated flow diagram to show the full process. This document became our key during meetings, showing the value of individual interfaces and how they interacted with the entire system.
 
-#### One of the more complicated sections of the flow diagram.
-
-![An example of a more detailed section of the flow diagram](/images/posts/imported/2016/01/flowchart.png)
+<figure>
+    <img alt="An example of a more detailed section of the flow diagram" src="/images/posts/imported/2016/01/flowchart.png" />
+    <figcaption>One of the more complicated sections of the flow diagram.</figcaption>
+</figure>
 
 ## User Balance:
 
@@ -57,7 +59,10 @@ As we developed these interfaces, we always had a constant concern with our navi
 
 One of our main strategies was to create multiple navigation methods that would guide a new user through the process while allowing the expert user to move freely. Our left hand navigation clearly spelled out the main sections and their children. We also added a subtle dot navigation at the top, giving a small indication of progress and allowing navigation inside of each section. Each section also had on screen navigation buttons that were disabled until the user had selected the relevant information on the screen.
 
-![A gif showing examples of the different ways a user can navigate around the system](/images/posts/imported/2016/01/njsfda-navigation.gif)
+<figure>
+    <img alt="A gif showing examples of the different ways a user can navigate around the system" src="/images/posts/imported/2016/01/njsfda-navigation.gif" />
+    <figcaption>Ways to navigate around the system.</figcaption>
+</figure>
 
 ## What didn't work:
 
