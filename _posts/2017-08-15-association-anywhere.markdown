@@ -6,9 +6,9 @@ image: /posts/aa/aa-logo.png
 tags: project
 read: 4:43
 ---
-When working at ACGI, I glazed a lot of eyeballs when I told them what I did for a living. After running through the usual "What's a UX design?" I would explain what ACGI does&mdash;making association management software. 
+When working at ACGI, I glazed a lot of eyeballs when explaining what I did for a living during small talk. After running through the usual "What's a UX design?" I would explain what ACGI does&mdash;making association management software. 
 
-Professional associations have similar needs to other businesses or organizational bodies, but they typically do so with few resources and with a deep need to connect together these usual silos of information. ACGI creates the nerve center for these organizations, a sprawling product called "Association Anywhere" that manages almost every aspect of an association's existence.
+Professional associations have similar needs to other businesses or organizational bodies, but they typically do so with few resources and with a deep need to connect together information usually held in silos. ACGI creates the nerve center for these organizations, a sprawling product called "Association Anywhere" that manages almost every aspect of an association's existence.
 
 Our task was to launch the 8th iteration of Association anywhere, a complete overhaul of the system's user facing navigation. We had from when I was hired in August until the user conference that next Spring.
 

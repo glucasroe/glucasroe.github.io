@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 'Project: Unbridled Rehab'
-date: '2016-01-15 05:34:34'
-image: '/images/posts/urs/urs-splash`.png'
+date: '2018-01-15 05:34:34'
+image: /posts/urs/urs-splash.png
 tags: project
 read: 4:43
 ---
@@ -21,7 +21,7 @@ Unbridled
 
 ## Evaluation
 
-URS Case study Text
+[URS Case study Text](http://lpcenter.org/wp-content/themes/lpc/lib/acf/fields.php)
 
 <figure>
     <img alt="Wireframe of the navigational setup before" src="/images/posts/aa/aa-navigation-before.jpg" />
