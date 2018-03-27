@@ -66,6 +66,7 @@ Sadly, some of my work I can't show here because of NDAs or general discretion. 
 
 Most of my writing these days is for my illustrious company, Fastspot, where I write about UX, work in general, and website things.
 
+* [Why the Three-Click Rule Won't Improve Your Website](https://www.fastspot.com/publications/why-the-three-click-rule-wont-improve-your-website/)
 * [Hit Button. Launch Website. Brace for Impact.](https://www.fastspot.com/publications/hit-button-launch-website-brace-for-impact/)
 * [Slacking my Way Into Work](https://www.fastspot.com/publications/slacking-my-way-into-work/)
 * [Mobile Heuristic Evaluation in Airtable](https://www.fastspot.com/publications/mobile-heuristic-evaluation-with-airtable/)
