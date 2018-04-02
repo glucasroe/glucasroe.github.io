@@ -6,6 +6,9 @@ date: '2013-11-24 17:00:00'
 
 ## Selected Project Case Studies:
 Sadly, some of my work I can't show here because of NDAs or general discretion. Here are the things that are in the sweet spot of "able to talk about" and "emblematic of my work".
+
+[Just looking for a resume?](/resume)
+
 <div class="case-study">
     <a href="/digital-portfolio">
         <img class="case-study__image" src="/images/posts/imported/2016/02/digital-portfolio.png">
@@ -24,7 +27,7 @@ Sadly, some of my work I can't show here because of NDAs or general discretion. 
     <div class="case-study__text">
         <a href="/association-anywhere">
             <h3 class="case-study__title">Association Anywhere: Version 8</h3>
-            <p class="case-study__description">Analyzing, testing, and releasing a massive redesign of the leading association management product.</p>
+            <p class="case-study__description">Analyzing, testing, and releasing a massive redesign of a leading association management product.</p>
         </a>
     </div>
 </div>
@@ -35,7 +38,7 @@ Sadly, some of my work I can't show here because of NDAs or general discretion. 
     <div class="case-study__text">
         <a href="/funeral-matters">
             <h3 class="case-study__title">Funeral Matters</h3>
-            <p class="case-study__description">Helping the bereaved better understand the details of planning a funeral with a simple and kind iPad app.</p>
+            <p class="case-study__description">Helping the bereaved better understand the details of planning a funeral with a straightforward and kind iPad app.</p>
         </a>
     </div>
 </div>

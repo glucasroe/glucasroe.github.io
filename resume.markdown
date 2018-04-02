@@ -5,7 +5,7 @@ date: '2018-01-20 14:55:00'
 exclude_from_nav: true
 ---
 
-> UX Designer and general tech wizzbang. Writer, speaker, teacher, and mentor. Focused on product strategy, IA, structure, performance, and meeting user's needs. 
+> UX Designer and general internet nerd, with affinities in writing, speaking, and teaching. Focused on product strategy, IA, structure, design, performance, and meeting user's needs. Consciencious, idealistic, and lots of heart.
 
 ### <a href="/files/glr-resume.pdf">Download a PDF of my Resume</a>
 
@@ -22,8 +22,8 @@ Towson University, Towson MD
 
 ## Skills
 
-* **Tools**: Axure, Adobe Suite, SCSS, HAML, git
-* **Methodologies**: Wireframing, prototyping, user-centered design, information architecture
+* **Tools**: Axure, Sketch, Adobe Suite, SCSS, HAML, git, most prototyping tools in existance
+* **Methodologies**: Wireframing, prototyping, interactive design, user-centered design, information architecture
 
 ## Experience:
 
@@ -71,7 +71,7 @@ Towson University, Towson MD
 <aside><em>6/2011&ndash;12/2011</em></aside>
 **[Calvert Education Services](http://www.calverteducation.com/) &mdash; Hunt Valley, MD**
 
-* Designed over 20 animated and static web banners for display ad purposes.
+* Designed over 20 animated and static web banners for display ad purposes. (I act like I'm proud of this)
 * Worked inside sub-brands to create collateral materials for four partners.
 * Managed consultants and contractors with tasks and billing.
 
@@ -79,7 +79,7 @@ Towson University, Towson MD
 <aside><em>12/2009&ndash;6/2010</em></aside>
 **Sports 55 &mdash; Severna Park, MD**
 
-* Prepared jerseys for printing from mock-ups for over 80 customers.
+* Prepared jerseys for printing from mock-ups for over 80 customers. (In **CORELDRAW**. NOT A JOKE.)
 * Structured templates for new product lines.
 
 ### In House Designer
@@ -87,11 +87,10 @@ Towson University, Towson MD
 **Iggy Apparel &mdash; Pasadena, MD**
 
 * Prepared screen ready graphics for over 50 customers.
-* Managed retail environment, customers, merchandise, and presentation.
+* Managed retail environment, customers, merchandise, and presentation. (Basically the 'everything person.')
 
 ## Volunteering and Leadership
 
-<aside><em></em></aside>
 ### Moderator
 **[Designer Hangout](https://www.designerhangout.co/)**
 

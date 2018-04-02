@@ -5,6 +5,7 @@ date: '2016-02-27 05:34:34'
 tags: project
 image: posts/imported/2016/02/digital-portfolio.png
 read: 4:43
+excerpt: '<p>Helping high-school students with disabilities navigate their transition to college, work, and community living.</p>'
 ---
 #### Overview:
 
