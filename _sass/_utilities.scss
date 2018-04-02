@@ -69,6 +69,7 @@
 		background: -webkit-linear-gradient(100deg, $red, $cool-grey);
 		background: -o-linear-gradient(transparent, transparent);
 		-webkit-background-clip: text;
+		background-clip: text;
 		/*Lifted directly from this brilliance http://nimbupani.com/using-background-clip-for-text-with-css-fallback.html*/
 }
 .no-margin{
