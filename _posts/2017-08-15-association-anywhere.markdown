@@ -6,6 +6,13 @@ image: /posts/aa/aa-logo.png
 tags: project
 read: 4:43
 ---
+#### Overview:
+
+* **Company**: <a href="https://www.acgisoftware.com/">ACGI Software</a>
+* **My Role**: User research, interactive prototyping, interaction design, visual design, user testing
+* **Collaborators**: Greg Reich, Head of Product. Alan Moore, UX Developer. Also, a ton of great developers on the ACGI Team.
+* **Technology**: Oracle Database
+
 When working at ACGI, I glazed a lot of eyeballs whenever I told someone what I did for a living. After running through the usual "What's a UX design?" I would explain what ACGI does&mdash;making association management software. 
 
 Professional associations have similar needs to other businesses or organizational bodies, but they typically do so with few resources and with a deep need to connect together information usually held in silos. ACGI creates the nerve center for these organizations, a sprawling product called "Association Anywhere" that manages almost every aspect of an association's existence.
@@ -20,12 +27,6 @@ Our task was to launch the 8th iteration of Association anywhere, a complete ove
     <a href="#testing-and-refinement">Testing and Refinement</a>
     <a href="#outcomes">Outcome</a>
 </div>
-
-#### Overview:
-
-* **Company**: <a href="https://www.acgisoftware.com/">ACGI Software</a>
-* **Collaborators**: Greg Reich, Head of Product. Alan Moore, UX Developer. Also, a ton of great developers on the ACGI Team.
-* **Technology**: Oracle Database
 
 ## Evaluation
 

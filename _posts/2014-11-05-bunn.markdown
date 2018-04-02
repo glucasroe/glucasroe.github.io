@@ -5,6 +5,16 @@ date: '2014-11-05 05:07:19'
 tags: project
 image: posts/imported/2014/11/bunn-banner.png
 ---
+#### Overview:
+* **Company**: r2i
+* **My Role**: Interactive design, high fidelity prototyping
+* **Project Manager**: Lindsey Byroads
+* **Strategist**: Claire Carton
+* **Designer**: Dana Wagner
+* **Front End Developer**: John Velasco
+* **Back End Developer**: Patrick Wilson, Chris DeSautles
+* **Live Site**: <a href="http://www.bunn.com/">http://www.bunn.com/</a>
+
 
 When I first learned about this project, the image that popped into my head was of the ubiquitous steel coffee machine that pops up at nice places that still comp you coffee, like a hotel or&hellip; well a funeral home.
 
@@ -12,14 +22,11 @@ BUNN has been in the coffee game for as long as there's been a game to have. The
 
 BUNN came to r2i looking for help in combining their two sites. While they had previously had a business focused site and a consumer focused site, they didn't feel like it worked well with their larger strategy and message.
 
-#### Overview:
-* **Company**: r2i
-* **Project Manager**: Lindsey Byroads
-* **Strategist**: Claire Carton
-* **Designer**: Dana Wagner
-* **Front End Developer**: John Velasco
-* **Back End Developer**: Patrick Wilson, Chris DeSautles
-* **Live Site**: http://www.bunn.com/
+<div class="anchor-links">
+    <a href="#goals">goals</a>
+    <a href="#thought-process">Thought Process</a>
+    <a href="#closing-thoughts">Closing Thoughts</a>
+</div>
 
 ## Goals:
 

@@ -5,6 +5,13 @@ date: '2015-01-03 05:34:34'
 tags: project
 image: posts/imported/2016/01/funeral-matters.png
 ---
+#### Overview:
+* **Company**: r2i
+* **My Role**: Strategy, interactive design, high fidelity prototyping
+* **Project Manager**: Maria Kelly
+* **Designer**: Tim Frost
+* **Developer**: Shalik Wagle
+* **Live Site**: https://www.funeralmatters.com/
 
 The death of a loved one is one of the hardest things to cope with. Funerals have a tendency to make a difficult time seem impossible. A sea of potential costs crash into a mountain of protective legislation. The result is rarely pretty.
 
@@ -18,13 +25,6 @@ New Jersey State Funeral Directors Association (NJSFDA) reached out to us at r2i
     <a href="#whatdidntwork">What Didn&rsquo;t Work</a>
     <a href="#overall">Overall</a>
 </div>
-
-#### Overview:
-* **Company**: r2i
-* **Project Manager**: Maria Kelly
-* **Designer**: Tim Frost
-* **Developer**: Shalik Wagle
-* **Live Site**: https://www.funeralmatters.com/
 
 ## Translation:
 

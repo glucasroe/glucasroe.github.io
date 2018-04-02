@@ -5,18 +5,18 @@ date: '2014-11-03 05:34:34'
 tags: project
 image: posts/imported/2014/11/vertafore-banner.png
 ---
-
-Vertafore is a company that provides software to insurance companies, delivering insight, flexibility, and power into the hands of their customers. As they went through the process of redesigning their site, they realized that they had a bigger problem to solve, their brand.
-
-They went the difficult but correct route, restructuring their identity before pressing forward with their site design. We were brought on to help them with an overhaul of their site with a responsive focus, using a combination of their new style guide and adapting their previously designed templates.
-
 #### Overview:
 * **Company**: r2i
+* **My Role**: Interactive design, high fidelity prototyping
 * **Project Manager**: Maria Kelly
 * **Strategist**: Ben Brasso
 * **Designer**: Tim Frost
 * **Developer**: In-house team at Vertafore
 * **Live Site**: http://vertafore.com
+
+Vertafore is a company that provides software to insurance companies, delivering insight, flexibility, and power into the hands of their customers. As they went through the process of redesigning their site, they realized that they had a bigger problem to solve, their brand.
+
+They went the difficult but correct route, restructuring their identity before pressing forward with their site design. We were brought on to help them with an overhaul of their site with a responsive focus, using a combination of their new style guide and adapting their previously designed templates.
 
 ## Goals:
 
