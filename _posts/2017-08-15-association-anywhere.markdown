@@ -4,7 +4,7 @@ title: 'Association Anywhere—Version 8'
 date: '2017-08-15 05:34:34'
 image: /posts/aa/aa-logo.png
 tags: project
-excerpt: <p>Analyzing, testing, and releasing a massive redesign of the leading association management product</p>'
+excerpt: '<p>Analyzing, testing, and releasing a massive redesign of the leading association management product</p>'
 read: 4:43
 ---
 #### Overview:
