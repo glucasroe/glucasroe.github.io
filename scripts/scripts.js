@@ -1,5 +1,5 @@
 
-smoothScroll.init({selector: '[data-scroll]',speed: 500,easing: 'easeInOutQuint',updateURL: true,offset: 16});
+smoothScroll.init({selector: '.anchor-links',speed: 500,easing: 'easeInOutQuint',updateURL: true,offset: 16});
 //Pulled from https://github.com/cferdinandi/smooth-scroll/issues/54 Just in case
 
 document.addEventListener('DOMContentLoaded', function() {
