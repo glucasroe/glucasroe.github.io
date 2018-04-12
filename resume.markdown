@@ -5,7 +5,7 @@ date: '2018-01-20 14:55:00'
 exclude_from_nav: true
 ---
 
-> UX Designer and general internet nerd, with affinities in writing, speaking, and teaching. Focused on product strategy, IA, structure, design, performance, and meeting user's needs. Consciencious, idealistic, and lots of heart.
+> UX Designer and general internet nerd, with affinities in writing, speaking, and teaching. Focused on product strategy, IA, structure, design, performance, and meeting user's needs. Conscientious, idealistic, and lots of heart.
 
 ### <a href="/files/glr-resume.pdf">Download a PDF of my Resume</a>
 
@@ -22,7 +22,7 @@ Towson University, Towson MD
 
 ## Skills
 
-* **Tools**: Axure, Sketch, Adobe Suite, SCSS, HAML, git, most prototyping tools in existance
+* **Tools**: Axure, Sketch, Adobe Suite, SCSS, HAML, git, most prototyping tools in existence
 * **Methodologies**: Wireframing, prototyping, interactive design, user-centered design, information architecture
 
 ## Experience:
