@@ -107,7 +107,7 @@ With the tremendous growth of prototyping tools in the past year, it&rsquo;s int
 * **[Project Comet](http://landing.adobe.com/en/na/products/creative-cloud/comet/229818-notifyme.html)**: This is Adobe&rsquo;s foray into the space, which they bill as a &ldquo;all in one solution for UX designers&rdquo; (forgive me for rolling my eyes, but hey, gotta hit that buzz word!) **Project Comet** seems most like an interactive prototyping tool to me, but it may incorporate some elements of mobile native prototypes. We&rsquo;ll see in 2016!
 
 # Contributions:
-Feel like something is missing or want to make any suggestions for this article? Feel free to <a href="mailto:lucas@glucasroe.com?subject=Prototyping%20Tool%20Taxonomy%20Suggestion">send me an email</a>! You can also leave a comment below.
+Feel like something is missing or want to make any suggestions for this article? Feel free to <a href="mailto:prototyping@glucasroe.com?subject=Prototyping%20Tool%20Taxonomy%20Suggestion">send me an email</a>! You can also leave a comment below.
 
 ### Changelog:
 * **2016/02/22**: Added FluidUI to Interactive Prototyping Tools. It seems almost like a mobile native prototyping tool, but it doesn't look like its outputs are similar enough.
