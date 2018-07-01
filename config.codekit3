@@ -23,14 +23,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/.vscode\/settings.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/.vscode\/settings-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"\/404.md": {
 		"cB": 0,
 		"cS": 0,
@@ -1511,16 +1503,6 @@
 		"oAP": "\/_site\/abusing-patterns-and-the-death-of-the-modal\/index.html",
 		"oF": 0
 		},
-	"\/_site\/assets\/css\/style-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/css\/style-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/_site\/assets\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2198,17 +2180,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
-		},
-	"\/_site\/images\/posts\/imported\/2014\/11\/sideview.jpg": {
-		"ft": 16384,
-		"iS": 79919,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/imported\/2014\/11\/sideview.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"\/_site\/images\/posts\/imported\/2014\/11\/status-audio-1.jpg": {
@@ -3289,6 +3260,16 @@
 		"oAP": "\/_site\/rotating-image-campaigns\/index.html",
 		"oF": 0
 		},
+	"\/_site\/scripts\/gfyajax-0.517d.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/scripts\/min\/gfyajax-0.517d-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/_site\/scripts\/scripts-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -3332,16 +3313,6 @@
 		"oA": 0,
 		"oAP": "\/_site\/slacking-my-way-into-work\/index.html",
 		"oF": 0
-		},
-	"\/_site\/style-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/style-min-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/_site\/style.css": {
 		"aP": 1,

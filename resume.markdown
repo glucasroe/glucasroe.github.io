@@ -27,8 +27,14 @@ Towson University, Towson MD
 
 ## Experience:
 
+### Senior User Experience Designer
+<aisde><em>6/2018&ndash;Present</em></aside>
+**[T. Rowe Price](https://troweprice.com/) &mdash; Owings Mills, MD
+
+* I just started here, I haven't done anything cool yet ok?
+
 ### User Experience Designer
-<aside><em>8/2016&ndash;present</em></aside>
+<aside><em>8/2016&ndash;06/2018</em></aside>
 **[Fastspot](https://www.fastspot.com/) &mdash; Baltimore, MD**
 
 * Created IA, journey maps, and strategic recommendations for 2 dozen clients.
