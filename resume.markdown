@@ -28,7 +28,7 @@ Towson University, Towson MD
 ## Experience:
 
 ### Senior User Experience Designer
-<aisde><em>6/2018&ndash;Present</em></aside>
+<aside><em>6/2018&ndash;Present</em></aside>
 **[T. Rowe Price](https://troweprice.com/) &mdash; Owings Mills, MD**
 
 * I just started here, I haven't done anything cool yet ok?
