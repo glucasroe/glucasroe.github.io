@@ -29,6 +29,7 @@ a{
 	}
 	p > &,
 	nav > &,
+	aside > &,
 	.case-study__title{
 		@include background-image(linear-gradient(top, rgba(0,0,0,0) 50%, $transparent-red-4 50%));
 		background-repeat: repeat-x;
@@ -111,7 +112,7 @@ pre{
 	}
 }
 aside{
-	color:$accent-3;
+	color:$accent-4;
 	font-family: $serif;
 	@extend %left-margin-hang;
 	padding:0;
