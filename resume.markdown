@@ -31,7 +31,8 @@ Towson University, Towson MD
 <aside><em>6/2018&ndash;Present</em></aside>
 **[T. Rowe Price](https://troweprice.com/) &mdash; Owings Mills, MD**
 
-* I just started here, I haven't done anything cool yet ok?
+* Lead UX Designer on a project focused around agile marketing.
+* Building programs around DesignOps (especially ReOps), Accessibility, and Design Systems.
 
 ### User Experience Designer
 <aside><em>8/2016&ndash;06/2018</em></aside>

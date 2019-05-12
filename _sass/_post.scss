@@ -10,10 +10,10 @@
 	font-size: 1rem;
 	color:$grey-5;
 	time{
-		color:$grey-8;
+		color:$grey-6;
 	}
 	.tags{
-		color: $grey-5;
+		color: $grey-6;
 	}
 }
 .post-title{
@@ -62,7 +62,7 @@
 		box-sizing: border-box;
 		border-radius: 3px;
 		padding: 1rem 2rem;
-		color: $red;
+		color: $accent;
 		margin: 0;
 		text-align:center;
 		text-transform: uppercase;

@@ -39,7 +39,7 @@
 	padding:10px 20px;
 	background-color:$white;
 	border-radius:5px;
-	color: $red;
+	color: $accent;
 }
 
 .rotated{
@@ -66,7 +66,7 @@
 
 .fabulous{
 	-webkit-text-fill-color: transparent;
-		background: -webkit-linear-gradient(100deg, $red, $cool-grey);
+		background: -webkit-linear-gradient(100deg, $accent, $cool-grey);
 		background: -o-linear-gradient(transparent, transparent);
 		-webkit-background-clip: text;
 		background-clip: text;

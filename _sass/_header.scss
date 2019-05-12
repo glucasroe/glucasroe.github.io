@@ -2,19 +2,33 @@
 	@extend %site-width;
 	//position:relative;
 	@media #{$tablet}{
-		@include display(flex);
-		@include align-items(center);
-		@include justify-content(space-between);
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
+@media #{$desktop}{
+	.site-header__logo,
+	.site-header__title{
+		position:relative;
+		left: -8.25rem;
 	}
 }
 
 .site-header__logo{
-	margin:1rem 0 1rem 1rem;
+	margin:1rem 0;
 	display: inline-block;
 	vertical-align: middle;
+	opacity: 0.2;
+	transform: rotateZ(-23deg);
+	transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 	width:100%;
 	max-width: 6rem;
 	-webkit-font-smoothing:antialiased;
+}
+.site-header a:hover .site-header__logo{
+	transform: rotateZ(-17deg);
+	opacity: 1;
 }
 .site-header__title{
 	text-align: left;
@@ -24,12 +38,12 @@
 	font-size: 1.5rem;
 	display:inline-block;
 	vertical-align: middle;
-	color: $grey-6;
+	color: $grey-3;
 	letter-spacing: 1.5;
 }
 
 .site-header__nav{
-	border: 1px $red solid;
+	border: 1px $accent solid;
 	border-radius: 5px;
 	margin-left:1rem;
 	margin-right: 1rem;
@@ -55,10 +69,10 @@
 	background-position: 0 1.7em;
 	background-size:0;
 	&:first-child{
-		border-right: 1px solid $red-4;
+		border-right: 1px solid $accent-4;
 	}
 	&:hover{
-		background-color: $red;
+		background-color: $accent;
 		color: #fff;
 		text-shadow: none;
 	}
@@ -72,7 +86,7 @@
 		}
 		&:hover{
 			background-color: transparent;
-			color: $red-2;
+			color: $accent-2;
 		}
 	}
 }

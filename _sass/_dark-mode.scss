@@ -7,7 +7,7 @@
   background-image: url('/images/site/sprite.svg');
   background-repeat: no-repeat;
   //background-position: -25px 0;
-  opacity: 0.4;
+  opacity: 0.6;
   width: 25px;
   height: 25px;
   margin-top:0;
@@ -45,13 +45,13 @@ body,h1,h2,h3,h4,h5,h6,p,li,q,aside,code{
     letter-spacing: 0.155px;
   }
   q{
-    color: $red-4;
+    color: $accent-4;
     &:before,&:after{
       color: $grey-4;
     }
   }
   aside{
-    color: $red-6;
+    color: $accent-7;
   }
   pre{
     background-color: $grey-2;
@@ -61,7 +61,7 @@ body,h1,h2,h3,h4,h5,h6,p,li,q,aside,code{
     color: $white;
   }
   a{
-  	color:$red;
+  	color:$accent-9;
   	text-decoration:none;
   	@include transition(color,.5s);
   	&:hover{
@@ -89,14 +89,17 @@ body,h1,h2,h3,h4,h5,h6,p,li,q,aside,code{
     background-color: white;
     border-radius: 3px;
   }
+  .pagination{
+    border-top: 1px solid $grey-3;
+  }
   //Actual posts
   .anchor-links{
     background-color: $grey-0;
     a{
-  		color: $red;
+  		color: $accent-8;
   		&:hover{
   			background-color:$grey-2;
-        color: $red-7;
+        color: $accent-7;
   		}
     }
   }

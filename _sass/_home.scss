@@ -12,17 +12,20 @@
 	}
 	.button{
 		background-color: $transparent-red-3;
-		@include background(linear-gradient($red-5,$red-3));
+		@include background(linear-gradient($accent-5,$accent-4));
 		color: $white;
-		border-color: $red-3;
+		border-color: $accent-3;
 		opacity: 0.7;
 		text-align:center;
 		margin: 0 auto 0;
 		display: block;
 		position:relative;
+		transition: transform 0.5s ease-in-out, opacity 0.25s ease-in-out, box-shadow 0.5s ease-in-out;
 		&:hover{
 			opacity: 1;	
 			text-shadow: none;
+			box-shadow: 2px 5px 20px $transparent-red-3;
+			transform: translateY(-3px);
 		}
 		@media #{$tablet}{
 			max-width: 30%;

@@ -43,7 +43,7 @@ article.post-preview{
 		height: 6px;
 		background-color: $white;
 		border-radius:50%;
-		border: 1px solid $red;
+		border: 1px solid $accent;
 		top: -3px;
 		margin: 0 auto 0;
 		text-align: center;
@@ -54,7 +54,7 @@ nav.pagination{
 	text-align: left;
 	margin-top:4rem;
 	margin-bottom: -4rem;
-	background-color: $grey-2;
+	background-color: $grey-1;
 	color: $white;
 	padding: 0;
 	position:relative;
@@ -63,9 +63,11 @@ nav.pagination{
 		@extend %clearfix;
 	}
 	a{
-		text-transform: uppercase;
+		color: $grey-9;
 		&:hover{
-			background-color:$grey-9;
+			text-shadow: none;
+			color: $accent-9;
+			background-color:$grey-2;
 		}
 	}
 	.paginator, .page-number{
