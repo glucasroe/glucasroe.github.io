@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Facilittante'
-date: '2019-07-04 12:00:00'
+date: '2019-07-20 12:00:00'
 image: /posts/2019/facilittante/coraline-scene-mice-circus.gif
 alt: 'A scene from the movie Coraline, showing a troup of circus mice in a synchronized dance'
 tags: article
