@@ -7,13 +7,13 @@
   background-image: url('/images/site/sprite.svg');
   background-repeat: no-repeat;
   //background-position: -25px 0;
-  opacity: 0.6;
+  // opacity: 0.6;
   width: 25px;
   height: 25px;
   margin-top:0;
-  @include transition(opacity 0.25s, background-position 0.25s cubic-bezier(.91,0,.07,.97));
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
   &:hover{
-    opacity: 1;
+    transform: translateY(-1px) rotateZ(45deg);
   }
   &.visible{
     display:block;
@@ -36,6 +36,11 @@ body,h1,h2,h3,h4,h5,h6,p,li,q,aside,code{
       opacity:1;
     }
   }
+  .site-header__nav,
+  .site-header__nav-link:first-child{
+    border-color: $accent-7;
+  }
+  
   h1{
     color: $grey-8;
   }
@@ -43,6 +48,10 @@ body,h1,h2,h3,h4,h5,h6,p,li,q,aside,code{
     font-family: $light;
     color: $grey-9;
     letter-spacing: 0.155px;
+  }
+  ol li:before,
+  ul li:before{
+    color: $accent-7
   }
   q{
     color: $accent-4;
@@ -102,5 +111,10 @@ body,h1,h2,h3,h4,h5,h6,p,li,q,aside,code{
         color: $accent-7;
   		}
     }
+  }
+
+  //Case Study
+  .case-study__title{
+    color: $accent-8;
   }
 }

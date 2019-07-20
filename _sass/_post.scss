@@ -44,6 +44,29 @@
 	max-width: 100%;
 	padding:0;
 }
+.img--pull{
+	border: 5px solid $accent;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	box-shadow: -.5em .5em 0 $accent;
+	margin-bottom: 1em;
+}
+@media #{$tablet}{
+	.img--pull{
+		float: left;
+		margin-right: 1em;
+		max-width: 200px;
+	}
+}
+@media #{$desktop}{
+	.img--pull{
+		max-width: 300px;
+		left: -6em;
+		margin-right: -5em;
+	}
+}
 .top-margin{
 	margin-top: 1rem;
 }
