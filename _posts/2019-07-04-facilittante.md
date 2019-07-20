@@ -52,7 +52,7 @@ Instead of our team flogging ourselves to MAKE IDEAS NOW we've adopted a rhythm 
 
 ## If it sucks, say so.
 <img alt="An illustration of a speech bubble with a sad face in it" src="/images/posts/2019/facilittante/speech-bubble.jpg" class="img--pull" />
-Some times when we sit down together, the ideas just aren't flowing. Especially if it's just our core team, we've gotten much more comfortable with just saying "Well, this isn't working" and defining what our next steps are and figuring out how we can move forward differently. This is especially important for the quiet, conscientious types&emdash;I've seen them take too much responsibility for an unproductive session because it digs right into what they feel uncomfortable with.
+Some times when we sit down together, the ideas just aren't flowing. Especially if it's just our core team, we've gotten much more comfortable with just saying "Well, this isn't working" and defining what our next steps are and figuring out how we can move forward differently. This is especially important for the quiet, conscientious types&mdash;I've seen them take too much responsibility for an unproductive session because it digs right into what they feel uncomfortable with.
 
 I don't how I'd handle this yet when the scheduling is much more hard won, but what I have planned for next time is to build in alternative activities, and a generous schedule that lets us take a break if we need to.
 
