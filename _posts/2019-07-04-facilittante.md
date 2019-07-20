@@ -45,9 +45,9 @@ The write-ups take a page from [Kevin Hoffman's literal book](https://rosenfeldm
 
 ## Establishing a rhythm of work
 <img alt="An illustration of a metronome" src="/images/posts/2019/facilittante/metronome.jpg" class="img--pull" />
-Much of the time that we leave a workshop, I have a big pile of shit to untangle. I don't mind this, it's pretty fun and very illuminating. However, it means that whatever we actually accomplished is entirely in my head until I synthesize and explain it to everyone else. If you didn't get your creative energy from the workshop, that feeling sucks.
+Much of the time that we leave a workshop, I have a big pile of stuff to untangle. I don't mind this, it's pretty fun and very illuminating. However, it means that whatever we actually accomplished is entirely in my head until I synthesize and explain it to everyone else. If you didn't get your creative energy from workshops, that feeling sucks.
 
-Instead of flogging my team to MAKE. IDEAS. NOW. we've adopted a rhythm of alternating in synchronous and asynchronous work. We come together at our scheduled time, co-work, and then take a break while we think through our ideas. The vital part of this is that at each stage, we have to set the requirements really clearly, whether it's "We'll talk about our ideas at meet after tomorrow" or "I'll set up a meeting in two days for us to come back together.
+Instead of our team flogging ourselves to MAKE IDEAS NOW we've adopted a rhythm of alternating in synchronous and asynchronous work. We come together at our scheduled time, co-work, and then take a break while we think through our ideas. The vital part of this is that at each stage, we have to set the requirements really clearly, whether it's "We'll talk about our ideas at meet after tomorrow" or "I'll set up a meeting in two days for us to come back together."
 
 
 ## If it sucks, say so.
