@@ -31,8 +31,10 @@ Towson University, Towson MD
 <aside><em>6/2018&ndash;Present</em></aside>
 **[T. Rowe Price](https://troweprice.com/) &mdash; Owings Mills, MD**
 
-* Lead UX Designer on a project focused around agile marketing.
-* Building programs around DesignOps (especially ReOps), Accessibility, and Design Systems.
+* Core member of TRP’s first agile marketing team, inventing new methods of crafting industry leading messaging while reducing creative delivery from 3 months to 1 week.
+* Built an internal practice around user research excellence through coaching, methodology,
+research structures, and internal toolsets.
+* Consultative work across the RPS business to improve and socialize UX best practices.
 
 ### User Experience Designer
 <aside><em>8/2016&ndash;06/2018</em></aside>
