@@ -10,3 +10,4 @@ node_modules
 package.json
 vendor/*
 config.codekit3
+config.codekit

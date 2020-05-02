@@ -5,21 +5,35 @@ $light: 'Merriweather Light', 'Merriweather', 'Palatino', 'Palatino Linotype', G
 
 //Colors
 // $accent: #cc6947; //rgba(204, 105, 71, 1);
-$accent: #640726;
+// $accent: #640726;
 $cool-grey:#7A7F99;
+$accent: #007051;
+$deep: #13121D;
 $white: #fff;
 
-$grey-10: lighten($cool-grey,50%); //white
-$grey-9: lighten($cool-grey,40%); //#edeef2
-$grey-8: lighten($cool-grey,30%); //#d1d2db
-$grey-7: lighten($cool-grey,20%); //#b4b7c5
-$grey-6: lighten($cool-grey,10%); //#979baf
-$grey-5: $cool-grey;
-$grey-4: darken($cool-grey,10%); //#61667f
-$grey-3: darken($cool-grey,20%); //#4b4f62
-$grey-2: darken($cool-grey,30%); //#353845
-$grey-1: darken($cool-grey,40%); //#1f2028
-$grey-0: darken($cool-grey,50%); //#09090b 
+$grey-10: lighten($deep,90%);
+$grey-9: lighten($deep,80%);
+$grey-8: lighten($deep,60%);
+$grey-7: lighten($deep,40%);
+$grey-6: lighten($deep,20%);
+$grey-5: $deep;
+$grey-4: darken($deep,10%);
+$grey-3: darken($deep,20%);
+$grey-2: darken($deep,30%);
+$grey-1: darken($deep,40%);
+$grey-0: darken($deep,50%);
+ 
+// $grey-10: lighten($cool-grey,50%); //white
+// $grey-9: lighten($cool-grey,40%); //#edeef2
+// $grey-8: lighten($cool-grey,30%); //#d1d2db
+// $grey-7: lighten($cool-grey,20%); //#b4b7c5
+// $grey-6: lighten($cool-grey,10%); //#979baf
+// $grey-5: $cool-grey;
+// $grey-4: darken($cool-grey,10%); //#61667f
+// $grey-3: darken($cool-grey,20%); //#4b4f62
+// $grey-2: darken($cool-grey,30%); //#353845
+// $grey-1: darken($cool-grey,40%); //#1f2028
+// $grey-0: darken($cool-grey,50%); //#09090b 
 
 // $accent-10: lighten($accent,50%);// White
 // $accent-9: lighten($accent,40%); //#f8ebe7

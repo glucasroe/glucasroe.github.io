@@ -40,6 +40,10 @@ a{
 		}
 	}
 }
+a[href^="http://"]:not([href*="glucasroe.com"]):after,
+a[href^="https://"]:not([href*="glucasroe.com"]):after{
+    content: "  \2197  " 
+}
 
 h1{
 	font-size: 3rem;

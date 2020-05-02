@@ -30,6 +30,9 @@ article.post-preview{
 		width: 0.5rem;
 		background-color: $transparent-red-4;
 	}
+	& + :after{
+		display:none;
+	}
 }
 
 .post-separator{

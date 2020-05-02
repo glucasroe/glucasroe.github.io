@@ -4,16 +4,19 @@
   right:1em;
   top:1em;
   cursor:pointer;
-  background-image: url('/images/site/sprite.svg');
+  background-position: center center;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNy41NDkxIDE1LjAzNjVDMTYuMzQwNyAxNi45NDMyIDE0LjA2NTUgMTguMTAwMSAxMS41NTM0IDE3LjY2OTFDOS4yMzAzNCAxNy4yNzA2IDcuMzI1NDEgMTUuNDEyNyA2Ljg2OTk5IDEzLjEwMDJDNi4yOTYxMyAxMC4xODYzIDcuODkzMjggNy41NTAzIDEwLjMyMzIgNi41MjE4MkMxMC41MDQzIDYuNDQ1MTkgMTAuNjczIDYuNjM4MjIgMTAuNTk4NyA2LjgyMDI0QzEwLjIxNTIgNy43NTk5MSAxMC4wNzg2IDguODI2ODMgMTAuMjQ2IDkuOTI2MTJDMTAuNjk1NSAxMi44Nzg4IDEzLjQ3MTggMTUuMDUxNSAxNi40NTExIDE0Ljg0MTRDMTYuNzQxMiAxNC44MjEgMTcuMDI1MSAxNC43Nzk0IDE3LjMwMjkgMTQuNzE3NUMxNy40OTM4IDE0LjY3NDkgMTcuNjUzOCAxNC44NzEyIDE3LjU0OTEgMTUuMDM2NVoiIGZpbGw9IiMwMDcwNTEiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMi42Mjc5IDMuMkgxMi42Mjc4QzE2LjAyNzMgMy4yIDE5LjE1MiA1LjE5MDA5IDIwLjU4ODIgOC4yN0MyMi42MzM1IDEyLjY1NjIgMjAuNzI5IDE3Ljg4ODYgMTYuMzQyOSAxOS45MzM5QzE1LjE2OTMgMjAuNDgxMSAxMy45MjM1IDIwLjc1ODYgMTIuNjQwMSAyMC43NTg2QzkuMjQwMSAyMC43NTg2IDYuMTE1MTYgMTguNzY4NSA0LjY3ODk3IDE1LjY4ODZDMi42MzM3MiAxMS4zMDI0IDQuNTM4MTQgNi4wNzAwMSA4LjkyNDMxIDQuMDI0NzFDMTAuMDk3NiAzLjQ3NzU2IDExLjM0MzcgMy4yMDAxIDEyLjYyNzkgMy4yWk0xMi42MjcxIDJDMTEuMjE1NSAyLjAwMDExIDkuNzgwODQgMi4zMDEyNSA4LjQxNzE2IDIuOTM3MTRDMy40MjMzMyA1LjI2NTggMS4yNjI3OCAxMS4yMDE5IDMuNTkxNDIgMTYuMTk1N0M1LjI4NDIgMTkuODI1OSA4Ljg4MjUgMjEuOTU4NiAxMi42NDAxIDIxLjk1ODZDMTQuMDUxNyAyMS45NTg2IDE1LjQ4NjMgMjEuNjU3NCAxNi44NSAyMS4wMjE1QzIxLjg0MzggMTguNjkyOCAyNC4wMDQ0IDEyLjc1NjcgMjEuNjc1OCA3Ljc2Mjg2QzE5Ljk4MyA0LjEzMjcgMTYuMzg0NyAxLjk5OTcxIDEyLjYyNzEgMloiIGZpbGw9IiM3Nzc3NzciLz4KPC9zdmc+Cg==");
   background-repeat: no-repeat;
   //background-position: -25px 0;
   // opacity: 0.6;
-  width: 25px;
-  height: 25px;
+  width: 24px;
+  height: 24px;
   margin-top:0;
   transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  border-radius: 50%;
   &:hover{
     transform: translateY(-1px) rotateZ(45deg);
+    box-shadow: 0px 0px 20px $accent-6;
   }
   &.visible{
     display:block;
@@ -25,7 +28,7 @@ body,h1,h2,h3,h4,h5,h6,p,li,q,aside,code{
 }
 
 .dark-mode{
-  background-color: $grey-1;
+  background-color: $deep;
   color: $grey-9;
   .view-toggle{
     //background-position:-25px 0;
@@ -42,7 +45,7 @@ body,h1,h2,h3,h4,h5,h6,p,li,q,aside,code{
   }
   
   h1{
-    color: $grey-8;
+    color: $grey-9;
   }
   p,li{
     font-family: $light;
@@ -51,7 +54,7 @@ body,h1,h2,h3,h4,h5,h6,p,li,q,aside,code{
   }
   ol li:before,
   ul li:before{
-    color: $accent-7
+    color: $accent-7;
   }
   q{
     color: $accent-4;
@@ -70,16 +73,21 @@ body,h1,h2,h3,h4,h5,h6,p,li,q,aside,code{
     color: $white;
   }
   a{
-  	color:$accent-9;
+  	color:$accent-7;
   	text-decoration:none;
-  	@include transition(color,.5s);
+  	transition: color,.5s;
   	&:hover{
   		color: $white;
-  		text-shadow: 1px 1px 0px $grey-2,2px 2px 0px $transparent-red-4;
+  		text-shadow: 1px 1px 0px $grey-2,2px 2px 0px $accent;
   	}
   }
   .anchor-links a:hover{
     background-color: $grey-4;
+  }
+  
+  p > a,
+  li > a{
+    text-shadow: 0px 0px 20px $accent-6;
   }
   //Home Page
   .site-intro .button{

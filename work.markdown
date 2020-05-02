@@ -3,6 +3,19 @@ layout: page
 title: Work
 date: '2013-11-24 17:00:00'
 ---
+I take the &ldquo;All Purpose Nerd&rdquo; part of my bio pretty seriously. [If you're just looking for a resume you can have that](/resume), but here's what I usually focus on:
+
+<h3 class='work-heading work-heading--research-and-strategy'>Research & Strategy: </h3>
+How do we figure out what the problem is and how we can fix it? We research! From big proactive studies to light usability tests, design research feeds the core of my UX practice. From [Big, multi month usability tests](association-anywhere/#testing-and-refinement) to [tiny single day live sketching sessions](https://www.linkedin.com/feed/update/urn:li:activity:6518869909651406848/), finding out what we can learn and how we can use it is one of my favorite things.
+
+<h3 class='work-heading work-heading--designops'>DesignOps: </h3>
+Gina Trapani said it best ["Make doing what's right easier"](https://twitter.com/ginatrapani/status/1035628518040920064).
+
+<h3 class='work-heading work-heading--teaching-writing'>Teaching & Writing: </h3>
+<h3 class='work-heading work-heading--ia-content'>IA & Content Strategy: </h3>
+<h3 class='work-heading work-heading--design-thinking'>Design Thinking Facilitation: </h3>
+<h3 class='work-heading work-heading--accessibility'>Accessibility: </h3>
+<h3 class='work-heading work-heading--interactive-visual'>Interactive & Visual Design: </h3>
 
 ## Selected Project Case Studies:
 Sadly, some of my work I can't show here because of NDAs or general discretion. Here are the things that are in the sweet spot of "able to talk about" and "emblematic of my work".
