@@ -40,8 +40,10 @@ a{
 		}
 	}
 }
-a[href^="http://"]:not([href*="glucasroe.com"]):after,
-a[href^="https://"]:not([href*="glucasroe.com"]):after{
+p a[href^="http://"]:not([href*="glucasroe.com"]):after,
+p a[href^="https://"]:not([href*="glucasroe.com"]):after,
+li a[href^="http://"]:not([href*="glucasroe.com"]):after,
+li a[href^="https://"]:not([href*="glucasroe.com"]):after{
     content: "  \2197  " 
 }
 
