@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Taxonomy of Prototyping Tools
-date: '2015-12-07 14:26:56'
+date: '2015-12-07'
 image: posts/imported/2015/12/prototyping-taxonomy.jpg
 tags: 
 - tools

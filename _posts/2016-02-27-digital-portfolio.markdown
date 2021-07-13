@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Digital Portfolio'
-date: '2016-02-27 05:34:34'
+date: '2016-02-27'
 tags: project
 image: posts/imported/2016/02/digital-portfolio.png
 read: 4:43

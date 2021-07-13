@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making Gfycat Play Nice in Responsive Design
-date: '2014-11-21 04:35:41'
+date: '2014-11-21'
 tags: [dev, tutorial]
 image: posts/imported/2015/12/gfycat-responsive-design.png
 ---

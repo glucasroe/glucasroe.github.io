@@ -1,7 +1,7 @@
 ---
 layout: post
 title: It's Dangerous to Go Alone! Do it Anyway.
-date: '2015-02-19 03:05:16'
+date: '2015-02-19'
 tags: article
 image: posts/imported/2015/02/itsdangeroustogoalone.jpg
 ---

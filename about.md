@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: '2013-11-23 17:00:00'
+date: '2013-11-23'
 ---
 
 <div class="anchor-links">

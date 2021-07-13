@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Visible Responsive Design in Axure: A Hybrid Approach'
-date: '2015-12-04 15:49:49'
+date: '2015-12-04'
 image: posts/imported/2015/12/axure-responsive-hybrid-optim.gif
 tags: 
 - axure

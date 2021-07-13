@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'The Axure Panel Exploder'
-date: '2016-05-05 05:34:34'
+date: '2016-05-05'
 tags: axure
 ---
 

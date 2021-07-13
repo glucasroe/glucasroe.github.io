@@ -1,0 +1,267 @@
+html{
+	font-size: 100%;
+	//overflow:hidden;
+}
+body{
+	width:100%;
+	font-family:$light;
+	color:#333;
+	* + *{
+		margin:1em auto 0;
+		@media #{$desktop}{
+			margin-top: 1.1em;
+		}
+	}
+}
+
+main{
+	@extend %site-width;
+	min-height: calc(100vh - 325px);
+}
+
+a{
+	color:$dark;
+	text-decoration:none;
+	transition: color,.5s;
+	&:hover{
+		text-shadow: 1px 1px 0px #fff,2px 2px 0px $dark;
+	}
+	p > &,
+	nav > &,
+	aside > &,
+	.case-study__title{
+		background-image: linear-gradient(top, rgba(0,0,0,0) 50%, $dark 50%);
+		background-repeat: repeat-x;
+		background-size:2px 2px;
+		background-position: 0 1.15em;
+		&:hover{
+			background-image: linear-gradient(top, rgba(0,0,0,0) 50%, $dark 50%);
+		}
+	}
+}
+
+h1{
+	font-size: 3rem;
+	color: $dark;
+	font-family: $light;
+	line-height:1.35;
+}
+
+h2{
+	font-size: 2.5rem;
+	color: $dark;
+}
+
+h3{
+	font-size: 2rem;
+	line-height: 1.4;
+}
+
+h4{
+	font-size: 1.25rem;
+	text-transform:uppercase;
+	text-align: left;
+	font-family: $serif;
+}
+
+h1,h2,h3,h4,h5,ul,li,p,img, .tile{
+	color: $dark;
+	max-width: 50rem;
+	text-align: left;
+}
+p,aside,pre code,li, figcaption,button{
+	font-size: 1rem;
+	line-height: 1.75;
+	color:$dark;
+	@media #{$desktop}{
+		font-size: 1.2rem;
+		line-height: 1.85;
+	}
+}
+img,video,.gfyvid{
+	display:block;
+	max-width:100%;
+	margin-left:0;
+}
+code{
+	font-family: monaco, monospace;
+	color:$bright;
+	background-color:$dark;
+	border-radius:10px;
+	padding: 0.15em 0.5em;
+	margin:0 2px;
+}
+pre{
+	@extend %clearfix;
+  background-color: $dark;
+	border-radius:3px;
+	padding:1em;
+  overflow:auto;
+	code{
+		color: $bright;
+		white-space: pre;
+		line-height:1.25;
+    background-color: $dark;
+		float:left;
+		overflow: auto;
+		padding:0em;
+    padding-right: 1em;
+	}
+}
+aside{
+	color:$dark;
+	font-family: $serif;
+	@extend %left-margin-hang;
+	padding:0;
+	left:-14rem;
+}
+blockquote{
+	margin: 2rem 0;
+	position:relative;
+	/*&:before{
+		font-family: $light;
+		content:'\201C';
+		font-style: normal;
+		font-size: 4rem;
+		position: absolute;
+		left:-3rem;
+		margin-left: 0;
+		color: $dark;
+	}*/
+	&:after{
+		content:"";
+		height: 100%;
+		display: block;
+		position: absolute;
+		margin-left: 0;
+		left:0rem;
+		top: 0;
+		width: 0.5rem;
+		background-color: $dark;
+	}
+	h1,h2,h3,h4,h5,h6,p{
+		margin-left:2rem;
+		font-style: italic;
+		color: $dark;
+	}
+	p{
+		font-size: 1.7rem;
+	}
+}
+q{
+	color: $dark;
+	padding: 0.15em 0.3em;
+	font-style: italic;
+	&:before{
+		content:'\201C';
+		color:$dark;
+		margin-right:0.1em;
+	}
+	&:after{
+		content:'\201d';
+		color:$dark;
+		margin-left: 0.1em;
+	}
+}
+ol,ul{
+	list-style-position: outside;
+	margin-bottom: 2rem;
+	font-size:1rem;
+	position:relative;
+}
+ol{
+	list-style-type: none;
+	li{
+	    counter-increment: count-me;
+		&:before{
+			content: counter(count-me) ". ";
+    		display: block;
+    		position: absolute;
+    		color: $accent;
+    		left: 1.5rem;
+    		text-align:right;
+		}
+	}
+}
+
+ul{
+	list-style-type: none;
+	li:before{
+		font-family: sans-serif;
+		content: '•';
+		position: absolute;
+		left:2rem;
+	}
+}
+
+ul ul, ol ol, ul ol, ol ul{
+	margin: 1em 0;
+	padding-left: 0;
+}
+li{
+	margin-left: 3rem;
+	margin-bottom: 0.25em;
+	line-height:1.6;
+}
+hr{
+	border:none;
+	height:1px;
+	display:block;
+	color: black;
+}
+strong{
+	font-family: $serif;
+	font-weight: bold;
+}
+em{
+	font-style: italic;
+}
+sup{
+	vertical-align: super;
+	font-size: 0.75em;
+}
+figure{
+	position:relative;
+	figcaption{
+		padding: 1rem;
+		background-color:$bright;
+		color:$dark;
+		border-radius: 0.5em;
+		@extend  %left-margin-hang;
+		@media #{$desktop}{
+			margin-top:0;
+			top:0;
+			left: -15rem;
+			z-index: -1;
+			border-radius: 0.5rem 0 0 0.5rem;
+		}
+	}
+	img{
+		box-shadow: $dark 0 2px 2rem;
+	}
+}
+button{
+	padding: .25em 1em;
+	border:0;
+	border-radius: .5em;
+	color: $bright;
+
+	font-family: $serif;
+	background-color: $dark;
+	transition: opacity 0.5s, transform 0.5s,box-shadow 0.5s;
+	&:hover{
+		box-shadow: 0px 4px 15px $dark;
+		transform: translateY(-2px);
+	}
+}
+::selection{
+	background-color: $dark;
+	color:$bright;
+}
+
+//// LEGACY?
+@media #{$tablet}{
+	header h1{
+		font-size: 2rem;
+	}
+}

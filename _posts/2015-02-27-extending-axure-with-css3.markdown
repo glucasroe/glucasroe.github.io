@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Extending Axure's Interaction Design with CSS3
-date: '2015-02-27 22:26:13'
+date: '2015-02-27'
 tags: [axure, tutorial]
 image: posts/imported/2015/02/axurepluscss3.jpg
 ---

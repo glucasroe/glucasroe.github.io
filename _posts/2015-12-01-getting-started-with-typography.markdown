@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with Typography
-date: '2015-12-01 21:55:57'
+date: '2015-12-01'
 image: posts/imported/2015/12/getting-started-with-typography.png
 ---
 

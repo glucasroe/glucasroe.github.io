@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using XMind for Information Architecture
-date: '2015-11-24 22:47:42'
+date: '2015-11-24'
 image: posts/imported/2015/11/XMind-for-IA.jpg
 tags: article
 ---

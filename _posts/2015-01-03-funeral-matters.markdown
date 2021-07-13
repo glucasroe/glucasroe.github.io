@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Funeral Matters'
-date: '2015-01-03 05:34:34'
+date: '2015-01-03'
 tags: project
 image: posts/imported/2016/01/funeral-matters.png
 excerpt: '<p>Helping the bereaved better understand the details of planning a funeral with a straightforward and kind iPad app.</p>'
