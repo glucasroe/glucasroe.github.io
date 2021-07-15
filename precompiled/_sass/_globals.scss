@@ -1,16 +1,27 @@
-html{
-	font-size: 100%;
-	//overflow:hidden;
+*{
+	box-sizing: border-box;
 }
-body{
-	width:100%;
-	font-family:$light;
-	color:#333;
-	* + *{
-		margin:1em auto 0;
-		@media #{$desktop}{
-			margin-top: 1.1em;
-		}
+
+html{
+	font-family: $serif;
+	font-weight: 300;
+	background-color: $dark;
+	overflow: visible;
+	
+	// &:after{
+	// 	content:"mobile";
+	// 	display: block;
+	// 	color: white;
+	// 	@media #{$tablet}{ content: "tablet"}
+	// 	@media #{$desktop}{ content: "desktop"}
+	// }
+}
+
+* + *{
+	margin:1em auto 0;
+	
+	@media #{$desktop}{
+		margin-top: 1.1em;
 	}
 }
 
@@ -20,36 +31,36 @@ main{
 }
 
 a{
-	color:$dark;
-	text-decoration:none;
-	transition: color,.5s;
-	&:hover{
-		text-shadow: 1px 1px 0px #fff,2px 2px 0px $dark;
-	}
+	color: $bright;
+	text-decoration: none;	
+	
 	p > &,
 	nav > &,
 	aside > &,
 	.case-study__title{
-		background-image: linear-gradient(top, rgba(0,0,0,0) 50%, $dark 50%);
+		background: linear-gradient(to left, $bright, $bright 100%);
+		background-position: 0 1.2em;
+		background-size: 100% 1px;
 		background-repeat: repeat-x;
-		background-size:2px 2px;
-		background-position: 0 1.15em;
+		transition: background-position ease-in-out 0.25s;
 		&:hover{
-			background-image: linear-gradient(top, rgba(0,0,0,0) 50%, $dark 50%);
+
+			background-position: 0 0;
 		}
 	}
 }
 
 h1{
 	font-size: 3rem;
-	color: $dark;
-	font-family: $light;
+	color: $bright;
+	font-weight: 300;
 	line-height:1.35;
 }
 
 h2{
 	font-size: 2.5rem;
-	color: $dark;
+	color: $bright;
+	font-weight: 300;
 }
 
 h3{
@@ -65,14 +76,14 @@ h4{
 }
 
 h1,h2,h3,h4,h5,ul,li,p,img, .tile{
-	color: $dark;
+	color: $bright;
 	max-width: 50rem;
 	text-align: left;
 }
 p,aside,pre code,li, figcaption,button{
 	font-size: 1rem;
 	line-height: 1.75;
-	color:$dark;
+	color:$bright;
 	@media #{$desktop}{
 		font-size: 1.2rem;
 		line-height: 1.85;
@@ -85,23 +96,23 @@ img,video,.gfyvid{
 }
 code{
 	font-family: monaco, monospace;
-	color:$bright;
-	background-color:$dark;
+	color:$dark;
+	background-color:$bright;
 	border-radius:10px;
 	padding: 0.15em 0.5em;
 	margin:0 2px;
 }
 pre{
 	@extend %clearfix;
-  background-color: $dark;
+  background-color: $bright;
 	border-radius:3px;
 	padding:1em;
   overflow:auto;
 	code{
-		color: $bright;
+		color: $dark;
 		white-space: pre;
 		line-height:1.25;
-    background-color: $dark;
+    background-color: $bright;
 		float:left;
 		overflow: auto;
 		padding:0em;
@@ -109,11 +120,14 @@ pre{
 	}
 }
 aside{
-	color:$dark;
-	font-family: $serif;
+	border: 1px dotted $bright;
+	border-radius: 2px;
+	padding: .75em;
 	@extend %left-margin-hang;
-	padding:0;
-	left:-14rem;
+	@media #{$desktop}{
+		left:-14rem;
+		border:0;
+	}
 }
 blockquote{
 	margin: 2rem 0;
@@ -126,7 +140,7 @@ blockquote{
 		position: absolute;
 		left:-3rem;
 		margin-left: 0;
-		color: $dark;
+		color: $bright;
 	}*/
 	&:after{
 		content:"";
@@ -137,29 +151,29 @@ blockquote{
 		left:0rem;
 		top: 0;
 		width: 0.5rem;
-		background-color: $dark;
+		background-color: $bright;
 	}
 	h1,h2,h3,h4,h5,h6,p{
 		margin-left:2rem;
 		font-style: italic;
-		color: $dark;
+		color: $bright;
 	}
 	p{
 		font-size: 1.7rem;
 	}
 }
 q{
-	color: $dark;
+	color: $bright;
 	padding: 0.15em 0.3em;
 	font-style: italic;
 	&:before{
 		content:'\201C';
-		color:$dark;
+		color:$bright;
 		margin-right:0.1em;
 	}
 	&:after{
 		content:'\201d';
-		color:$dark;
+		color:$bright;
 		margin-left: 0.1em;
 	}
 }
@@ -177,7 +191,7 @@ ol{
 			content: counter(count-me) ". ";
     		display: block;
     		position: absolute;
-    		color: $accent;
+    		color: $bright;
     		left: 1.5rem;
     		text-align:right;
 		}
@@ -224,8 +238,8 @@ figure{
 	position:relative;
 	figcaption{
 		padding: 1rem;
-		background-color:$bright;
-		color:$dark;
+		background-color:$dark;
+		color:$bright;
 		border-radius: 0.5em;
 		@extend  %left-margin-hang;
 		@media #{$desktop}{
@@ -237,26 +251,26 @@ figure{
 		}
 	}
 	img{
-		box-shadow: $dark 0 2px 2rem;
+		box-shadow: $bright 0 2px 2rem;
 	}
 }
 button{
 	padding: .25em 1em;
 	border:0;
 	border-radius: .5em;
-	color: $bright;
+	color: $dark;
 
 	font-family: $serif;
-	background-color: $dark;
+	background-color: $bright;
 	transition: opacity 0.5s, transform 0.5s,box-shadow 0.5s;
 	&:hover{
-		box-shadow: 0px 4px 15px $dark;
+		box-shadow: 0px 4px 15px $bright;
 		transform: translateY(-2px);
 	}
 }
 ::selection{
-	background-color: $dark;
-	color:$bright;
+	background-color: $bright;
+	color:$dark;
 }
 
 //// LEGACY?
