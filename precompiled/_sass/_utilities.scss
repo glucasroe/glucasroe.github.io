@@ -12,12 +12,13 @@
 }
 
 %site-width{
-	max-width: 50rem;
-	margin: 0 auto 0;
+	max-width: 45rem;
+	margin-left: auto;
+	margin-right: auto;
 	position:relative;
-	padding: 0 1.5em;
+	// padding: 0 1.5em;
 	@media #{$desktop}{
-		left: 0rem;
+		// left: 0rem;
 	}
 }
 %left-margin-hang{
@@ -37,9 +38,9 @@
 
 .button{
 	padding:10px 20px;
-	background-color:$bright;
+	background-color:var(--foreground-color);
 	border-radius:5px;
-	color: $dark;
+	color: var(--background-color);
 }
 
 .rotated{

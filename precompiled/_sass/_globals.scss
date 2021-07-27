@@ -1,20 +1,38 @@
+:root{
+	--serif: 'Merriweather', Georgia, serif;
+	--foreground-color:#f5f0e0;
+	--background-color:#1c1527;
+	@media (prefers-color-scheme: dark) {
+	  --foreground-color:#f5f0e0;
+	  --background-color:#1c1527;
+	}
+	
+	@media (prefers-color-scheme: light) {
+	  --background-color:#f5f0e0;
+	  --foreground-color:#1c1527;
+	}
+		
+}
+
+$tablet: "screen and (min-width:40em)";
+$desktop: "screen and (min-width:64em)";
+
+
 *{
 	box-sizing: border-box;
+	font-family: var(--serif);
+	font-weight: 300;
+	color: var(--foreground-color);
 }
 
 html{
-	font-family: $serif;
-	font-weight: 300;
-	background-color: $dark;
-	overflow: visible;
 	
-	// &:after{
-	// 	content:"mobile";
-	// 	display: block;
-	// 	color: white;
-	// 	@media #{$tablet}{ content: "tablet"}
-	// 	@media #{$desktop}{ content: "desktop"}
-	// }
+	background-color: var(--background-color);
+	overflow: visible;
+}
+
+html.light-mode{
+
 }
 
 * + *{
@@ -31,14 +49,14 @@ main{
 }
 
 a{
-	color: $bright;
+	color: var(--foreground-color);
 	text-decoration: none;	
 	
 	p > &,
 	nav > &,
 	aside > &,
 	.case-study__title{
-		background: linear-gradient(to left, $bright, $bright 100%);
+		background: linear-gradient(to left, var(--foreground-color), var(--foreground-color) 100%);
 		background-position: 0 1.2em;
 		background-size: 100% 1px;
 		background-repeat: repeat-x;
@@ -52,15 +70,11 @@ a{
 
 h1{
 	font-size: 3rem;
-	color: $bright;
-	font-weight: 300;
 	line-height:1.35;
 }
 
 h2{
 	font-size: 2.5rem;
-	color: $bright;
-	font-weight: 300;
 }
 
 h3{
@@ -72,47 +86,46 @@ h4{
 	font-size: 1.25rem;
 	text-transform:uppercase;
 	text-align: left;
-	font-family: $serif;
 }
 
 h1,h2,h3,h4,h5,ul,li,p,img, .tile{
-	color: $bright;
-	max-width: 50rem;
-	text-align: left;
+	color: var(--foreground-color);
+	@extend %site-width;
 }
 p,aside,pre code,li, figcaption,button{
 	font-size: 1rem;
 	line-height: 1.75;
-	color:$bright;
+	color:var(--foreground-color);
 	@media #{$desktop}{
 		font-size: 1.2rem;
 		line-height: 1.85;
 	}
 }
-img,video,.gfyvid{
+body img,video,.gfyvid{
 	display:block;
 	max-width:100%;
 	margin-left:0;
+	margin-right: 0;
 }
 code{
 	font-family: monaco, monospace;
-	color:$dark;
-	background-color:$bright;
+	color:var(--background-color);
+	background-color:var(--foreground-color);
 	border-radius:10px;
 	padding: 0.15em 0.5em;
 	margin:0 2px;
 }
 pre{
 	@extend %clearfix;
-  background-color: $bright;
+  background-color: var(--foreground-color);
 	border-radius:3px;
 	padding:1em;
   overflow:auto;
 	code{
-		color: $dark;
+		color: var(--background-color);
 		white-space: pre;
 		line-height:1.25;
-    background-color: $bright;
+    background-color: var(--foreground-color);
 		float:left;
 		overflow: auto;
 		padding:0em;
@@ -120,7 +133,7 @@ pre{
 	}
 }
 aside{
-	border: 1px dotted $bright;
+	border: 1px dotted var(--foreground-color);
 	border-radius: 2px;
 	padding: .75em;
 	@extend %left-margin-hang;
@@ -133,14 +146,14 @@ blockquote{
 	margin: 2rem 0;
 	position:relative;
 	/*&:before{
-		font-family: $light;
+		font-family: var(--serif);
 		content:'\201C';
 		font-style: normal;
 		font-size: 4rem;
 		position: absolute;
 		left:-3rem;
 		margin-left: 0;
-		color: $bright;
+		color: var(--foreground-color);
 	}*/
 	&:after{
 		content:"";
@@ -151,29 +164,29 @@ blockquote{
 		left:0rem;
 		top: 0;
 		width: 0.5rem;
-		background-color: $bright;
+		background-color: var(--foreground-color);
 	}
 	h1,h2,h3,h4,h5,h6,p{
 		margin-left:2rem;
 		font-style: italic;
-		color: $bright;
+		color: var(--foreground-color);
 	}
 	p{
 		font-size: 1.7rem;
 	}
 }
 q{
-	color: $bright;
+	color: var(--foreground-color);
 	padding: 0.15em 0.3em;
 	font-style: italic;
 	&:before{
 		content:'\201C';
-		color:$bright;
+		color:var(--foreground-color);
 		margin-right:0.1em;
 	}
 	&:after{
 		content:'\201d';
-		color:$bright;
+		color:var(--foreground-color);
 		margin-left: 0.1em;
 	}
 }
@@ -191,7 +204,7 @@ ol{
 			content: counter(count-me) ". ";
     		display: block;
     		position: absolute;
-    		color: $bright;
+    		color: var(--foreground-color);
     		left: 1.5rem;
     		text-align:right;
 		}
@@ -224,7 +237,6 @@ hr{
 	color: black;
 }
 strong{
-	font-family: $serif;
 	font-weight: bold;
 }
 em{
@@ -238,8 +250,8 @@ figure{
 	position:relative;
 	figcaption{
 		padding: 1rem;
-		background-color:$dark;
-		color:$bright;
+		background-color:var(--background-color);
+		color:var(--foreground-color);
 		border-radius: 0.5em;
 		@extend  %left-margin-hang;
 		@media #{$desktop}{
@@ -251,26 +263,25 @@ figure{
 		}
 	}
 	img{
-		box-shadow: $bright 0 2px 2rem;
+		box-shadow: var(--foreground-color) 0 2px 2rem;
 	}
 }
 button{
 	padding: .25em 1em;
 	border:0;
 	border-radius: .5em;
-	color: $dark;
+	color: var(--background-color);
 
-	font-family: $serif;
-	background-color: $bright;
+	background-color: var(--foreground-color);
 	transition: opacity 0.5s, transform 0.5s,box-shadow 0.5s;
 	&:hover{
-		box-shadow: 0px 4px 15px $bright;
+		box-shadow: 0px 4px 15px var(--foreground-color);
 		transform: translateY(-2px);
 	}
 }
 ::selection{
-	background-color: $bright;
-	color:$dark;
+	background-color: var(--foreground-color);
+	color:var(--background-color);
 }
 
 //// LEGACY?

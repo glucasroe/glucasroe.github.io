@@ -9,7 +9,12 @@ layout: base.liquid
 I'm Lucas (or Luck). I'm a UX design lead.
 
 <aside>This is what my face looks like, courtesy of <a href="http://www.cast83.com/">Yianni</a>. He takes nice pictures.</aside>
-<img alt="Lucas' Face" src="/images/pages/lucas-face.jpg">
+<picture>
+  <source srcset="
+	images/pages/lucas-face.webp" type="image/webp">
+  <img alt="A picture of Lucas' face" src="images/pages/lucas-face.jpg">
+</picture>
+
 
 ## <a name="professionally"></a>Professionally:
 I try to work as broadly and holistically as possible. I went to school for Design while working as a Front End Developer (in a Marketing department, of all places), and have worked on products in basically every stage of their lifecycle.

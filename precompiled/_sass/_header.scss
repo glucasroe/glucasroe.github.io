@@ -8,7 +8,11 @@ header{
 	position: relative;
 	margin-top: 2em;
 	overflow: visible;
-	&:before{
+		
+}
+
+header > a{
+	&:after{
 		content: "";
 		width: 6em;
 		height: 6em;
@@ -24,20 +28,20 @@ header{
 	}
 	@media #{$tablet}{
 		margin-top: 1em;
-		&:before{
+		&:after{
 			width:10em;
 			height: 10em;
 			left: -7em;	
 		}
 	}
-	
-	
 }
-
 header > a:hover{
 	text-decoration: underline;
 }
 
+header > a:hover ~ :before{
+	transform: rotate(0deg);
+}
 
 header a:hover svg{
 	transform: rotateZ(-17deg);
@@ -49,8 +53,7 @@ header h1{
 }
 
 nav{
-	text-align: right;
-	margin-top: 0;
+	margin: 0;
 	@media #{$tablet}{
 	}
 }
