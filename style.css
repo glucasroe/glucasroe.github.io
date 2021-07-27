@@ -48,15 +48,16 @@ a {
 }
 p > a, nav > a, aside > a,
 a .case-study__title {
-  background: linear-gradient(to left, var(--foreground-color), var(--foreground-color) 100%);
-  background-position: 0 1.2em;
-  background-size: 100% 1px;
-  background-repeat: repeat-x;
-  transition: background-position ease-in-out 0.25s;
+  -webkit-text-decoration: underline dotted 1px;
+          text-decoration: underline dotted 1px;
+  text-underline-offset: 2px;
 }
 p > a:hover, nav > a:hover, aside > a:hover,
 a .case-study__title:hover {
-  background-position: 0 0;
+  text-underline-offset: 0px;
+  text-decoration-thickness: 1px;
+  -webkit-text-decoration-style: wavy;
+          text-decoration-style: wavy;
 }
 
 h1 {
