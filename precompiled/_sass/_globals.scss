@@ -15,7 +15,7 @@
 }
 
 $tablet: "screen and (min-width:40em)";
-$desktop: "screen and (min-width:64em)";
+$desktop: "screen and (min-width:70em)";
 
 
 *{
@@ -26,9 +26,10 @@ $desktop: "screen and (min-width:64em)";
 }
 
 html{
-	
 	background-color: var(--background-color);
 	overflow: visible;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 html.light-mode{

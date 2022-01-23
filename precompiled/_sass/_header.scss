@@ -34,19 +34,20 @@ header > a{
 			left: -7em;	
 		}
 	}
+	@media #{$desktop}{
+		&:after{
+			top: 1em;
+		}
+	}
 }
+
 header > a:hover{
 	text-decoration: underline;
 }
 
-header > a:hover ~ :before{
-	transform: rotate(0deg);
-}
 
-header a:hover svg{
-	transform: rotateZ(-17deg);
-	opacity: 1;
-}
+
+
 header h1{
 	font-size: 1.5rem;
 	letter-spacing: 1.1px;

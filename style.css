@@ -27,12 +27,14 @@
 html {
   background-color: var(--background-color);
   overflow: visible;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 * + * {
   margin: 1em auto 0;
 }
-@media screen and (min-width:64em) {
+@media screen and (min-width:70em) {
   * + * {
     margin-top: 1.1em;
   }
@@ -89,7 +91,7 @@ p, aside, pre code, li, figcaption, button {
   line-height: 1.75;
   color: var(--foreground-color);
 }
-@media screen and (min-width:64em) {
+@media screen and (min-width:70em) {
   p, aside, pre code, li, figcaption, button {
     font-size: 1.2rem;
     line-height: 1.85;
@@ -134,7 +136,7 @@ aside {
   border-radius: 2px;
   padding: 0.75em;
 }
-@media screen and (min-width:64em) {
+@media screen and (min-width:70em) {
   aside {
     left: -14rem;
     border: 0;
@@ -263,7 +265,7 @@ figure figcaption {
   color: var(--foreground-color);
   border-radius: 0.5em;
 }
-@media screen and (min-width:64em) {
+@media screen and (min-width:70em) {
   figure figcaption {
     margin-top: 0;
     top: 0;
@@ -282,14 +284,11 @@ button {
   border-radius: 0.5em;
   color: var(--background-color);
   background-color: var(--foreground-color);
-  transition: opacity 0.5s, box-shadow 0.5s, -webkit-transform 0.5s;
   transition: opacity 0.5s, transform 0.5s, box-shadow 0.5s;
-  transition: opacity 0.5s, transform 0.5s, box-shadow 0.5s, -webkit-transform 0.5s;
 }
 button:hover {
   box-shadow: 0px 4px 15px var(--foreground-color);
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
+  transform: translateY(-2px);
 }
 
 ::-moz-selection {
@@ -324,7 +323,7 @@ header, main, h1, h2, h3, h4, h5, ul, li, p, img, .tile {
   margin-right: auto;
   position: relative;
 }
-@media screen and (min-width:64em) {
+@media screen and (min-width:70em) {
   aside, figure figcaption {
     position: absolute;
     width: 12rem;
@@ -347,50 +346,7 @@ header, main, h1, h2, h3, h4, h5, ul, li, p, img, .tile {
 }
 
 .rotated {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
-@-webkit-keyframes (animate-in) {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-
-@keyframes (animate-in) {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-.animate-in {
-  -webkit-animation-name: animate-in;
-          animation-name: animate-in;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-}
-
-.fabulous {
-  -webkit-text-fill-color: transparent;
-  background: -o-linear-gradient(transparent, transparent);
-  -webkit-background-clip: text;
-  background-clip: text;
-  /*Lifted directly from this brilliance http://nimbupani.com/using-background-clip-for-text-with-css-fallback.html*/
+  transform: rotate(90deg);
 }
 
 .no-margin {
@@ -403,14 +359,10 @@ header, main, h1, h2, h3, h4, h5, ul, li, p, img, .tile {
 }
 
 header {
-  display: -webkit-flex;
   display: flex;
-  -webkit-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
   position: relative;
   margin-top: 2em;
   overflow: visible;
@@ -425,8 +377,7 @@ header > a:after {
   top: -3em;
   left: -2em;
   opacity: 0.2;
-  -webkit-transform: rotate(-28deg);
-          transform: rotate(-28deg);
+  transform: rotate(-28deg);
   background-image: url(/images/site/seal.svg);
   background-repeat: no-repeat;
 }
@@ -440,20 +391,14 @@ header > a:after {
     left: -7em;
   }
 }
+@media screen and (min-width:70em) {
+  header > a:after {
+    top: 1em;
+  }
+}
 
 header > a:hover {
   text-decoration: underline;
-}
-
-header > a:hover ~ :before {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-}
-
-header a:hover svg {
-  -webkit-transform: rotateZ(-17deg);
-          transform: rotateZ(-17deg);
-  opacity: 1;
 }
 
 header h1 {
@@ -479,11 +424,9 @@ footer p {
   padding: 0;
   max-width: 60rem;
 }
-@media screen and (min-width:64em) {
+@media screen and (min-width:70em) {
   footer {
-    display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: space-between;
-            justify-content: space-between;
+    justify-content: space-between;
   }
 }
