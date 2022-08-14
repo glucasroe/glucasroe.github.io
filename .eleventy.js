@@ -1,21 +1,22 @@
+const eleventySass = require("eleventy-sass");
+
 module.exports = (eleventyConfig) => {
 	// Copy the "assets" directory to the compiled "_site" folder.
+	eleventyConfig.addPlugin(eleventySass);
 	eleventyConfig.addPassthroughCopy('assets');
 	eleventyConfig.addPassthroughCopy('images');
-	eleventyConfig.addPassthroughCopy('style.css');
-	eleventyConfig.addPassthroughCopy('style.css.map');
 
 	eleventyConfig.addCollection('posts', collection => {
 		return collection.getFilteredByGlob('_posts/*.md');
 	});
 
-	  
+
 	return {
 		dir: {
-		input: './',
-		output: './_site',
-		layouts: './_layouts',
-	},
+			input: './src',
+			output: './_site',
+			layouts: './_layouts',
+		},
 	templateFormats: [
 		'html',
 		'liquid',

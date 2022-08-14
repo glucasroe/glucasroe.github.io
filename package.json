@@ -1,0 +1,25 @@
+{
+  "name": "glucasroe.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glucasroe/glucasroe.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glucasroe/glucasroe.github.io/issues"
+  },
+  "homepage": "https://github.com/glucasroe/glucasroe.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "eleventy-sass": "^2.1.0"
+  }
+}
