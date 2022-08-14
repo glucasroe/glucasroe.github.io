@@ -31,50 +31,21 @@
     </script>
   </head>
 
-  <body>
-    <body class='animating-in'>
+    <body class=''>
+    <section class="deprecation-announcement">
+      <p><strong>Archived page:</strong> You've found a page from my old site! This is here for archival purposes and preventing link rot. There may be some jank. <a href="https://glucasroe.com">Back to main site</a></p>
+    </section>
     <header class="site-header">
-        <a href='{{ site.baseurl }}/'>
+        <a href='/post-archive/'>
           <img class="site-header__logo" alt='G. Lucas Roe' src='{{ site.baseurl }}/images/site/seal.svg'>
           <h1 class="site-header__title">G. Lucas Roe</h1>
         </a>
-        <nav class="site-header__nav">
-          {% capture location %}{{ page.url | remove:'/' | strip }}{% endcapture %}
-          {% for page in site.pages %}
-            {% unless page.exclude_from_nav %}
-              {% if page.title %}
-                {% assign current = page.title | downcase %}
-                <a href="{{page.url | prepend: site.baseurl }}" class="site-header__nav-link {% if location == current %} nav--current {% endif %}" >{{ page.title }}</a>
-              {% endif %}
-            {% endunless %}
-          {% endfor %}
-        </nav>
     </header>
-    <div class='animate-in post-body'>
+    <div class='post-body'>
       {{ content }}
     </div>
     <footer>
       <p class="copyright">Unless otherwise noted, content is &copy; {{ 'now' | date: "%Y" }} G. Lucas Roe, and shouldn't be used without at least asking nicely. I can't stop you, but some wicked bad karma will come your way.</p>
-      <p class="social">
-        <a href='https://www.linkedin.com/in/glucasroe/'>
-          <img alt='LinkedIn' src='{{ site.baseurl }}/images/site/linked-in.svg'>
-        </a>
-        <a href='https://github.com/glucasroe'>
-          <img alt='Github' src='{{ site.baseurl }}/images/site/github.svg'>
-        </a>
-        <a href='https://codepen.io/glucasroe'>
-          <img alt='Codepen' src='{{ site.baseurl }}/images/site/codepen.svg'>
-        </a>
-        <a href='https://twitter.com/glucasroe'>
-          <img alt='Twitter' src='{{ site.baseurl }}/images/site/twitter.svg'>
-        </a>
-        <a href='/feed.xml'>
-          <img alt='RSS Feed' src='{{ site.baseurl }}/images/site/rss.svg'>
-
-        </a>
-      </p>
     </footer>
-    <div class="view-toggle" id="view-toggle"></div>
-    <script type="text/javascript" src="{{ site.baseurl }}/scripts/scripts-min.js"></script>
   </body>
 </html>

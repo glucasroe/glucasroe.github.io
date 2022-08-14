@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 html{
 	font-size: 100%;
 	//overflow:hidden;
@@ -21,11 +24,11 @@ main{
 
 a{
 	color:$accent;
-	text-decoration:none;
+	text-decoration:underline;
 	@include transition(color,.5s);
 	&:hover{
 		color: $accent-3;
-		text-shadow: 1px 1px 0px #fff,2px 2px 0px $transparent-red-3;
+		// text-shadow: 1px 1px 0px #fff,2px 2px 0px $transparent-red-3;
 	}
 	p > &,
 	nav > &,
