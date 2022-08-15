@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Making Gfycat Play Nice in Responsive Design
+title: 'Making Gfycat Play Nice in Responsive Design'
 date: '2014-11-21 04:35:41'
-tags: [dev, tutorial]
 image: posts/imported/2015/12/gfycat-responsive-design.png
 ---
 
@@ -22,7 +21,7 @@ div.gfyitem {
     div:not(.gfyCtrlBox):not(.gfyCtrlTabPull){
         width: 100% !important;
         max-width:100% !important;
-        height: auto !important;    
+        height: auto !important;
         .gfyPreLoadCanvas{
             display: none;
         }

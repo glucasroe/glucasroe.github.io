@@ -3,11 +3,9 @@ layout: post
 title: A Taxonomy of Prototyping Tools
 date: '2015-12-07 14:26:56'
 image: posts/imported/2015/12/prototyping-taxonomy.jpg
-tags: 
-- tools
 ---
 
-On [Designer Hangout](https://www.designerhangout.co/), I moderate one of the more popular channels, `#resources_tools`. With the glut of new prototyping tools that have been released this year, I&rsquo;ve found myself grouping them into quick categories so I can talk about them more easily (and understand where the new things fit in.) I&rsquo;ve been working on a project to better explore this range of tools (In the same vein as [Cooper&rsquo;s work on this](http://www.cooper.com/prototyping-tools))&mdash;but it&rsquo;s also useful to have a vocabulary to talk about these different tools. 
+On [Designer Hangout](https://www.designerhangout.co/), I moderate one of the more popular channels, `#resources_tools`. With the glut of new prototyping tools that have been released this year, I&rsquo;ve found myself grouping them into quick categories so I can talk about them more easily (and understand where the new things fit in.) I&rsquo;ve been working on a project to better explore this range of tools (In the same vein as [Cooper&rsquo;s work on this](http://www.cooper.com/prototyping-tools))&mdash;but it&rsquo;s also useful to have a vocabulary to talk about these different tools.
 
 <div class="anchor-links">
 <a href="#definition">Definition</a>

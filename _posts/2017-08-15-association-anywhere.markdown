@@ -3,18 +3,15 @@ layout: post
 title: 'Association Anywhere—Version 8'
 date: '2017-08-15 05:34:34'
 image: /posts/aa/aa-logo.png
-tags: project
-excerpt: '<p>Analyzing, testing, and releasing a massive redesign of the leading association management product</p>'
-read: 4:43
+alt: 'The Association Anywhere Logo, an orange hummingbird.'
 ---
 #### Overview:
-
 * **Company**: <a href="https://www.acgisoftware.com/">ACGI Software</a>
 * **My Role**: User research, interactive prototyping, interaction design, visual design, user testing
 * **Collaborators**: Greg Reich, Head of Product. Alan Moore, UX Developer. Also, a ton of great developers on the ACGI Team.
 * **Technology**: Oracle Database
 
-When working at ACGI, I glazed a lot of eyeballs whenever I told someone what I did for a living. After running through the usual "What's a UX design?" I would explain what ACGI does&mdash;making association management software. 
+When working at ACGI, I glazed a lot of eyeballs whenever I told someone what I did for a living. After running through the usual "What's a UX design?" I would explain what ACGI does&mdash;making association management software.
 
 Professional associations have similar needs to other businesses or organizational bodies, but they typically do so with few resources and with a deep need to connect together information usually held in silos. ACGI creates the nerve center for these organizations, a sprawling product called "Association Anywhere" that manages almost every aspect of an association's existence.
 
@@ -31,7 +28,7 @@ Our task was to launch the 8th iteration of Association anywhere, a complete ove
 
 ## Evaluation
 
-When I started at ACGI, we had a navigational prototype that had been languishing since it was built. It was a complete fresh start, collecting together a lot of various types of navigation from throughout the system into a single tree structure. It was a huge improvement just through consolidation&mdash;new users now didn't have to memorize the location of individual levels of navigation. 
+When I started at ACGI, we had a navigational prototype that had been languishing since it was built. It was a complete fresh start, collecting together a lot of various types of navigation from throughout the system into a single tree structure. It was a huge improvement just through consolidation&mdash;new users now didn't have to memorize the location of individual levels of navigation.
 
 <figure>
     <img alt="Wireframe of the navigational setup before" src="/images/posts/aa/aa-navigation-before.jpg" />
@@ -53,7 +50,7 @@ The heuristic evaluation gave us the ability to prioritize changes, giving us a 
 
 Improving the product was our #1 goal, but we also wanted to set up the company to do good work faster and with less effort in the future. That was only going to come about by creating a scaffolding for us all to use, in both concept and technology.
 
-I started with a detailed breakdown of our design system in Confluence, giving detailed guidelines on what elements to use and when, and establishing an overall design system for the company. Because of the technology we were using, this system was largely documentation of the decisions we made instead of being a true, living style guide. However, this opened up communication with our developers and engineers about the interfaces that we used, why and when we would pull in specific components. 
+I started with a detailed breakdown of our design system in Confluence, giving detailed guidelines on what elements to use and when, and establishing an overall design system for the company. Because of the technology we were using, this system was largely documentation of the decisions we made instead of being a true, living style guide. However, this opened up communication with our developers and engineers about the interfaces that we used, why and when we would pull in specific components.
 
 Much of this was done by collecting together the various ways that we already did the interface design through years of legacy software, documenting the different versions that we saw and unifying them into a single standard. The product department (Greg and I) set up trainings with the engineering staff to teach them usability heuristics and standards, and to get them moving towards making more consistent, understandable interfaces.
 

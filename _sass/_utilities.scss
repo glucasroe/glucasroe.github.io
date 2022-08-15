@@ -30,48 +30,9 @@
 	}
 }
 
-.animated{
-	@include transition(all .25s);
-	@include animation-fill-mode(both);
-}
-
-.button{
-	padding:10px 20px;
-	background-color:$white;
-	border-radius:5px;
-	color: $accent;
-}
-
 .rotated{
-	@include transform(rotate(90deg) );
 }
 
-@include keyframes (animate-in) {
-	0% {
-		opacity: 0;
-		@include transform(translateY(-20px));
-	}
-
-	100% {
-		opacity: 1;
-		@include transform(translateY(0));
-	}
-}
-
-.animate-in {
-	@include animation-name(animate-in);
-	animation-duration: 1s;
-	animation-fill-mode: both;
-}
-
-.fabulous{
-	-webkit-text-fill-color: transparent;
-		background: -webkit-linear-gradient(100deg, $accent, $cool-grey);
-		background: -o-linear-gradient(transparent, transparent);
-		-webkit-background-clip: text;
-		background-clip: text;
-		/*Lifted directly from this brilliance http://nimbupani.com/using-background-clip-for-text-with-css-fallback.html*/
-}
 .no-margin{
 	margin-top: 0;
 	margin-bottom: 0;

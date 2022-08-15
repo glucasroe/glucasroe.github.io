@@ -1,28 +1,8 @@
 ---
 ---
 // Externals
-@import "bourbon/bourbon";
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,900,700italic);
 @import "reset";
 
-//Setup
-@import "variables";
+//Structure
 @import "globals";
 @import "utilities";
-
-//Sitewide
-@import "header";
-@import "footer";
-@import "vendors";
-@import "zenburn";
-
-//Components
-@import "home";
-@import "post";
-@import "posts-page";
-@import "tile";
-@import "case-study";
-@import "deprecation";
-
-//Styles
-// @import "dark-mode";

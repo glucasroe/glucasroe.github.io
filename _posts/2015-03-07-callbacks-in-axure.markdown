@@ -2,7 +2,6 @@
 layout: post
 title: Callbacks in Axure
 date: '2015-03-07 15:18:04'
-tags: [axure, tutorial]
 image: posts/imported/2015/01/Axurecallbackillu.jpg
 ---
 

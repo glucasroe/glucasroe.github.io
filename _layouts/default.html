@@ -8,33 +8,15 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-    <!-- Gfycat -->
-    <script>(function(d, t){var g = d.createElement(t),s = d.getElementsByTagName(t)[0];g.src = 'https://assets.gfycat.com/js/gfyajax-0.517d.js';s.parentNode.insertBefore(g, s);}(document, 'script'));</script>
-
-    <script type="text/javascript">
-    //Stops the white flash when dark mode is on
-      if(localStorage.getItem('dark-mode') === 'true'){
-        localStorage.setItem('inline-style', 'true');
-        var sheet = (function() {
-  	        var style = document.createElement("style");
-            style.appendChild(document.createTextNode(""));
-            document.head.appendChild(style);
-            return style.sheet;
-        })();
-        sheet.insertRule("body { background-color:#1f2028}", 0);
-        sheet.insertRule(".site-header>a{opacity: 0.4;}",1);
-      }
-    </script>
   </head>
 
-    <body class=''>
-    <section class="deprecation-announcement">
-      <p><strong>Archived page:</strong> You've found a page from my old site! This is here for archival purposes and preventing link rot. There may be some jank. <a href="https://glucasroe.com">Back to main site</a></p>
-    </section>
+  <body class=''>
     <header class="site-header">
         <a href='/post-archive/'>
           <img class="site-header__logo" alt='G. Lucas Roe' src='{{ site.baseurl }}/images/site/seal.svg'>
@@ -42,7 +24,14 @@
         </a>
     </header>
     <div class='post-body'>
-      {{ content }}
+      <main class="content">
+        <article class="page">
+          <h1>{{ page.title }}</h1>
+          <div class="entry">
+            {{ content }}
+          </div>
+        </article>
+      </main>
     </div>
     <footer>
       <p class="copyright">Unless otherwise noted, content is &copy; {{ 'now' | date: "%Y" }} G. Lucas Roe, and shouldn't be used without at least asking nicely. I can't stop you, but some wicked bad karma will come your way.</p>

@@ -2,9 +2,7 @@
 layout: post
 title: 'BUNN'
 date: '2014-11-05 05:07:19'
-tags: project
 image: posts/imported/2014/11/bunn-banner.png
-excerpt: '<p>Strategizing and wireframing a site redesign for one of the biggest coffee companies in the world.</p>'
 ---
 #### Overview:
 * **Company**: r2i

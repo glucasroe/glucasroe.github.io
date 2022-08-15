@@ -2,7 +2,6 @@
 layout: post
 title: Abusing Patterns and the Death of the Modal
 date: '2015-03-23 00:19:19'
-tags: article
 image: posts/imported/2015/03/deathofthemodal.jpg
 ---
 

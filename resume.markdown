@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Resume
 date: '2018-01-20 14:55:00'
 exclude_from_nav: true
