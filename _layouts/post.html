@@ -15,7 +15,7 @@
 
     <body class=''>
     <section class="deprecation-announcement">
-      <p><strong>Archived page:</strong> You've found a page from my old site! This is here for archival purposes and preventing link rot. There may be some jank. <a href="https://glucasroe.com">Back to main site</a></p>
+      <p><strong>Archived page:</strong> You've found a page from my old site! This is here for archival purposes and preventing link rot. There may be some jank. <a href="/">Back to main site</a></p>
     </section>
     <header class="site-header">
         <a href='/post-archive/'>
@@ -28,8 +28,10 @@
       <main class="content" role="main">
           <article class="post">
             <h1>{{ page.title }}</h1>
-              <div class="post-meta">Posted on <time>{{ page.date | date: "%Y %B %e" }}</time>{{ tags_content }}
-              </div>
+                {% if page.date %}
+                    <div class="post-meta">Posted on <time>{{ page.date | date: "%Y %B %e" }}</time></div>
+                {% endif %}
+
 
               {% if page.image %}
                   <img class="post-image-header animated fade-in-color" src="{{ site.baseurl }}/images/{{ page.image }}" />

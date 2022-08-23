@@ -5,4 +5,10 @@
 
 //Structure
 @import "globals";
-@import "utilities";
+
+.site-header__logo{
+    max-width: 8rem;
+    margin: 2rem 0 2rem;
+    transform: rotateZ(-30deg);
+    opacity: .5;
+}

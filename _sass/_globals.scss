@@ -17,9 +17,11 @@ html{
 	color: $high-key;
 }
 body{
-	width:100%;
 	font-family:$light;
 	color: $low-key;
+	margin: 0 auto 0;
+	max-width: 50rem;
+	position: relative;
 }
 
 main{
@@ -28,9 +30,10 @@ main{
 
 a{
 	color:$high-key;
-	text-decoration:dotted;
+	text-decoration: 1px underline dotted $high-key;
+	text-decoration-skip-ink: revert;
 	&:hover{
-		text-decoration: underline;
+		text-decoration-style: wavy;
 	}
 }
 
@@ -62,7 +65,6 @@ h4{
 }
 
 h1,h2,h3,h4,h5,ul,li,p,img, .tile{
-	max-width: 50rem;
 	text-align: left;
 }
 p,aside,pre code,li, figcaption,button{
@@ -244,3 +246,48 @@ figure{
 		font-size: 2rem;
 	}
 }
+
+.clear{
+	clear:both;
+	margin:0;
+}
+
+%clearfix {
+  &:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+}
+
+%site-width{
+	max-width: 50rem;
+	margin: 0 auto 0;
+	position:relative;
+	padding: 0 1.5em;
+	@media #{$desktop}{
+		left: 0rem;
+	}
+}
+%left-margin-hang{
+	@media #{$desktop}{
+		position:absolute;
+		width:12rem;
+		//margin-top:0;
+		margin-left: 2.5%;
+		text-align: right;
+	}
+}
+
+.rotated{
+}
+
+.no-margin{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.hidden{
+	visibility:hidden;
+}
+
