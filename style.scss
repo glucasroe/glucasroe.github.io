@@ -6,9 +6,37 @@
 //Structure
 @import "globals";
 
+.site-header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.site-header__logo, .site-header__title{
+    transition: all ease-out .25s;
+}
+
 .site-header__logo{
     max-width: 8rem;
     margin: 2rem 0 2rem;
+
     transform: rotateZ(-30deg);
     opacity: .5;
+}
+
+.site-header__title{
+    opacity: 0;
+    margin: 0 1.5rem;
+}
+
+.site-header a:hover{
+    .site-header__logo, .site-header__title{
+        opacity: 1;
+    }
+    .site-header__logo{
+        transform: rotateZ(-15deg);
+    }
+}
+
+.bio__headshot, .bio__headshot img{
+    max-width: 15rem;
 }

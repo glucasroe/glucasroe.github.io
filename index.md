@@ -6,8 +6,8 @@ layout: default
 
 I'm Lucas Roe (I also go by Luck). I use a broad range of methodologies to find and prioritize the path forward for excellent products.
 
-<aside>Here's a photo of me, taken by <a href="http://www.cast83.com/">Yianni</a>. He takes great pictures.</aside>
-<picture>
+<aside>Here's a picture of my face, taken by <a href="http://www.cast83.com/">Yianni</a>. He takes great pictures.</aside>
+<picture class="bio__headshot">
   <!-- <source srcset="images/pages/lucas-face.webp" type="image/webp"> -->
   <img alt="A picture of Lucas' face" src="images/pages/lucas-face.jpg">
 </picture>
@@ -21,7 +21,7 @@ Structured conversations that build understanding of users true needs, tasks, an
 ### Engagement and communications
 
 
-### Quantitative data
+### Qualntitative data
 Marrying together quantitative signals with qualitative framing affords effect sizing and verifies critical needs. I collect, structure, and humanize data to make it actionable and useful, not just pushing metrics.
 
 ### Work cycles
