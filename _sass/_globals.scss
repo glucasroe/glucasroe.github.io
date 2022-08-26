@@ -105,9 +105,21 @@ pre{
 aside{
 	color:$high-key;
 	font-family: $serif;
-	@extend %left-margin-hang;
-	padding:0;
-	left:-14rem;
+	// @extend %left-margin-hang;
+	border: 1px solid $high-key;
+	padding:1rem 2rem 1rem 1rem;
+	left:-13rem;
+	&:after{
+		content:"";
+		display: block;
+		width: 213px;
+		height: 176px;
+		position: absolute;
+		bottom:-27px;
+		left:-22px;
+		background-image:url('images/site/caption-gradient.gif');
+
+	}
 }
 blockquote{
 	margin: 2rem 0;
@@ -210,14 +222,6 @@ figure{
 		padding: 1rem;
 		color: $high-key;
 		border-radius: 0.5em;
-		@extend  %left-margin-hang;
-		@media #{$desktop}{
-			margin-top:0;
-			top:0;
-			left: -15rem;
-			z-index: -1;
-			border-radius: 0.5rem 0 0 0.5rem;
-		}
 	}
 	img{
 		// box-shadow: $grey-9 0 2px 2rem;
