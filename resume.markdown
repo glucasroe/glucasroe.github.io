@@ -4,9 +4,9 @@ title: Resume
 date: '2018-01-20 14:55:00'
 ---
 
-> Designer and general internet nerd, with affinities in strategy, communications, and product research. Focused on product strategy, IA, structure, design, performance, and meeting user's needs. Conscientious, idealistic, and lots of heart.
+Design leader and general nerd, with affinities in strategy, communications, and product research. Focused on product strategy, IA, structure, design, performance, and meeting user's needs. Conscientious, idealistic, lots of heart.
 
-### <a href="/files/glr-resume.pdf">Download a PDF of my Resume</a>
+<a href="/files/glr-resume.pdf"><button>Download a PDF of my resume</button></a>
 
 ## Education:
 
