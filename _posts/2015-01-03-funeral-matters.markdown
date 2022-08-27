@@ -2,9 +2,7 @@
 layout: post
 title: 'Funeral Matters'
 date: '2015-01-03 05:34:34'
-tags: project
 image: posts/imported/2016/01/funeral-matters.png
-excerpt: '<p>Helping the bereaved better understand the details of planning a funeral with a straightforward and kind iPad app.</p>'
 ---
 #### Overview:
 * **Company**: r2i
@@ -75,4 +73,4 @@ The level of fidelity also ended up becoming a liability as the project progress
 
 This project was tremendously difficult and lasted for months. The complexities of the industry swirled together with the complexities of the technology, and we spent a lot of time mired in the process and trying to muddle through. We had to be adaptable and flexible, taking on whatever role made sense at each step in the project. The annotations and interface writing became one of my most important contributions, superseding my emphasis on the UI and form components we were using.
 
-This project exemplified that UX design is more about the process than the final project. The shiniest prototype that I could produce didn’t help nearly as much as a simple flow chart. 
+This project exemplified that UX design is more about the process than the final project. The shiniest prototype that I could produce didn’t help nearly as much as a simple flow chart.

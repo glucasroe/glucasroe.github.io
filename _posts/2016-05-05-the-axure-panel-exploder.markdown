@@ -2,9 +2,7 @@
 layout: post
 title: 'The Axure Panel Exploder'
 date: '2016-05-05 05:34:34'
-tags: axure
 ---
-
 Axure began as a tool to create functional specifications, and over time it pivoted slooowly to be its current interactive prototyping powerhouse. Interestingly, the better it becomes at prototyping, the more that the functional specs seem to lag by the wayside.
 
 In early March, a reader reached out to me and asked if I had played at all with extending Axure's functional specification output. After I admitted that I hadn&rsquo;t, he proposed an interesting idea: What if you could layout each state of a dynamic panel in the browser so developers could see all possible states for it? Here are the screenshots they sent me:

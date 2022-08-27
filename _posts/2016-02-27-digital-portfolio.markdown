@@ -2,10 +2,7 @@
 layout: post
 title: 'Digital Portfolio'
 date: '2016-02-27 05:34:34'
-tags: project
 image: posts/imported/2016/02/digital-portfolio.png
-read: 4:43
-excerpt: '<p>Helping high-school students with disabilities navigate their transition to college, work, and community living.</p>'
 ---
 #### Overview:
 
@@ -50,7 +47,7 @@ After interviewing some of the students, Mr. Lee, and then a few parents, we est
     <figcaption>Thinking through a student’s relationship to the curriculum</figcaption>
 </figure>
 
-We made personas meant to encompass our main 3 use cases: student, teacher, and parent. 
+We made personas meant to encompass our main 3 use cases: student, teacher, and parent.
 
 <figure>
     <img alt="Example persona" src="/images/posts/imported/2016/02/teacher-persona.png" />
@@ -128,4 +125,4 @@ One of the highest compliments that I’ve ever received was from Mark Trexler, 
 
 > You have the most incredible patience working with these kids. ... It’s great to watch them open up and work with you
 
-This project challenged many of my assumptions about how different people understand interfaces, and required me to use multiple techniques to balance the desires of stakeholders and the needs of the end users. Hearing these students tell me their dreams and goals, and seeing the hope that they hung on their portfolio gave so much gravity to the work, but so much satisfaction when they understood how to use it. 
+This project challenged many of my assumptions about how different people understand interfaces, and required me to use multiple techniques to balance the desires of stakeholders and the needs of the end users. Hearing these students tell me their dreams and goals, and seeing the hope that they hung on their portfolio gave so much gravity to the work, but so much satisfaction when they understood how to use it.

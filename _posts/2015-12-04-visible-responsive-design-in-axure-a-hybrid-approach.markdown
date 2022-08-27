@@ -3,9 +3,6 @@ layout: post
 title: 'Visible Responsive Design in Axure: A Hybrid Approach'
 date: '2015-12-04 15:49:49'
 image: posts/imported/2015/12/axure-responsive-hybrid-optim.gif
-tags: 
-- axure
-- tutorial
 ---
 
 In version 7, Axure released a tremendously powerful responsive design workflow. I&rsquo;m not going to go through how to set it up, [I highly recommend this tutorial from Smashing Magazine if you&rsquo;re trying to get it going](http://www.smashingmagazine.com/2014/02/creating-responsive-prototypes-with-adaptive-views-in-axure-rp-7/).

@@ -1,8 +1,7 @@
 ---
 layout: post
-title: OnScrollUp and OnScrollDown in Axure
+title: 'OnScrollUp and OnScrollDown in Axure'
 date: '2014-09-10 21:12:44'
-tags: [axure, tutorial]
 image: posts/imported/2015/12/scrollup-scrolldown-axure-1.png
 ---
 

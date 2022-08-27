@@ -1,81 +1,75 @@
+$low-key: hsla(253, 100%, 7%, 1);
+$high-key: hsla(45, 100%, 94%, 1);
+
+$serif:'Merriweather',  'Palatino', 'Palatino Linotype', Georgia, serif;
+$light: 'Merriweather Light', 'Merriweather', 'Palatino', 'Palatino Linotype', Georgia, serif;
+
+$tablet: "screen and (min-width:40em)";
+$desktop: "screen and (min-width:80em)";
+
+*{
+	box-sizing: border-box;
+}
+
 html{
 	font-size: 100%;
-	//overflow:hidden;
+	background-color: $low-key;
+	color: $high-key;
 }
 body{
-	width:100%;
 	font-family:$light;
-	color:#333;
-	* + *{
-		margin:1em auto 0;
-		@media #{$desktop}{
-			margin-top: 1.1em;
-		}
-	}
+	padding: 1rem;
+	color: $low-key;
+	margin: 0 auto 0;
+	max-width: 50rem;
+	position: relative;
 }
 
 main{
-	@extend %site-width;
-	min-height: calc(100vh - 325px);
+	min-height: calc(100vh);
 }
 
 a{
-	color:$accent;
-	text-decoration:none;
-	@include transition(color,.5s);
+	color:$high-key;
+	text-decoration: 1px underline dotted $high-key;
+	text-decoration-skip-ink: revert;
 	&:hover{
-		color: $accent-3;
-		text-shadow: 1px 1px 0px #fff,2px 2px 0px $transparent-red-3;
+		text-decoration-style: wavy;
 	}
-	p > &,
-	nav > &,
-	aside > &,
-	.case-study__title{
-		@include background-image(linear-gradient(top, rgba(0,0,0,0) 50%, $transparent-red-4 50%));
-		background-repeat: repeat-x;
-		background-size:2px 2px;
-		background-position: 0 1.15em;
-		&:hover{
-			@include background-image(linear-gradient(top, rgba(0,0,0,0) 50%, $transparent-red-5 50%));
-		}
-	}
+}
+
+h1,h2,h3,h4,h5,ul,li,p,img{
+	color: $high-key;
+	font-family: $serif;
+	margin-top: 1em;
+	text-align: left;
 }
 
 h1{
 	font-size: 3rem;
-	color: $grey-2;
+	color: $high-key;
 	font-family: $light;
 	line-height:1.35;
 }
 
 h2{
 	font-size: 2.5rem;
-	color:$cool-grey;
 }
 
 h3{
 	font-size: 2rem;
-	font-family: $serif;
-	color:$cool-grey;
 	line-height: 1.4;
 }
 
 h4{
 	font-size: 1.25rem;
-	text-transform:uppercase;
-	color:$accent;
-	text-align: left;
-	font-family: $serif;
+	margin-top: .5em;
 }
 
-h1,h2,h3,h4,h5,ul,li,p,img, .tile{
-	max-width: 50rem;
-	text-align: left;
-}
 p,aside,pre code,li, figcaption,button{
 	font-size: 1rem;
 	line-height: 1.75;
-	color:$grey-2;
+	color:$high-key;
 	@media #{$desktop}{
 		font-size: 1.2rem;
 		line-height: 1.85;
@@ -88,49 +82,33 @@ img,video,.gfyvid{
 }
 code{
 	font-family: monaco, monospace;
-	color:$grey-4;
-	background-color:$grey-9;
+	color:$high-key;
+	background-color:$low-key;
+	border: 1px dashed $high-key;
 	border-radius:10px;
 	padding: 0.15em 0.5em;
 	margin:0 2px;
 }
 pre{
-	@extend %clearfix;
-  background-color: $grey-1;
-	border-radius:3px;
-	padding:1em;
-  overflow:auto;
+	color:$high-key;
+	background-color:$low-key;
+	border: 1px dashed $high-key;
+	border-radius:10px;
+	padding: 0.15em 0.5em;
+	margin:0 2px;
 	code{
-		color: $grey-7;
-		white-space: pre;
-		line-height:1.25;
-    background-color: $grey-1;
-		float:left;
-		overflow: auto;
-		padding:0em;
-    padding-right: 1em;
+
 	}
 }
 aside{
-	color:$accent-4;
+	color:$high-key;
 	font-family: $serif;
 	@extend %left-margin-hang;
-	padding:0;
-	left:-14rem;
 }
+
 blockquote{
 	margin: 2rem 0;
 	position:relative;
-	/*&:before{
-		font-family: $light;
-		content:'\201C';
-		font-style: normal;
-		font-size: 4rem;
-		position: absolute;
-		left:-3rem;
-		margin-left: 0;
-		color: $transparent-red-4;
-	}*/
 	&:after{
 		content:"";
 		height: 100%;
@@ -139,30 +117,30 @@ blockquote{
 		margin-left: 0;
 		left:0rem;
 		top: 0;
-		width: 0.5rem;
-		background-color: $transparent-red-4;
+		width: 1px;
+		background-color: $high-key;
 	}
 	h1,h2,h3,h4,h5,h6,p{
 		margin-left:2rem;
 		font-style: italic;
-		color: $grey-6;
+		color: $high-key;
 	}
 	p{
 		font-size: 1.7rem;
 	}
 }
 q{
-	color: $accent-2;
+	color: $high-key;
 	padding: 0.15em 0.3em;
 	font-style: italic;
 	&:before{
 		content:'\201C';
-		color:$grey-7;
+		color:$high-key;
 		margin-right:0.1em;
 	}
 	&:after{
 		content:'\201d';
-		color:$grey-7;
+		color:$high-key;
 		margin-left: 0.1em;
 	}
 }
@@ -180,7 +158,7 @@ ol{
 			content: counter(count-me) ". ";
     		display: block;
     		position: absolute;
-    		color: $accent;
+    		color: $high-key;
     		left: 1.5rem;
     		text-align:right;
 		}
@@ -192,7 +170,7 @@ ul{
 	li:before{
 		font-family: sans-serif;
 		content: '•';
-		color: $accent;
+		color: $high-key;
 		position: absolute;
 		left:2rem;
 	}
@@ -211,7 +189,6 @@ hr{
 	border:none;
 	height:1px;
 	display:block;
-	@include linear-gradient(left, $accent-2, $accent, $accent-2);
 }
 strong{
 	font-family: $serif;
@@ -228,42 +205,30 @@ figure{
 	position:relative;
 	figcaption{
 		padding: 1rem;
-		background-color:$grey-9;
-		color:$accent-3;
+		color: $high-key;
 		border-radius: 0.5em;
-		@extend  %left-margin-hang;
-		@media #{$desktop}{
-			margin-top:0;
-			top:0;
-			left: -15rem;
-			z-index: -1;
-			border-radius: 0.5rem 0 0 0.5rem;
-		}
 	}
 	img{
-		box-shadow: $grey-9 0 2px 2rem;
+		// box-shadow: $grey-9 0 2px 2rem;
 	}
 }
-button{
+.button, button{
 	padding: .25em 1em;
 	border:0;
 	border-radius: .5em;
-	background-color: $accent;
-	color: $white;
-
-	font-family: $serif;
-	background-color: $accent;
-	border: 1px solid $accent-4;
-	color: $white;
-	@include transition(opacity 0.5s, transform 0.5s,box-shadow 0.5s);
+	background-color: $low-key;
+	color: $high-key;
+	border: 1px solid $high-key;
+	font-family: $light;
+	transition: color .25s ease-in-out, background .25s ease-in-out;
 	&:hover{
-		box-shadow: 0px 4px 15px $grey-8;
-		@include transform(translateY(-2px));
+		background-color: $high-key;
+		color: $low-key;
 	}
 }
 ::selection{
-	background-color: $accent;
-	color:$white;
+	background-color: $high-key;
+	color:$low-key;
 }
 
 //// LEGACY?
@@ -272,3 +237,49 @@ button{
 		font-size: 2rem;
 	}
 }
+
+.clear{
+	clear:both;
+	margin:0;
+}
+
+%clearfix {
+  &:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+}
+
+%site-width{
+	max-width: 50rem;
+	margin: 0 auto 0;
+	position:relative;
+	padding: 0 1.5em;
+	@media #{$desktop}{
+		left: 0rem;
+	}
+}
+%left-margin-hang{
+	@media #{$desktop}{
+		position:absolute;
+		left: -15rem;
+		width:12rem;
+		margin-top: -2.3rem;
+		margin-left: 2.5%;
+		text-align: right;
+	}
+}
+
+.rotated{
+}
+
+.no-margin{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.hidden{
+	visibility:hidden;
+}
+

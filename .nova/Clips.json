@@ -1,0 +1,10 @@
+{
+  "clips" : [
+    {
+      "content" : "@media #{desktop$0}{\n\t\n}",
+      "name" : "jekyll-media-query",
+      "scope" : "editor",
+      "syntax" : "scss"
+    }
+  ]
+}

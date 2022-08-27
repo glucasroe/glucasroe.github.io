@@ -4,11 +4,8 @@ title: 'Facilittante'
 date: '2019-07-20 12:00:00'
 image: /posts/2019/facilittante/coraline-scene-mice-circus.gif
 alt: 'A scene from the movie Coraline, showing a troup of circus mice in a synchronized dance'
-tags: article
-excerpt: '<p>Dealing with the messy aftermath of uninclusive facilitation</p>'
-read: 5:01
 ---
- 
+
 > I'm sorry, I just can't work like this
 
 Marie dropped her pen and shoved herself slightly back from the table, her face pained with  embarrassment. It was week two of concept workshopping, round one of Crazy Eights. She had half of a single concept that she hated while the rest of the room had six or seven.
@@ -29,7 +26,7 @@ Workshops that go well feel brilliant. I'm wondering if it feels better than it 
 
 I fear that a dogma of speed and agility has warped design collaboration into a few rigid forms that juice humans for ideas and then put their pulp in the compost. Kim was my client. Darren is my coworker. Marie is one of my closest collaborators. And in each case, the shapes that I bent them into to fit the workshop mold created worse ideas at the expense of their dignity and creative energy. I don't want to do that anymore.
 
-I can get better at helping the uncomfortable develop their ideas, at encouraging the quiet, and at toning down the loud. However, I've been trying to figure out how it's possible to create a space that welcomes those whose demographics or personalities or neurons make those spaces stifling. 
+I can get better at helping the uncomfortable develop their ideas, at encouraging the quiet, and at toning down the loud. However, I've been trying to figure out how it's possible to create a space that welcomes those whose demographics or personalities or neurons make those spaces stifling.
 
 Here's where I've gotten so far:
 
