@@ -18,6 +18,7 @@ html{
 }
 body{
 	font-family:$light;
+	padding: 1rem;
 	color: $low-key;
 	margin: 0 auto 0;
 	max-width: 50rem;
@@ -37,6 +38,13 @@ a{
 	}
 }
 
+h1,h2,h3,h4,h5,ul,li,p,img{
+	color: $high-key;
+	font-family: $serif;
+	margin-top: 1em;
+	text-align: left;
+}
+
 h1{
 	font-size: 3rem;
 	color: $high-key;
@@ -46,28 +54,18 @@ h1{
 
 h2{
 	font-size: 2.5rem;
-	color:$high-key;
 }
 
 h3{
 	font-size: 2rem;
-	font-family: $serif;
-	color:$high-key;
 	line-height: 1.4;
 }
 
 h4{
 	font-size: 1.25rem;
-	text-transform:uppercase;
-	color:$high-key;
-	text-align: left;
-	font-family: $serif;
+	margin-top: .5em;
 }
 
-h1,h2,h3,h4,h5,ul,li,p,img{
-	margin-top: 1em;
-	text-align: left;
-}
 p,aside,pre code,li, figcaption,button{
 	font-size: 1rem;
 	line-height: 1.75;
@@ -105,22 +103,9 @@ pre{
 aside{
 	color:$high-key;
 	font-family: $serif;
-	// @extend %left-margin-hang;
-	border: 1px solid $high-key;
-	padding:1rem 2rem 1rem 1rem;
-	left:-13rem;
-	&:after{
-		content:"";
-		display: block;
-		width: 213px;
-		height: 176px;
-		position: absolute;
-		bottom:-27px;
-		left:-22px;
-		background-image:url('images/site/caption-gradient.gif');
-
-	}
+	@extend %left-margin-hang;
 }
+
 blockquote{
 	margin: 2rem 0;
 	position:relative;
@@ -277,8 +262,9 @@ figure{
 %left-margin-hang{
 	@media #{$desktop}{
 		position:absolute;
+		left: -15rem;
 		width:12rem;
-		//margin-top:0;
+		margin-top: -2.3rem;
 		margin-left: 2.5%;
 		text-align: right;
 	}
