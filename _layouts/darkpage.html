@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {{ site.name }}{% else %}{{ site.name }} – {{ site.description }}{% endif %}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  </head>
+
+  <body class=''>
+    <header class="site-header">
+        <a href='/'>
+          <img class="site-header__logo" alt='G. Lucas Roe' src='{{ site.baseurl }}/images/site/seal.gif'>
+          <h1 class="site-header__title">G. Lucas Roe</h1>
+        </a>
+    </header>
+    <main>
+      <h1>{{ page.title }}</h1>
+      <div class="entry">
+        {{ content }}
+      </div>
+    </main>
+    <footer>
+      <p class="copyright">Unless otherwise noted, content is &copy; {{ 'now' | date: "%Y" }} G. Lucas Roe, and shouldn't be used without at least asking nicely. I can't stop you, but some wicked bad karma will come your way.</p>
+    </footer>
+  </body>
+</html>

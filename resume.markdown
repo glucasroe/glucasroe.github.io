@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: darkpage
 title: Resume
 date: '2018-01-20 14:55:00'
 ---
