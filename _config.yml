@@ -64,3 +64,5 @@ exclude:
   - README.md
   - CNAME
   - vendor/
+  - archive-style.scss
+  - _sass/archive-styles
