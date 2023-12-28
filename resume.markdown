@@ -19,9 +19,16 @@ Design leader and general nerd, with affinities in strategy, communications, and
 #### [Coursera in Collaboration with University of California, San Diego](https://www.coursera.org/course/hciucsd)
 
 ## Experience:
+### Lead Product Designer
+<aside><em>10/2022&ndash;Present</em></aside>
+#### [Studio Designer](https://www.studiodesigner.com/) &mdash; Los Angeles, CA
+
+* Oversees all product design for the leading business management software for interior designers.
+* Developed new product lines through generative user research for payments and design tools.
+* Built a product competency inside of the organzation, scaling from a single Product Owner to two functional product Pods.
 
 ### Product Design Lead (Product Designer IV)
-<aside><em>9/2021&ndash;Present</em></aside>
+<aside><em>9/2021&ndash;10/2022</em></aside>
 #### [Vertex Inc.](https://www.vertexinc.com/) &mdash; King of Prussia, PA
 
 * Product design lead over two value streams, Data & Insights and Compliance & Returns representing $30m dollars in ARR.
