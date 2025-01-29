@@ -1,5 +1,5 @@
 ---
-layout: darkpage
+layout: post
 title: Resume
 date: '2018-01-20 14:55:00'
 ---
@@ -25,7 +25,8 @@ Design leader and general nerd, with affinities in strategy, communications, and
 
 * Oversees all product design for the leading business management software for interior designers.
 * Developed new product lines through generative user research for payments and design tools.
-* Built a product competency inside of the organzation, scaling from a single Product Owner to two functional product Pods.
+* Built a product competency inside of the organization, scaling from a single Product Owner to two functional product Pods.
+* Developed an in-house design system with 2 product designers, improving the visual design and usability of the product as a whole.
 
 ### Product Design Lead (Product Designer IV)
 <aside><em>9/2021&ndash;10/2022</em></aside>
