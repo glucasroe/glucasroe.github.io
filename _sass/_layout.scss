@@ -4,13 +4,14 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    gap: 1em;
 }
 header > a{
     display: flex;
     align-items: center;
     text-decoration: none;
 }
-header img, header h1{
+header img, header h2{
     transition: all ease-out .25s;
 }
 
@@ -22,13 +23,13 @@ header img{
     opacity: .5;
 }
 
-header h1{
+header h2{
     opacity: 0;
     margin: 0 1.5rem;
 }
 
 header a:hover{
-    img, h1{
+    img, h2{
         opacity: 1;
     }
     img{
