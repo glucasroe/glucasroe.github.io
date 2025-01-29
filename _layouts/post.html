@@ -8,40 +8,33 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/files/archive-style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   </head>
 
-    <body class=''>
-    <section class="deprecation-announcement">
-      <p><strong>Archived page:</strong> You've found a page from my old site! This is here for archival purposes and preventing link rot. There may be some jank. <a href="/">Back to main site</a></p>
-    </section>
-    <header class="site-header">
-        <a href='/post-archive/'>
-          <img class="site-header__logo" alt='G. Lucas Roe' src='{{ site.baseurl }}/images/site/seal.svg'>
-          <h1 class="site-header__title">G. Lucas Roe</h1>
+  <body>
+    <header>
+        <a href='/'>
+          <img alt='an seal with a cursive L' src='{{ site.baseurl }}/images/site/seal.gif'>
+          <h1>G. Lucas Roe</h1>
         </a>
+        <nav>
+          <ul>
+            <a href='/writing'>writing</a>
+            <a href='/resume'>resume</a>
+          </ul>
+        </nav>
     </header>
-
-    <div class='post-body'>
-      <main class="content" role="main">
-          <article class="post">
-            <h1>{{ page.title }}</h1>
-                {% if page.date %}
-                    <div class="post-meta">Posted on <time>{{ page.date | date: "%Y %B %e" }}</time></div>
-                {% endif %}
-
-
-              {% if page.image %}
-                  <img class="post-image-header animated fade-in-color" src="{{ site.baseurl }}/images/{{ page.image }}" />
-              {% endif %}
-            <div class="entry">
-              {{ content }}
-            </div>
-          </article>
-      </main>
-    </div>
+    <main>
+      <h1>{{ page.title }}</h1>
+      <article>
+        {{ content }}
+      </article>
+    </main>
     <footer>
       <p class="copyright">Unless otherwise noted, content is &copy; {{ 'now' | date: "%Y" }} G. Lucas Roe, and shouldn't be used without at least asking nicely. I can't stop you, but some wicked bad karma will come your way.</p>
     </footer>
