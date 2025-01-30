@@ -66,7 +66,7 @@ h4{
 	margin-top: .5em;
 }
 
-p,aside,pre code,li, figcaption,button{
+p,aside,pre code,li, figcaption,button, dl,dd,label, legend,caption, th, td,thead,tfoot,tbody, small, address{
 	font-size: 1rem;
 	line-height: 1.75;
 	color:$high-key;
@@ -211,6 +211,10 @@ figure{
 	img{
 		// box-shadow: $grey-9 0 2px 2rem;
 	}
+}
+
+dl, dt{
+	color: $high-key;
 }
 .button, button{
 	padding: .25em 1em;
