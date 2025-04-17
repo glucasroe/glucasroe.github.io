@@ -37,7 +37,7 @@ a{
 	color:$high-key;
 	text-decoration: 1px underline dotted $high-key;
 	text-decoration-skip-ink: revert;
-	&:hover{
+	&:hover, &:focus{
 		text-decoration-style: wavy;
 	}
 }
@@ -155,9 +155,9 @@ ol,ul{
 ol{
 	list-style-type: none;
 	li{
-	    counter-increment: count-me;
+	    counter-increment: list-counter;
 		&:before{
-			content: counter(count-me) ". ";
+			content: counter(list-counter) ". ";
     		display: block;
     		position: absolute;
     		color: $high-key;
@@ -227,7 +227,7 @@ dl, dt{
 	border: 1px solid $high-key;
 	font-family: $light;
 	transition: color .25s ease-in-out, background .25s ease-in-out;
-	&:hover{
+	&:hover,&:focus{
 		background-color: $high-key;
 		color: $low-key;
 	}

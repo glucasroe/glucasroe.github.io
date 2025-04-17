@@ -28,7 +28,8 @@ header h2{
     margin: 0 1.5rem;
 }
 
-header a:hover{
+header a:hover,
+header a:focus{
     img, h2{
         opacity: 1;
     }
