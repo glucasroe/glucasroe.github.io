@@ -226,6 +226,7 @@ dl, dt{
 	color: $high-key;
 	border: 1px solid $high-key;
 	font-family: $light;
+        text-decoration: none;
 	transition: color .25s ease-in-out, background .25s ease-in-out;
 	&:hover,&:focus{
 		background-color: $high-key;
