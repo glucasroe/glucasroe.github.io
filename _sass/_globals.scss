@@ -11,6 +11,10 @@ $desktop: "screen and (min-width:80em)";
 	box-sizing: border-box;
 }
 
+// TODO
+// Implement darkmode with this
+// https://codepen.io/shadowfaxrodeo/pen/JjbzNMz
+
 html{
 	font-size: 100%;
 	background-color: $low-key;
@@ -66,7 +70,10 @@ h4{
 	margin-top: .5em;
 }
 
-p,aside,pre code,li, figcaption,button, dl,dd,label, legend,caption, th, td,thead,tfoot,tbody, small, address{
+p, aside, pre, code, li, figcaption, button,
+dl, dd, label, q, legend,caption,
+th, td,thead,tfoot,tbody,
+small, address{
 	font-size: 1rem;
 	line-height: 1.75;
 	color:$high-key;
@@ -82,7 +89,6 @@ img,video,.gfyvid{
 }
 code{
 	font-family: monaco, monospace;
-	color:$high-key;
 	background-color:$low-key;
 	border: 1px dashed $high-key;
 	border-radius:10px;
@@ -101,8 +107,6 @@ pre{
 	}
 }
 aside{
-	color:$high-key;
-	font-family: $serif;
 	@extend %left-margin-hang;
 }
 
@@ -123,14 +127,12 @@ blockquote{
 	h1,h2,h3,h4,h5,h6,p{
 		margin-left:2rem;
 		font-style: italic;
-		color: $high-key;
 	}
 	p{
 		font-size: 1.7rem;
 	}
 }
 q{
-	color: $high-key;
 	padding: 0.15em 0.3em;
 	font-style: italic;
 	&:before{
