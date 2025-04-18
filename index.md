@@ -3,8 +3,10 @@ layout: post
 ---
 I'm Lucas Roe (I also go by Luck). I am a product design leader. I use a broad range of methodologies to find and prioritize the path forward for excellent products.
 
-<a href="/resume"><button>See my resume</button></a>
-
+<nav>
+    <li><a href="/writing">Read my writing</a></li>
+    <li><a href="/resume">See my resume</a></li>
+</nav>
 <figure class="bio__headshot">
   <!-- <source srcset="images/pages/lucas-face.webp" type="image/webp"> -->
   <img alt="A picture of Lucas' face" src="images/pages/lucas-face.gif">

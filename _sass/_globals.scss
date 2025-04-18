@@ -22,10 +22,11 @@ html{
 }
 body{
 	font-family:$light;
+        font-weight: 300;
 	padding: 1rem;
 	color: $low-key;
 	margin: 0 auto 0;
-	max-width: 50rem;
+	max-width: 45rem;
 	position: relative;
 }
 
@@ -44,7 +45,8 @@ a{
 
 h1,h2,h3,h4,h5,ul,li,p,img{
 	color: $high-key;
-	font-family: $serif;
+	font-family: $light;
+        font-weight: 300;
 	margin-top: 1em;
 	text-align: left;
 }
@@ -74,8 +76,8 @@ p, aside, pre, code, li, figcaption, button,
 dl, dd, label, q, legend,caption,
 th, td,thead,tfoot,tbody,
 small, address{
-	font-size: 1rem;
-	line-height: 1.75;
+	font-size: 1.25rem;
+	line-height: 1.85;
 	color:$high-key;
 	@media #{$desktop}{
 		font-size: 1.2rem;
