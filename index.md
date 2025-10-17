@@ -14,8 +14,7 @@ I'm Lucas Roe (I also go by Luck). I am a product design leader. I use a broad r
 </figure>
 
 ## Uncovering strategy:
-My background is in User Experience Design, which deeply informs how I engage. I use this toolbox to bridge gaps between end users and team responsible for the product. My [experience](/resume) is comprised of design roles with a growing focus on product direction, strategy, and validation.
-
+My background is in User Experience Design, which deeply informs how I engage. I use a human centric set of tools and methods to bridge gaps between end users and team responsible for the product. My [experience](/resume) is comprised of design roles with a growing focus on product direction, strategy, and validation.
 
 <img alt="illustration of message bubble with a heart" src="images/site/heartmessage.gif" class="bio__illustration" />
 ### Human centered research
@@ -41,4 +40,4 @@ I have a revolving door of obsessions, so I spend a lot of time reading the whol
 I am open to new opportunities in design and product leadership. I am not currently taking freelance requests. Emails can be sent to `lucas@glucasroe.com`.
 
 ## <a name="aboutthissite"></a> About This Site:
-This site is hosted on Github Pages site using Jekyll. [Here's the repo that generates it](https://github.com/glucasroe/glucasroe.github.io). Type is the lovely Merriweather and Merriweather Light from Ebin Sorkin, served by Google Fonts.
+This site is hosted on Github Pages site using Jekyll. [Here's the repo that generates it](https://github.com/glucasroe/glucasroe.github.io).
