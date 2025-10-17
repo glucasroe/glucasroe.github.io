@@ -1,8 +1,7 @@
 $low-key: hsla(253, 100%, 7%, 1);
 $high-key: hsla(45, 100%, 94%, 1);
 
-$serif:'Merriweather',  'Palatino', 'Palatino Linotype', Georgia, serif;
-$light: 'Merriweather Light', 'Merriweather', 'Palatino', 'Palatino Linotype', Georgia, serif;
+$serif: "IBM Plex Serif", Georgia, serif;
 
 $tablet: "screen and (min-width:40em)";
 $desktop: "screen and (min-width:80em)";
@@ -11,17 +10,22 @@ $desktop: "screen and (min-width:80em)";
 	box-sizing: border-box;
 }
 
+// TODO
+// Implement darkmode with this
+// https://codepen.io/shadowfaxrodeo/pen/JjbzNMz
+
 html{
 	font-size: 100%;
 	background-color: $low-key;
 	color: $high-key;
 }
 body{
-	font-family:$light;
+	font-family:$serif;
+        font-weight: 300;
 	padding: 1rem;
 	color: $low-key;
 	margin: 0 auto 0;
-	max-width: 50rem;
+	max-width: 45rem;
 	position: relative;
 }
 
@@ -33,7 +37,7 @@ a{
 	color:$high-key;
 	text-decoration: 1px underline dotted $high-key;
 	text-decoration-skip-ink: revert;
-	&:hover{
+	&:hover, &:focus{
 		text-decoration-style: wavy;
 	}
 }
@@ -41,6 +45,7 @@ a{
 h1,h2,h3,h4,h5,ul,li,p,img{
 	color: $high-key;
 	font-family: $serif;
+        font-weight: 300;
 	margin-top: 1em;
 	text-align: left;
 }
@@ -48,7 +53,7 @@ h1,h2,h3,h4,h5,ul,li,p,img{
 h1{
 	font-size: 3rem;
 	color: $high-key;
-	font-family: $light;
+	font-family: $serif;
 	line-height:1.35;
 }
 
@@ -66,13 +71,16 @@ h4{
 	margin-top: .5em;
 }
 
-p,aside,pre code,li, figcaption,button{
-	font-size: 1rem;
-	line-height: 1.75;
+p, aside, pre, code, li, figcaption, button,
+dl, dd, label, q, legend,caption,
+th, td,thead,tfoot,tbody,
+small, address{
+	font-size: 1.25rem;
+	line-height: 1.65;
 	color:$high-key;
 	@media #{$desktop}{
-		font-size: 1.2rem;
-		line-height: 1.85;
+		font-size: 1.4rem;
+		line-height: 1.75;
 	}
 }
 img,video,.gfyvid{
@@ -82,7 +90,6 @@ img,video,.gfyvid{
 }
 code{
 	font-family: monaco, monospace;
-	color:$high-key;
 	background-color:$low-key;
 	border: 1px dashed $high-key;
 	border-radius:10px;
@@ -101,8 +108,6 @@ pre{
 	}
 }
 aside{
-	color:$high-key;
-	font-family: $serif;
 	@extend %left-margin-hang;
 }
 
@@ -123,14 +128,12 @@ blockquote{
 	h1,h2,h3,h4,h5,h6,p{
 		margin-left:2rem;
 		font-style: italic;
-		color: $high-key;
 	}
 	p{
 		font-size: 1.7rem;
 	}
 }
 q{
-	color: $high-key;
 	padding: 0.15em 0.3em;
 	font-style: italic;
 	&:before{
@@ -153,9 +156,9 @@ ol,ul{
 ol{
 	list-style-type: none;
 	li{
-	    counter-increment: count-me;
+	    counter-increment: list-counter;
 		&:before{
-			content: counter(count-me) ". ";
+			content: counter(list-counter) ". ";
     		display: block;
     		position: absolute;
     		color: $high-key;
@@ -212,6 +215,10 @@ figure{
 		// box-shadow: $grey-9 0 2px 2rem;
 	}
 }
+
+dl, dt{
+	color: $high-key;
+}
 .button, button{
 	padding: .25em 1em;
 	border:0;
@@ -219,9 +226,10 @@ figure{
 	background-color: $low-key;
 	color: $high-key;
 	border: 1px solid $high-key;
-	font-family: $light;
+	font-family: $serif;
+        text-decoration: none;
 	transition: color .25s ease-in-out, background .25s ease-in-out;
-	&:hover{
+	&:hover,&:focus{
 		background-color: $high-key;
 		color: $low-key;
 	}

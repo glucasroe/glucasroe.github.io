@@ -1,12 +1,12 @@
 ---
-layout: darkpage
+layout: post
 title: Resume
 date: '2018-01-20 14:55:00'
 ---
 
 Design leader and general nerd, with affinities in strategy, communications, and product research. Focused on product strategy, IA, structure, design, performance, and meeting user's needs. Conscientious, idealistic, lots of heart.
 
-<a href="/files/glr-resume.pdf"><button>Download a PDF of my resume</button></a>
+<a class="button" href="/files/glr-resume.pdf">Download a PDF of my resume</a>
 
 ## Education:
 
@@ -16,37 +16,48 @@ Design leader and general nerd, with affinities in strategy, communications, and
 
 ### Human Computer Interaction Course
 <aside><em>8/2014</em></aside>
-#### [Coursera in Collaboration with University of California, San Diego](https://www.coursera.org/course/hciucsd)
+#### [Coursera in Collaboration with University of California, San Diego](https://www.coursera.org/learn/human-computer-interaction)
 
 ## Experience:
-### Lead Product Designer
-<aside><em>10/2022&ndash;Present</em></aside>
-#### [Studio Designer](https://www.studiodesigner.com/) &mdash; Los Angeles, CA
+### Director of Product Design
+<aside><em>02/2025&ndash;present</em></aside>
+#### [Studio Designer](https://studiodesigner.com/) &mdash; Los Angeles, CA
 
 * Oversees all product design for the leading business management software for interior designers.
+
+### Lead Product Designer
+<aside><em>10/2022&ndash;02/2025</em></aside>
+#### [Studio Designer](https://studiodesigner.com/) &mdash; Los Angeles, CA
+
 * Developed new product lines through generative user research for payments and design tools.
-* Built a product competency inside of the organzation, scaling from a single Product Owner to two functional product Pods.
+* Built a product competency inside of the organization, scaling from a single Product Owner to two functional product pods.
+* Developed an in-house design system with 2 product designers, improving the visual design and usability of the product as a whole.
 
 ### Product Design Lead (Product Designer IV)
 <aside><em>9/2021&ndash;10/2022</em></aside>
-#### [Vertex Inc.](https://www.vertexinc.com/) &mdash; King of Prussia, PA
+#### [Vertex Inc.](https://vertexinc.com/) &mdash; King of Prussia, PA
 
 * Product design lead over two value streams, Data & Insights and Compliance & Returns representing $30m dollars in ARR.
 * Primary designer on Returns product modernization, merging a 25 year old legacy application with a modern web-based product suite.
 
-### Senior User Experience Designer
-<aside><em>6/2018&ndash;9/2021</em></aside>
+### AVP, Design Team Lead
+<aside><em>9/2020&ndash;9/2021</em></aside>
 #### [T. Rowe Price](https://troweprice.com/) &mdash; Owings Mills, MD
 
 *  Design lead for two product design teams of designers and content strategists, responsible for 6 products for Retirement Plan Services’ B2B and B2C audiences.
 * Direct manager of a small team of designers and a content strategist.
-* Core member of TRP’s first agile marketing team, inventing new methods of crafting industry leading messaging while reducing creative delivery from 3 months to 1 week.
 * Built an internal practice around user research excellence through coaching, methodology, research structures, and internal toolsets.
+
+### AVP, Senior User Experience Designer
+<aside><em>6/2018&ndash;9/2020</em></aside>
+#### [T. Rowe Price](https://troweprice.com/) &mdash; Owings Mills, MD
+
+* Core member of TRP’s first agile marketing team, inventing new methods of crafting industry leading messaging while reducing creative delivery from 3 months to 1 week.
 * Consultative work across the RPS business to improve and socialize UX best practices.
 
 ### User Experience Designer
 <aside><em>8/2016&ndash;06/2018</em></aside>
-#### [Fastspot](https://www.fastspot.com/) &mdash; Baltimore, MD
+#### [Fastspot](https://fastspot.com/) &mdash; Baltimore, MD
 
 * UX discovery, consultation, and strategy utilizing user research methodologies, workshop facilitation, competitive analysis, and content audits for 14 clients.
 * Writing and presenting on UX related topics, including Collaborative IA and Journey Maps.
@@ -54,7 +65,7 @@ Design leader and general nerd, with affinities in strategy, communications, and
 
 ### Lead User Experience Designer
 <aside><em>7/2015&ndash;8/2016</em></aside>
-#### [ACGI Software](http://www.acgisoftware.com/) &mdash; Columbia, MD
+#### [ACGI Software](http://acgisoftware.com/) &mdash; Columbia, MD
 
 * Shepherded product through major version release with heuristics, user testing, interactive design, and client training.
 * Broad, holistic UX practice focused on standards, style guide, IA, and UX education.
@@ -63,14 +74,14 @@ Design leader and general nerd, with affinities in strategy, communications, and
 
 ### User Experience Designer
 <aside><em>12/2014&ndash;7/2015</em></aside>
-#### [no.inc](http://www.noinc.com/) &mdash; Baltimore, MD
+#### [no.inc](http://noinc.com/) &mdash; Baltimore, MD
 
 * Product UX Lifecycle: User interviews, personas, IA, wireframes, and user testing.
 * Front end development on existing products, merging style bases, refreshing styles, and production work for new products.
 
 ### Junior UX Designer
 <aside><em>7/2013&ndash;11/2014</em></aside>
-#### [r2integrated](http://www.r2integrated.com/) &mdash; Baltimore, MD
+#### [r2integrated](http://r2integrated.com/) &mdash; Baltimore, MD
 
 * Designed and developed over 20 wireframes and prototypes in Axure.
 * Researched and implemented best practices and user trends.
@@ -78,16 +89,16 @@ Design leader and general nerd, with affinities in strategy, communications, and
 
 ### Web Producer
 <aside><em>1/2012&ndash;7/2013</em></aside>
-#### [Calvert Education Services](http://www.calverteducation.com/) &mdash; Hunt Valley, MD
+#### [Calvert Education Services](http://calverteducation.com/) &mdash; Hunt Valley, MD
 
 * Build mobile friendly and multi-platform compatible email and landing page templates.
 * Manage 18 websites in Wordpress and Joomla with design and content updates.
 * Advise and implement comprehensive digital media strategies.
-* Information architecture overhaul for [Verticy Learning](http://www.verticylearning.org/).
+* Information architecture overhaul for [Verticy Learning](http://verticylearning.org/).
 
 ### Marketing Intern
 <aside><em>6/2011&ndash;12/2011</em></aside>
-#### [Calvert Education Services](http://www.calverteducation.com/) &mdash; Hunt Valley, MD
+#### [Calvert Education Services](http://calverteducation.com/) &mdash; Hunt Valley, MD
 
 * Designed over 20 animated and static web banners for display ad purposes. (I act like I'm proud of this)
 * Worked inside sub-brands to create collateral materials for four partners.
@@ -110,10 +121,10 @@ Design leader and general nerd, with affinities in strategy, communications, and
 ## Volunteering and Leadership
 
 ### Moderator
-#### [Designer Hangout](https://www.designerhangout.co/)
+#### [Designer Hangout](https://designerhangout.co/)
 
 ### Organizer/Leadership & Presenter
-#### [Baltimore UX Meetup](https://www.meetup.com/Baltimore-UX-Meetup/)
+#### [Baltimore UX Meetup](https://meetup.com/Baltimore-UX-Meetup/)
 
 ## Other Experience
 
