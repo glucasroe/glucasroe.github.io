@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-I'm Lucas Roe (I also go by Luck). I am a product design leader. I use a broad range of methodologies to find and prioritize the path forward for excellent products.
+I'm Lucas Roe (I also go by Luck). I am a product design leader. I use a broad range of methodologies to find the path to deliver excellent products.
 
 <nav>
     <li><a href="/writing">Read my writing</a></li>

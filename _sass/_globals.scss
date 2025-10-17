@@ -1,8 +1,7 @@
 $low-key: hsla(253, 100%, 7%, 1);
 $high-key: hsla(45, 100%, 94%, 1);
 
-$serif:'Merriweather',  'Palatino', 'Palatino Linotype', Georgia, serif;
-$light: 'Merriweather Light', 'Merriweather', 'Palatino', 'Palatino Linotype', Georgia, serif;
+$serif: "IBM Plex Serif", Georgia, serif;
 
 $tablet: "screen and (min-width:40em)";
 $desktop: "screen and (min-width:80em)";
@@ -21,7 +20,7 @@ html{
 	color: $high-key;
 }
 body{
-	font-family:$light;
+	font-family:$serif;
         font-weight: 300;
 	padding: 1rem;
 	color: $low-key;
@@ -45,7 +44,7 @@ a{
 
 h1,h2,h3,h4,h5,ul,li,p,img{
 	color: $high-key;
-	font-family: $light;
+	font-family: $serif;
         font-weight: 300;
 	margin-top: 1em;
 	text-align: left;
@@ -54,7 +53,7 @@ h1,h2,h3,h4,h5,ul,li,p,img{
 h1{
 	font-size: 3rem;
 	color: $high-key;
-	font-family: $light;
+	font-family: $serif;
 	line-height:1.35;
 }
 
@@ -77,11 +76,11 @@ dl, dd, label, q, legend,caption,
 th, td,thead,tfoot,tbody,
 small, address{
 	font-size: 1.25rem;
-	line-height: 1.85;
+	line-height: 1.65;
 	color:$high-key;
 	@media #{$desktop}{
-		font-size: 1.2rem;
-		line-height: 1.85;
+		font-size: 1.4rem;
+		line-height: 1.75;
 	}
 }
 img,video,.gfyvid{
@@ -227,7 +226,7 @@ dl, dt{
 	background-color: $low-key;
 	color: $high-key;
 	border: 1px solid $high-key;
-	font-family: $light;
+	font-family: $serif;
         text-decoration: none;
 	transition: color .25s ease-in-out, background .25s ease-in-out;
 	&:hover,&:focus{
