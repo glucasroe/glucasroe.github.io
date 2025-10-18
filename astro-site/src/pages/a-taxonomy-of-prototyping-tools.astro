@@ -1,0 +1,13 @@
+---
+import { getEntry } from 'astro:content';
+import PostLayout from '../layouts/PostLayout.astro';
+
+const post = await getEntry('blog', '2015-12-07-a-taxonomy-of-prototyping-tools');
+if (!post) throw new Error('Blog post not found');
+
+const { Content } = await post.render();
+---
+
+<PostLayout frontmatter={post.data}>
+  <Content />
+</PostLayout>

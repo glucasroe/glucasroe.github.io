@@ -1,0 +1,13 @@
+---
+import { getEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const page = await getEntry('pages', 'index');
+if (!page) throw new Error('Homepage content not found');
+
+const { Content } = await page.render();
+---
+
+<BaseLayout title="">
+  <Content />
+</BaseLayout>

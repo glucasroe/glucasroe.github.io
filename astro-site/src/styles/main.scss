@@ -1,0 +1,16 @@
+// Main stylesheet for Astro site
+
+// Externals
+@import "_sass/reset";
+
+// Structure
+@import "_sass/globals";
+@import "_sass/layout";
+
+// Imports + Vendors
+@import "_sass/zenburn";
+
+// Additional styles
+.bio__illustration{
+    margin-bottom: -1.25rem;
+}
