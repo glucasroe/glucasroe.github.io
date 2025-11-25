@@ -6,21 +6,28 @@ const gardenNotes = await getCollection('garden', ({ data }) => {
   return data.publish !== false;
 });
 
+// Get the welcome note for the header content (exclude it from lists below)
+const welcomeNote = gardenNotes.find(note => note.slug === 'welcome');
+const { Content: WelcomeContent } = welcomeNote ? await welcomeNote.render() : { Content: null };
+
+// Filter out the welcome note from the main listing
+const listableNotes = gardenNotes.filter(note => note.slug !== 'welcome');
+
 // Sort by updated date, then created date
-const sortedNotes = gardenNotes.sort((a, b) => {
+const sortedNotes = listableNotes.sort((a, b) => {
   const dateA = a.data.updated || a.data.created || new Date(0);
   const dateB = b.data.updated || b.data.created || new Date(0);
   return dateB.getTime() - dateA.getTime();
 });
 
 // Group by tags
-const notesByTag = gardenNotes.reduce((acc, note) => {
+const notesByTag = listableNotes.reduce((acc, note) => {
   (note.data.tags || []).forEach(tag => {
     if (!acc[tag]) acc[tag] = [];
     acc[tag].push(note);
   });
   return acc;
-}, {} as Record<string, typeof gardenNotes>);
+}, {} as Record<string, typeof listableNotes>);
 
 const tagsSorted = Object.entries(notesByTag).sort((a, b) =>
   b[1].length - a[1].length
@@ -29,12 +36,8 @@ const tagsSorted = Object.entries(notesByTag).sort((a, b) =>
 
 <BaseLayout title="Digital Garden">
   <div class="garden-index">
-    <header>
-      <h1>🌱 Digital Garden</h1>
-      <p class="subtitle">
-        A collection of interconnected notes, thoughts, and ideas in various stages of growth.
-        This is a space for thinking in public and cultivating knowledge over time.
-      </p>
+    <header class="welcome-content">
+      {WelcomeContent && <WelcomeContent />}
     </header>
 
     {sortedNotes.length > 0 && (
@@ -80,7 +83,7 @@ const tagsSorted = Object.entries(notesByTag).sort((a, b) =>
 
     {sortedNotes.length > 0 && (
       <section class="all-notes">
-        <h2>All Notes ({gardenNotes.length})</h2>
+        <h2>All Notes ({listableNotes.length})</h2>
         <ul class="note-list">
           {sortedNotes.map(note => (
             <li>
@@ -114,8 +117,18 @@ const tagsSorted = Object.entries(notesByTag).sort((a, b) =>
     margin: 0 auto;
   }
 
-  header {
+  header.welcome-content {
     margin-bottom: 3rem;
+  }
+
+  header.welcome-content :global(h1) {
+    margin-top: 0;
+  }
+
+  header.welcome-content :global(p) {
+    color: var(--color-text-muted);
+    font-size: 1.1rem;
+    line-height: 1.6;
   }
 
   .subtitle {

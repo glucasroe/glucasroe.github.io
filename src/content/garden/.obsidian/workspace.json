@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "curios and oddments.md",
+                "file": "toolstack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "curios and oddments"
+              "title": "toolstack"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "curios and oddments.md",
+                "file": "welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "curios and oddments"
+              "title": "welcome"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "curios and oddments.md",
+                "file": "toolstack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for curios and oddments"
+              "title": "Backlinks for toolstack"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "curios and oddments.md",
+                "file": "toolstack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from curios and oddments"
+              "title": "Outgoing links from toolstack"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "curios and oddments.md",
+                "file": "toolstack.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of curios and oddments"
+              "title": "Outline of toolstack"
             }
           }
         ],
@@ -213,16 +213,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "0af2a060846a3541",
+  "active": "bc7bc5a012181236",
   "lastOpenFiles": [
-    "welcome.md",
     "curios and oddments.md",
-    "toolstack.md",
-    "20251125-113529-Arc-realvjy's figma plugins.gif",
-    "_meta",
-    "_meta/attachments/20251125-113136-Arc-Bop Spotter.png",
-    "_meta/attachments",
+    "_meta/attachments/20251125-113529-Arc-realvjys-figma-plugins.gif",
+    "_meta/attachments/20251125-113136-Arc-Bop-Spotter.png",
     "_meta/templates/standard-frontmatter.md",
+    "welcome.md",
+    "toolstack.md",
+    "_meta",
+    "_meta/attachments",
     "_meta/templates"
   ]
 }
