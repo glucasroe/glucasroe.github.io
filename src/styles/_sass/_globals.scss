@@ -10,14 +10,13 @@
 
 html{
 	font-size: 100%;
-	background-color: $low-key;
-	color: $high-key;
+	background-color: var(--color-bg);
+	color: var(--color-text);
 }
 body{
 	font-family:$serif;
         font-weight: 300;
 	padding: 1rem;
-	color: $low-key;
 	margin: 0 auto 0;
 	max-width: 45rem;
 	position: relative;
@@ -28,8 +27,8 @@ main{
 }
 
 a{
-	color:$high-key;
-	text-decoration: 1px underline dotted $high-key;
+	color: var(--color-link);
+	text-decoration: 1px underline dotted var(--color-link);
 	text-decoration-skip-ink: revert;
 	&:hover, &:focus{
 		text-decoration-style: wavy;
@@ -37,7 +36,7 @@ a{
 }
 
 h1,h2,h3,h4,h5,ul,li,p,img{
-	color: $high-key;
+	color: var(--color-text);
 	font-family: $serif;
         font-weight: 300;
 	margin-top: 1em;
@@ -46,7 +45,7 @@ h1,h2,h3,h4,h5,ul,li,p,img{
 
 h1{
 	font-size: 3rem;
-	color: $high-key;
+	color: var(--color-text);
 	font-family: $serif;
 	line-height:1.35;
 }
@@ -71,7 +70,7 @@ th, td,thead,tfoot,tbody,
 small, address{
 	font-size: 1.25rem;
 	line-height: 1.65;
-	color:$high-key;
+	color: var(--color-text);
 	@media #{$desktop}{
 		font-size: 1.4rem;
 		line-height: 1.75;
@@ -84,16 +83,16 @@ img,video,.gfyvid{
 }
 code{
 	font-family: monaco, monospace;
-	background-color:$low-key;
-	border: 1px dashed $high-key;
+	background-color: var(--color-code-bg);
+	border: 1px dashed var(--color-border);
 	border-radius:10px;
 	padding: 0.15em 0.5em;
 	margin:0 2px;
 }
 pre{
-	color:$high-key;
-	background-color:$low-key;
-	border: 1px dashed $high-key;
+	color: var(--color-text);
+	background-color: var(--color-code-bg);
+	border: 1px dashed var(--color-border);
 	border-radius:10px;
 	padding: 1em 1.5em;
 	margin: 2rem 0;
@@ -124,7 +123,7 @@ blockquote{
 		left:0rem;
 		top: 0;
 		width: 1px;
-		background-color: $high-key;
+		background-color: var(--color-text);
 	}
 	h1,h2,h3,h4,h5,h6,p{
 		margin-left:2rem;
@@ -139,12 +138,12 @@ q{
 	font-style: italic;
 	&:before{
 		content:'\201C';
-		color:$high-key;
+		color: var(--color-text);
 		margin-right:0.1em;
 	}
 	&:after{
 		content:'\201d';
-		color:$high-key;
+		color: var(--color-text);
 		margin-left: 0.1em;
 	}
 }
@@ -162,7 +161,7 @@ ol{
 			content: counter(list-counter) ". ";
     		display: block;
     		position: absolute;
-    		color: $high-key;
+    		color: var(--color-text);
     		left: 1.5rem;
     		text-align:right;
 		}
@@ -174,7 +173,7 @@ ul{
 	li:before{
 		font-family: sans-serif;
 		content: '•';
-		color: $high-key;
+		color: var(--color-text);
 		position: absolute;
 		left:2rem;
 	}
@@ -209,7 +208,7 @@ figure{
 	position:relative;
 	figcaption{
 		padding: 1rem;
-		color: $high-key;
+		color: var(--color-text);
 		border-radius: 0.5em;
 	}
 	img{
@@ -218,26 +217,26 @@ figure{
 }
 
 dl, dt{
-	color: $high-key;
+	color: var(--color-text);
 }
 .button, button{
 	padding: .25em 1em;
 	border:0;
 	border-radius: .5em;
-	background-color: $low-key;
-	color: $high-key;
-	border: 1px solid $high-key;
+	background-color: var(--color-bg);
+	color: var(--color-text);
+	border: 1px solid var(--color-text);
 	font-family: $serif;
         text-decoration: none;
 	transition: color .25s ease-in-out, background .25s ease-in-out;
 	&:hover,&:focus{
-		background-color: $high-key;
-		color: $low-key;
+		background-color: var(--color-text);
+		color: var(--color-bg);
 	}
 }
 ::selection{
-	background-color: $high-key;
-	color:$low-key;
+	background-color: var(--color-text);
+	color: var(--color-bg);
 }
 
 //// LEGACY?

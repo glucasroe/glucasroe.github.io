@@ -8,3 +8,46 @@ $serif: "IBM Plex Serif", Georgia, serif;
 // Breakpoint variables
 $tablet: "screen and (min-width:40em)";
 $desktop: "screen and (min-width:80em)";
+
+// CSS Custom Properties for Theme Support
+:root {
+  // Primary colors - Dark Mode (Default)
+  --color-bg: #{$low-key};
+  --color-text: #{$high-key};
+  --color-text-muted: #999;
+
+  // Interactive elements
+  --color-link: #{$high-key};
+  --color-link-hover: #{$high-key};
+  --color-accent: #6699ff;
+  --color-accent-hover: rgba(102, 153, 255, 0.2);
+  --color-error: #ff6666;
+
+  // UI elements
+  --color-border: rgba(255, 245, 230, 0.2);
+  --color-border-strong: rgba(255, 245, 230, 0.3);
+  --color-tag-bg: rgba(255, 245, 230, 0.1);
+  --color-code-bg: #{$low-key};
+  --color-hover-bg: rgba(255, 245, 230, 0.05);
+}
+
+// Light Mode Override
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-bg: #{$high-key};
+    --color-text: #{$low-key};
+    --color-text-muted: #666;
+
+    --color-link: #{$low-key};
+    --color-link-hover: #{$low-key};
+    --color-accent: #0066cc;
+    --color-accent-hover: #f0f8ff;
+    --color-error: #cc0000;
+
+    --color-border: #e0e0e0;
+    --color-border-strong: #ccc;
+    --color-tag-bg: #f0f0f0;
+    --color-code-bg: #f5f5f5;
+    --color-hover-bg: #f9f9f9;
+  }
+}
