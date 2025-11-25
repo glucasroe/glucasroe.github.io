@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "toolstack.md",
+                "file": "curios and oddments.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "toolstack"
+              "title": "curios and oddments"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "toolstack.md",
+                "file": "curios and oddments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for toolstack"
+              "title": "Backlinks for curios and oddments"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "toolstack.md",
+                "file": "curios and oddments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from toolstack"
+              "title": "Outgoing links from curios and oddments"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "toolstack.md",
+                "file": "curios and oddments.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of toolstack"
+              "title": "Outline of curios and oddments"
             }
           }
         ],
@@ -215,9 +215,9 @@
   },
   "active": "0af2a060846a3541",
   "lastOpenFiles": [
+    "welcome.md",
     "curios and oddments.md",
     "toolstack.md",
-    "welcome.md",
     "20251125-113529-Arc-realvjy's figma plugins.gif",
     "_meta",
     "_meta/attachments/20251125-113136-Arc-Bop Spotter.png",

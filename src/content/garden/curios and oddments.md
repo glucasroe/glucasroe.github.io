@@ -2,7 +2,7 @@
 title: curios-and-oddments
 tags:
 created: 2025-11-25T11:16
-updated: 2025-11-25, 11:16
+updated: 2025-11-25T11:17:00
 publish: true
 ---
 after pinwheeling through most of the existing "read this later" tools that are available, I mostly just want to have a folder of things that I like or think are interesting. this page is me upending a bucket of links I've saved in a folder in arc that I think are cool. it might get more organized over time but I wouldn't count on it tooooooo much.

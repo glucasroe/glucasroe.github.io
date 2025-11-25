@@ -26,10 +26,10 @@ const garden = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
-    tags: z.array(z.string()).optional(),
-    created: z.date().optional(),
-    updated: z.date().optional(),
-    aliases: z.array(z.string()).optional(),
+    tags: z.array(z.string()).optional().nullable(),
+    created: z.coerce.date().optional().nullable(),
+    updated: z.coerce.date().optional().nullable(),
+    aliases: z.array(z.string()).optional().nullable(),
     publish: z.boolean().default(true),
   }),
 });
