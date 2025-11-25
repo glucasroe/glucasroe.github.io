@@ -1,0 +1,53 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title ? `${title} – G. Lucas Roe` : 'G. Lucas Roe – UX Designer. All Purpose Nerd. Helpful Person.'}</title>
+  {description && <meta name="description" content={description}>}
+
+  <!-- Google Fonts - IBM Plex Serif -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <style lang="scss" is:global>
+    // Use modern Sass module system
+    @use '../styles/_sass/_reset.scss';
+    @use '../styles/_sass/_globals.scss';
+    @use '../styles/_sass/_layout.scss';
+    @use '../styles/_sass/zenburn.scss';
+
+    // Additional styles
+    .bio__illustration {
+        margin-bottom: -1.25rem;
+    }
+  </style>
+  <link rel="icon" type="image/gif" href="/images/site/seal.gif">
+</head>
+<body>
+  <header>
+    <a href='/'>
+      <img alt='a seal with a cursive L' src='/images/site/seal.gif'>
+      <h2>G. Lucas Roe</h2>
+    </a>
+  </header>
+
+  <main>
+    <slot />
+  </main>
+
+  <footer>
+    <p class="copyright">Unless otherwise noted, content is &copy; {new Date().getFullYear()} G. Lucas Roe, and shouldn't be used without at least asking nicely. I can't stop you, but some wicked bad karma will come your way.</p>
+  </footer>
+</body>
+</html>

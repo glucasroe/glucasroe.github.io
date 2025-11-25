@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// Get all blog posts and sort by date (newest first)
+const allBlogPosts = await getCollection('blog');
+const sortedPosts = allBlogPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Helper function to extract slug from filename
+function getSlug(id: string): string {
+  return id.replace(/^\d{4}-\d{2}-\d{2}-/, '').replace(/\.(md|markdown)$/, '');
+}
+
+// Helper function to format date
+function formatDate(date: Date): string {
+  return date.toISOString().split('T')[0];
+}
+---
+
+<BaseLayout title="Post Archive">
+  <h1>Post Archive</h1>
+  <h2>Writing on this site:</h2>
+  <ul>
+    {sortedPosts.map(post => (
+      <li>
+        <a href={`/${getSlug(post.id)}/`}>{post.data.title}</a>
+        posted on {formatDate(post.data.date)}
+      </li>
+    ))}
+  </ul>
+
+  <h2>Writing on other sites:</h2>
+  <ul>
+    <li><a href="https://web.archive.org/web/20220814162918/https://www.fastspot.com/publications/why-the-three-click-rule-won-t-improve-your-website/">Wayback Machine Link: Why the Three-Click Rule Won't Improve Your Website.</a> originally posted on Fastspot on 2018-03-30</li>
+    <li><a href="https://web.archive.org/web/20220814162401/https://www.fastspot.com/publications/hit-button-launch-website-brace-for-impact/">Wayback Machine Link: Push Button. Launch Website. Brace for Impact.</a> originally posted on Fastspot on 2017-03-30</li>
+    <li><a href="https://web.archive.org/web/20220814162154/https://www.fastspot.com/publications/slacking-my-way-into-work/">Wayback Machine Link: Slacking My Way into Work.</a> originally posted on Fastspot on 2017-01-04</li>
+    <li><a href="https://web.archive.org/web/20220814161933/https://www.fastspot.com/publications/mobile-heuristic-evaluation-with-airtable/">Wayback Machine Link: Mobile Heuristic Evaluation in Airtable.</a> originally posted on Fastspot on 2016-11-01</li>
+    <li><a href="https://web.archive.org/web/20170619113845/http://www.r2integrated.com/r2insights/is-axure-the-right-wireframing-tool-for-you">Wayback Machine Link: Is Axure the Right Wireframing Tool for You?</a> originally posted on r2i on 2014-10-20, written with Anna Feliza-Sy</li>
+    <li><a href="https://web.archive.org/web/20151208033719/https://www.r2integrated.com/r2insights/developing-websites-with-rapid-prototyping">Wayback Machine Link: Developing Websites with Rapid Prototyping</a> originally posted on r2i on 2014-09-02</li>
+    <li><a href="https://web.archive.org/web/20160202204920/https://www.r2integrated.com/r2insights/rotating-image-campaigns-are-cheapening-your-website">Wayback Machine Link: Rotating Image Campaigns are Cheapening Your Website</a> originally posted on r2i on 2014-03-27</li>
+    <li><a href="https://medium.com/@glucasroe/learning-to-be-bored-753850e78611">Learning to be Bored</a> posted on Medium on 2013-12-03</li>
+  </ul>
+</BaseLayout>

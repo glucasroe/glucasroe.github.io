@@ -36,15 +36,16 @@ npm install
 
 ### Core Structure
 - **Astro Static Site**: Uses Astro 5.14+ with content collections
-- **Layouts**:
+- **Layouts** (`src/layouts/`):
   - `BaseLayout.astro` - shared header/footer with IBM Plex Serif typography
   - `PostLayout.astro` - for blog posts
   - `GardenLayout.astro` - for digital garden notes with metadata and wikilink support
-- **Content Collections**:
+- **Content Collections** (`src/content/`):
   - `pages/` - static pages (homepage, resume)
   - `blog/` - blog posts (maintains existing URLs like `/facilittante/`)
   - `garden/` - digital garden notes with wikilink support
-- **Routing**: File-based routing with dynamic routes for collections
+- **Pages** (`src/pages/`): File-based routing with dynamic routes for collections
+- **Public Assets** (`public/`): Static files served directly (images, files, CNAME, etc.)
 
 ### Digital Garden Features
 - **Wikilinks**: `[[Note Name]]` syntax supported via remark-wiki-link
@@ -90,6 +91,7 @@ npm install
 - Include visual examples and case studies where relevant
 
 ### Image Assets
-- **Bio illustrations**: Animated GIFs in `images/site/`
-- **Post images**: Organized by year/topic in `images/posts/`
+- **Bio illustrations**: Animated GIFs in `public/images/site/`
+- **Post images**: Organized by year/topic in `public/images/posts/`
+- **Other files**: PDFs, code samples in `public/files/`
 - **Format**: Support for standard web formats, animated GIFs for personality

@@ -1,0 +1,25 @@
+{
+  "name": "glucasroe-portfolio",
+  "type": "module",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "dev-with-garden": "npm run sync-garden && astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "build-with-garden": "npm run sync-garden && astro check && astro build",
+    "preview": "astro preview",
+    "sync-garden": "node scripts/sync-garden.js",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.14.0",
+    "remark-wiki-link": "^2.0.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.0",
+    "sass": "^1.83.0",
+    "typescript": "^5.8.0"
+  }
+}

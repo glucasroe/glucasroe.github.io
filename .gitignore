@@ -1,5 +1,30 @@
-_site
+# Astro build output
+dist/
+.astro/
+
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.production
+
+# macOS-specific files
 .DS_Store
+
+# IDEs
+.idea/
+.vscode/settings.json
+.nova/
+
+# Old Jekyll artifacts (legacy)
+_site
 .jekyll
 .jekyll-metadata
 .jekyll-cache
@@ -7,7 +32,7 @@ _site
 .sass-cache
 Gemfile
 Gemfile.lock
-node_modules
-package.json
 vendor/*
+
+# Build tools
 config.codekit3
