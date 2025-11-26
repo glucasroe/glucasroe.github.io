@@ -6,21 +6,49 @@ updated: 2025-11-25T11:37:00
 publish: true
 ---
 I tend to be... esoteric in my computing environment, and use a lot of tools in various different ways. here I will talk about some of them:
+## Workhorses
+Key elements in how I actually do things. If luck is on a computer, it will involve these programs.
+- **[Arc](https://arc.net/)**: Arc, my beloved. abandoned by your creators and yet still you limp along. the command palette spaces management, mini arc, and boosts remain tools that I reach for subconsciously. I will probably switch to Zen eventually but my heart isn't in it.
+- **[Raycast](https://www.raycast.com/)**: I still like Alfred, but Raycast lapped it in a number of categories. I heavily utilize snippets, clipboard history, window management, and a host of other features. probably deserves its own article. I'll get to it.
+- **[CleanShotX](https://cleanshot.com/)**: thank you for replacing Skitch but better. love the screenshot filenames, the exceptional gif and short video recording, the editor (though I want it to do so much more), and the screenshot OCR.
+- **[Things](https://culturedcode.com/things/)**: It works without friction and is my primary capture tool. I keep trying to turn it into a project planner and it just isn't that.
+- **[Obsidian](https://obsidian.md/)**: Oh hey, it's how I manage this garden! My love for Obsidian has cooled significantly over the past few years after I recognized that I couldn't wedge every aspect of my workflow into it, alas. it still is what I reach for first to structure information and experiment with text.
+## Tools
+- **[Figma](figma.com)**: wow, shocking, I know. I've worked in it professionally for almost a decade now, so it's a good open toolbox. Figjam is ok too, but there are enough feature gaps in it that I use it begrudgingly.
+- **[Affinity](https://affinity.serif.com/en-us/v2/)**:  Once again, I cling to the carcass of an application dearly departed. I stopped using Adobe products in 2014 or so and ever since then have been using and recommending the Affinity Suite. I'm very hopeful that Canva treats them well, but intend on sticking with the 2 versions of the applications until they pry them out of my hands.
+- **[Nova](https://nova.app/)**: My preferred text editor because Panic makes such lovely apps. although let's be real, I end up using VSCode regularly because it's what has all the integrations.
 
-## MacOS tools
-- **[Browser—Arc](https://arc.net/)**: Arc, my beloved. abandoned by your creators and yet still you limp along. the command palette spaces management, mini arc, and boosts remain tools that I reach for subconsciously. I will probably switch to Zen eventually but my heart isn't in it.
-- [Raycast](https://www.raycast.com/): I was an 
-- BetterTouchTool:
-- Bartender:
-- Obsidian:
-- CleanShotX:
-- Affinity Suite:
-- Figma:
-- VSCode:
-- Nova:
-- 
-## potential tools
-I'm not actually using these right now, but this is a night spot to throw things that might someday be useful:
-- [novelcrafter](https://www.novelcrafter.com/): I want to write and share drafts with people without having to resort to google docs time and again. I don't think this is the *right* way to do it but it is interesting.
-- [yabai window tiling manager](https://github.com/koekeishiya/yabai?tab=readme-ov-file): lots of big 'ol nerds like me love tiling managers. I'm not sure I would, but I keep this around just in case I decide to start trying it.
-- [spline](https://spline.design/): I've had a fascination with 3d tools but haven't ever really gotten to the point of fluency.
+
+## Utilities
+- **[Superwhisper](https://superwhisper.com/)**: Smashing out chat messages faster than I can type is lovely.  I'm also a big fan of using it on iOS to summarize large voice notes or to produce structured thoughts while on the move. It's a great mixture of being something that's immediately available and something that's useful for structured output.
+- **[BetterTouchTool](https://folivora.ai/)**: I used to use this for a lot more, now it's basically a workflow spackle for various utilities, usually related to keyboard shortcuts and commands. My favorite thing that I have in this is my global push to talk button on zoom.
+- **[Dato](https://sindresorhus.com/dato)**: this lovely pulldown calendar does so much to help me work between timezones and show up on time for things. I used to heavily use its "join next meeting" shortcut until my calendar became too messy and had to start being more explicit. also it lets me have my menubar date look however I want, and how I want is ISO 8601 WOOOO WE LOVE AN INTERNATIONAL STANDARD!!!!
+- **[Shortcuts](https://support.apple.com/en-in/guide/shortcuts/welcome/ios)**:  Another workflow spackle and the deep magic of iOS. There are things that you can do with Shortcuts you can't accomplish in any other way, even though it's unfortunately frustrating to work with because of how it handles data manipulation. 
+- **[iTerm](https://iterm2.com/)**:  I've had some dalliances with Warp and Kitty and Hyper and probably a few others but I keep returning to iTerm because of it's combination of doing a little bit more than the stock terminal while not being obnoxious.
+- **[Mouseless](https://mouseless.click)**:  This is basically a "your keyboard accessibility sucks" tool. I am a heavy mouse user but run this regularly.
+- [**Bartender**](https://www.macbartender.com/): I don't need 1,000 icons across the top of my screen
+
+## Hardware
+- **[Supernote Nomad](https://supernote.com/pages/supernote-nomad)**: my constant companion for the past 8 months. I've sold probably 10 of them because of how enthusiastically I love it. it is not perfect, but it is a perfect balance between a notebook and a digital device. 
+- **[Ergodriven Tempo Controller](https://ergodriven.com/products/tempo-smart-controller-for-standing-desks)**: a very recent addition, but enormously helpful. I will forget to use my standing desk. worse, I'll stand up and forget to sit down resulting in me hyperextending my knees and generally ruining my entire lower body. shocking how transformative this is to my environment.
+- **[Rode NT1-A](https://rode.com/en-us/products/nt1a)** through a **[Scarlett 2i2](https://www.crutchfield.com/S-W646mJLcOuT/p_880SC2I2G2/Focusrite-Scarlett-2i2-Second-Generation.html)**: an unfortunate question I have received, more than once, is "oh do you have a podcast??" I do not have a podcast. I just have a microphone I bought as a teenager to record piano and now I use it for zoom calls. but it does sound nice!
+### Peripherals
+I'm not quite sure what drives the mood, but I tend to rotate between different peripherals depending on the day. I'm ranking these based on use. most of these I preordered because I love a deal. I also built or modded most of them because I'm that kind of dork.
+#### Keyboards:
+- **[Keyboardio Model 100 in Walnut](https://shop.keyboard.io/products/model-100)**: of my keyboard collection, this is the one that makes people say "oh this is _nice_" and they are right. this keyboard has a beautifully gentle touch, and is extremely ergonomic. I use it flat but separated. despite some small quibbles with the proprietary firmware, slightly too many keys, and the ethernet connector between the halves, this is the winner for general comfort and utility.
+- **[Discipline65](https://github.com/coseyfannitutti/discipline) AKA gregboard**: I got two of these discipline kits, made a board for my friend, and then made this for myself. I really love the through hole diodes look, and despite being caseless it's quite strong. the switches on it are massdrop Holy Panda dupes, which are the loudest ones I own. greg is clackier but has horrendous spring ping.
+  
+  it has one of the dumbest keycaps I have ever seen on it, the [GMK gregory](https://mekibo.com/products/gmk-gregory). I like the smirk because of the dumb layout, and normally he's in laser eyes mode because why wouldn't he be?  ![[gregboard.jpeg]]
+- **[Lily58 "pro"](https://keebd.com/en-us/products/lily58-pro-keyboard-kit?variant=42287741993112) bootleg edition**: before sites like keebd sold kits like the one linked, the Pro variant of a lily58 was something random people would pull together group buys for. this board came from one of those, run by a random college student. the right side shorted out immediately, and the left side would only work with pressure in very specific spots. I got a new right board for cheap from somewhere and the left side is held together with a series of plastic spacers that I cut from a plug cover because the college student immediately got overwhelmed and ghosted. and yes I still haven't put the screen cover back on the right side (_I'll get to it ok_).
+  
+  keycaps are the legendary [GMK Dots2](https://oblotzky.industries/products/gmk-cyl-dots-2), which I just couldn't get out of my head from the first time I saw them. Also, please enjoy a partial view of my favorite coffee mug which a close friend believes looks like I'm drinking out of a queso jar.![[lily-58-pro.jpeg]]
+- **[Master Forge](https://forgekeyboard.com/products/master-forge)**: conceptually, I love the idea of learning a chording board that lets me type 200 wpm and looks like I'm in a weird scifi. practically, I can still only type about 40wpm on this after practicing on and off for a few months, keyboard shortcuts are a major difficulty, and the young company that makes it seems struggle to create stable firmware or truly useful learning software. I haven't given up yet but my optimism is cooling.
+#### Mice
+- **[Ergodriven Om Mouse](https://ergodriven.com/products/the-vertical-handshake-mouse)**: I really feel for the people at Ergodriven—I preordered the Tempo Controller right when they announced it and instead of the expected 4 month wait, it took almost a _year and a half_ to get it over the finish line. while they were going through it, they offered this mouse as a consolation prize. I didn't expect to like it nearly as much as I do. I've used a vertical mouse before so there was a brief and familiar adjustment period. I have small quibbles with the slightly limited onboard keymapping and occasional issues with bluetooth connectivity. between the great click feel, battery life, ingenious secondary buttons, and the smartly implemented screen, this rapidly took over as my daily driver.
+- **[XTRFY M42](https://cherryxtrfy.com/mice/m42-retro/)**: I've flirted a few times with carpal tunnel, which heavily drove this obsession with ergonomics. a few years ago I was really going through it, and an avowed mouse nerd friend of mine told me I needed a lighter mouse. this was my daily driver for years and I had no desire to replace it until the Om mouse showed up.
+- **[Logitech G305 — Custom](https://www.logitechg.com/en-us/shop/p/g305-lightspeed-wireless-gaming-mouse)**: armed with a soldering iron and a bit too much pandemic time and energy, I disassembled this and swapped the clicky switches in it for silent ones. between that and the custom extra slick feet I made for it, it does feel *nice* but generally is outclassed by the competition.
+## potentials
+I'm not actually using these right now, but this is a nice spot to throw things that might someday be useful.
+- **[novelcrafter](https://www.novelcrafter.com/)**: I want to write and share drafts with people without having to resort to google docs time and again. I don't think this is the *right* way to do it but it is interesting.
+- **[yabai window tiling manager](https://github.com/koekeishiya/yabai?tab=readme-ov-file)**: lots of big 'ol nerds like me love tiling managers. I'm not sure I would, but I keep this around just in case I decide to start trying it.
+- **[spline](https://spline.design/)**: I've had a fascination with 3d tools but haven't ever really gotten to the point of fluency.

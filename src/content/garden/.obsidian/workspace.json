@@ -25,14 +25,12 @@
             "id": "bc7bc5a012181236",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "toolstack.md",
-                "mode": "source",
-                "source": false
+                "file": "_meta/attachments/arc-bop-spotter.png"
               },
-              "icon": "lucide-file",
-              "title": "toolstack"
+              "icon": "lucide-image",
+              "title": "arc-bop-spotter"
             }
           },
           {
@@ -213,14 +211,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "bc7bc5a012181236",
+  "active": "750b791ecead7382",
   "lastOpenFiles": [
-    "curios and oddments.md",
-    "_meta/attachments/20251125-113529-Arc-realvjys-figma-plugins.gif",
-    "_meta/attachments/20251125-113136-Arc-Bop-Spotter.png",
+    "_meta/attachments/realvjys-figma-plugins.gif",
+    "_meta/attachments/gregboard.jpeg",
+    "_meta/attachments/lily-58-pro.jpeg",
+    "toolstack.md",
     "_meta/templates/standard-frontmatter.md",
     "welcome.md",
-    "toolstack.md",
+    "curios and oddments.md",
+    "_meta/attachments/arc-bop-spotter.png",
     "_meta",
     "_meta/attachments",
     "_meta/templates"

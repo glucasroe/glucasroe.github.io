@@ -13,7 +13,7 @@ after pinwheeling through most of the existing "read this later" tools that are 
 - [Visual design rules you can safely follow every time by Anthony Hobday](https://anthonyhobday.com/sideprojects/saferules/) Anthony is someone who I spoke with regularly back in the heydays of Designer Hangout and I've loved seeing how he's evolved his web presence.
 - [commit mono, a nice programming typeface with an interesting web presence](https://commitmono.com/)
 - [an open set of design principles](https://principles.design/)
-- [figma plugins made by realvjy](https://figmaplug.in/): this is one of those things that you see and marvel to yourself like... how the fuck do you even get to this point ![[20251125-113529-Arc-realvjys-figma-plugins.gif]]
+- [figma plugins made by realvjy](https://figmaplug.in/): this is one of those things that you see and marvel to yourself like... how the fuck do you even get to this point ![[realvjys-figma-plugins.gif]]
 - [infinitecanvas.tools](https://infinitecanvas.tools/gallery/): I love infinite canvases and have used a ton of these at different times as part of my [[toolstack]]. it's a nice gallery when exploring the space
 - https://toolfolio.io/: a huuuuge library of design tools
 - [making software](https://www.makingsoftware.com/): a gorgeous and technical ebook
@@ -29,5 +29,5 @@ after pinwheeling through most of the existing "read this later" tools that are 
 ## ooh neat
 - [the signed mac case](https://www.folklore.org/Signing_Party.html)
 - [a pattern language](https://patternlanguage.cc/), the seminal work Christopher Alexander, rendered as a garden style site. I've never read the original and want to spend more time exploring this rendering of the concepts.
-- [bop spotter](https://walzr.com/bop-spotter) interesting project with a unique visual language ![[20251125-113136-Arc-Bop-Spotter.png]]
+- [bop spotter](https://walzr.com/bop-spotter) interesting project with a unique visual language ![[arc-bop-spotter.png]]
 - [seeing theory](https://seeing-theory.brown.edu/basic-probability/index.html): a site from Brown that visualizes topics on probability
