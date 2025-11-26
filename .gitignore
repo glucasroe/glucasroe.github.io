@@ -36,3 +36,6 @@ vendor/*
 
 # Build tools
 config.codekit3
+
+# Garden attachments (copied to public/images/garden during build)
+src/content/garden/_meta/
