@@ -1,0 +1,9 @@
+---
+// Untabbler app - reads HTML from public/untabbler/index.html at build time
+import fs from 'node:fs';
+import path from 'node:path';
+
+const htmlPath = path.join(process.cwd(), 'public/untabbler/index.html');
+const html = fs.readFileSync(htmlPath, 'utf-8');
+---
+<Fragment set:html={html} />
