@@ -2,7 +2,7 @@
 title: Resume
 ---
 
-Design leader and general nerd, with affinities in strategy, communications, and product research. Focused on product strategy, IA, structure, design, performance, and meeting user's needs. Conscientious, idealistic, lots of heart.
+Design leader and all purpose nerd, with affinities in strategy, design, and product research. Focused on product strategy, IA, accessible design, performance, and meeting user's needs. Conscientious, idealistic, lots of heart.
 
 <a class="button" href="/files/glr-resume.pdf">Download a PDF of my resume</a>
 

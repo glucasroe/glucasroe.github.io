@@ -44,11 +44,11 @@ Large products don't often get the luxury of building out the full feature set w
 
 ## <a name="personally"></a>Personally:
 
-I have a revolving door of obsessions, so I spend a lot of time reading the whole internet, playing music, creating, fixing things, building things, DIWhy-ing, playing games, and running all over. My wife and I live with our two daughters and a rabbit named Poptart in the woods of central Maryland.
+I have a revolving door of obsessions, so I spend a lot of time reading the whole internet, playing music, creating, fixing things, building things, DIWhy-ing, playing games, and running all over. My wife and I live with our two children and a rabbit named Poptart in the woods of central Maryland.
 
 ## <a name="contact"></a> Contact:
 
-I am open to new opportunities in design and product leadership. I am not currently taking freelance requests. Emails can be sent to `lucas@glucasroe.com`.
+I am open to new opportunities in design and product leadership. I am not currently taking freelance requests. Emails can be sent to `lucas@glucasroe.com` (although don't be surprised if I miss it, hooray spam).
 
 ## <a name="aboutthissite"></a> About This Site:
 
