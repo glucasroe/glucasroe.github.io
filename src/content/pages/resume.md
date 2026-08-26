@@ -10,21 +10,25 @@ Design leader and all purpose nerd, with affinities in strategy, design, and pro
 
 ### B.S. Art & Design (Graphic Design Concentration)
 <aside><em>5/2013</em></aside>
+
 #### Towson University, Towson MD
 
 ### Human Computer Interaction Course
 <aside><em>8/2014</em></aside>
+
 #### [Coursera in Collaboration with University of California, San Diego](https://www.coursera.org/learn/human-computer-interaction)
 
 ## Experience:
 ### Director of Product Design
 <aside><em>02/2025&ndash;present</em></aside>
+
 #### [Studio Designer](https://studiodesigner.com/) &mdash; Los Angeles, CA
 
 * Oversees all product design for the leading business management software for interior designers.
 
 ### Lead Product Designer
 <aside><em>10/2022&ndash;02/2025</em></aside>
+
 #### [Studio Designer](https://studiodesigner.com/) &mdash; Los Angeles, CA
 
 * Developed new product lines through generative user research for payments and design tools.
@@ -33,6 +37,7 @@ Design leader and all purpose nerd, with affinities in strategy, design, and pro
 
 ### Product Design Lead (Product Designer IV)
 <aside><em>9/2021&ndash;10/2022</em></aside>
+
 #### [Vertex Inc.](https://vertexinc.com/) &mdash; King of Prussia, PA
 
 * Product design lead over two value streams, Data & Insights and Compliance & Returns representing $30m dollars in ARR.
@@ -40,6 +45,7 @@ Design leader and all purpose nerd, with affinities in strategy, design, and pro
 
 ### AVP, Design Team Lead
 <aside><em>9/2020&ndash;9/2021</em></aside>
+
 #### [T. Rowe Price](https://troweprice.com/) &mdash; Owings Mills, MD
 
 *  Design lead for two product design teams of designers and content strategists, responsible for 6 products for Retirement Plan Services' B2B and B2C audiences.
@@ -48,6 +54,7 @@ Design leader and all purpose nerd, with affinities in strategy, design, and pro
 
 ### AVP, Senior User Experience Designer
 <aside><em>6/2018&ndash;9/2020</em></aside>
+
 #### [T. Rowe Price](https://troweprice.com/) &mdash; Owings Mills, MD
 
 * Core member of TRP's first agile marketing team, inventing new methods of crafting industry leading messaging while reducing creative delivery from 3 months to 1 week.
@@ -55,6 +62,7 @@ Design leader and all purpose nerd, with affinities in strategy, design, and pro
 
 ### User Experience Designer
 <aside><em>8/2016&ndash;06/2018</em></aside>
+
 #### [Fastspot](https://fastspot.com/) &mdash; Baltimore, MD
 
 * UX discovery, consultation, and strategy utilizing user research methodologies, workshop facilitation, competitive analysis, and content audits for 14 clients.
@@ -63,6 +71,7 @@ Design leader and all purpose nerd, with affinities in strategy, design, and pro
 
 ### Lead User Experience Designer
 <aside><em>7/2015&ndash;8/2016</em></aside>
+
 #### [ACGI Software](http://acgisoftware.com/) &mdash; Columbia, MD
 
 * Shepherded product through major version release with heuristics, user testing, interactive design, and client training.
@@ -72,6 +81,7 @@ Design leader and all purpose nerd, with affinities in strategy, design, and pro
 
 ### User Experience Designer
 <aside><em>12/2014&ndash;7/2015</em></aside>
+
 #### [no.inc](http://noinc.com/) &mdash; Baltimore, MD
 
 * Product UX Lifecycle: User interviews, personas, IA, wireframes, and user testing.
@@ -79,6 +89,7 @@ Design leader and all purpose nerd, with affinities in strategy, design, and pro
 
 ### Junior UX Designer
 <aside><em>7/2013&ndash;11/2014</em></aside>
+
 #### [r2integrated](http://r2integrated.com/) &mdash; Baltimore, MD
 
 * Designed and developed over 20 wireframes and prototypes in Axure.
@@ -87,6 +98,7 @@ Design leader and all purpose nerd, with affinities in strategy, design, and pro
 
 ### Web Producer
 <aside><em>1/2012&ndash;7/2013</em></aside>
+
 #### [Calvert Education Services](http://calverteducation.com/) &mdash; Hunt Valley, MD
 
 * Build mobile friendly and multi-platform compatible email and landing page templates.
@@ -96,6 +108,7 @@ Design leader and all purpose nerd, with affinities in strategy, design, and pro
 
 ### Marketing Intern
 <aside><em>6/2011&ndash;12/2011</em></aside>
+
 #### [Calvert Education Services](http://calverteducation.com/) &mdash; Hunt Valley, MD
 
 * Designed over 20 animated and static web banners for display ad purposes. (I act like I'm proud of this)
@@ -104,6 +117,7 @@ Design leader and all purpose nerd, with affinities in strategy, design, and pro
 
 ### Design Intern
 <aside><em>12/2009&ndash;6/2010</em></aside>
+
 #### Sports 55 &mdash; Severna Park, MD
 
 * Prepared jerseys for printing from mock-ups for over 80 customers. (In CORELDRAW of all things.)
@@ -111,6 +125,7 @@ Design leader and all purpose nerd, with affinities in strategy, design, and pro
 
 ### In House Designer
 <aside><em>2/2009&ndash;7/2009</em></aside>
+
 #### Iggy Apparel &mdash; Pasadena, MD
 
 * Prepared screen ready graphics for over 50 customers.
@@ -128,6 +143,7 @@ Design leader and all purpose nerd, with affinities in strategy, design, and pro
 
 ### Photography Assistant
 <aside><em>6/2011&ndash;12/2013</em></aside>
+
 #### [Jennifer McMenamin Photography](http://jennifermcmenamin.com/) &mdash; Baltimore, MD
 
 * Second shooting at weddings in the Greater Baltimore Area.
@@ -135,6 +151,7 @@ Design leader and all purpose nerd, with affinities in strategy, design, and pro
 
 ### Freelance Designer
 <aside><em>1/2010&ndash;present</em></aside>
+
 #### Self Employed &mdash; On a Laptop, MD
 
 * Front End Web development and technical consulting for 12 clients, focusing on Wordpress.
@@ -145,22 +162,27 @@ Design leader and all purpose nerd, with affinities in strategy, design, and pro
 
 ### Shift Manager
 <aside><em>7/2009&ndash;7/2011</em></aside>
+
 #### Caff&egrave; Pronto, Annapolis MD
 
 ### Gossoon (A.K.A. Busboy)
 <aside><em>8/2008&ndash;1/2009</em></aside>
+
 #### Brian Boru &mdash; Severna Park MD
 
 ### Volunteer Maryland Coordinator
 <aside><em>9/2007&ndash;8/2008</em></aside>
+
 #### Americorps &mdash; Partners in Care, Pasadena <del>CA</del> MD
 
 ### Barista
 <aside><em>05/2005&ndash;09/2007</em></aside>
+
 #### Severna Perk &mdash; Severna Park MD
 
 ### "Independent Contractor" (Paperboy)
 <aside><em>07/1999&ndash;06/2005</em></aside>
+
 #### Capital Newspaper &mdash; Annapolis MD
 
 * It's true, I got my first job as a 10 year old. My neighbors loved me though, I could probably still put some of them as a reference.
